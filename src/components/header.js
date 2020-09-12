@@ -1,42 +1,38 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React from 'react'
+import Link from 'gatsby-link'
+import SelectLanguage from './SelectLanguage';
+import Image from '../service/image';
 
-const Header = ({ siteTitle }) => (
-  <header
+const Header = (props) => (
+  <div
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: '#fff4e1',
+      marginBottom: '1.45rem',
     }}
   >
     <div
       style={{
-        margin: `0 auto`,
+        display: 'flex',
+        justifyContent: 'space-between',
+        margin: '0 auto',
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: '0 1.0875rem',
       }}
     >
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: `white`,
-            textDecoration: `none`,
+            color: 'white',
+            textDecoration: 'none',
           }}
         >
-          {siteTitle}
+          <Image style={{marginBottom: '0'}} src="balkan-bread-logo.svg" w="200px" h="69px" />
         </Link>
       </h1>
+      <SelectLanguage langs={props.langs} />
     </div>
-  </header>
+  </div>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
-export default Header
+export default Header;
