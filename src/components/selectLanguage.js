@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
 const SelectLanguage = (props) => {
-  const links = props.langs.map(lang =>
+  const links = props.langs ? props.langs.map(lang =>
     <Link to={lang.link} key={lang.langKey} style={{
       color: 'white',
       textDecoration: 'none',
@@ -13,7 +13,7 @@ const SelectLanguage = (props) => {
         {lang.langKey}
       </li>
     </Link>
-  );
+  ) : 'en';
 
   return (
     <ul style={{

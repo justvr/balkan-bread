@@ -8,7 +8,7 @@ import 'intl';
 import Image from '../service/image';
 
 const Layout = ({ location, i18nMessages, data }) => {
-  const {markdownRemark: post} = data;
+  const post = data.markdownRemark;
   const url = location.pathname;
   const { langs, defaultLangKey } = data.site.siteMetadata.languages;
   const langKey = getCurrentLangKey(langs, defaultLangKey, url);
@@ -37,9 +37,9 @@ const Layout = ({ location, i18nMessages, data }) => {
             textAlign: 'center'
           }}
         >
-          <h1 style={{color: '#f26f60'}}>{post.frontmatter.title}</h1>
-          <small>{post.frontmatter.date}</small>
-          <div style={{margin: '0 auto', maxWidth: 460}} dangerouslySetInnerHTML={{__html: post.html}} />
+          <h1 style={{color: '#f26f60'}}>{post ? post.frontmatter.title : ''}</h1>
+          <small>{post ? post.frontmatter.date : ''}</small>
+          <div style={{margin: '0 auto', maxWidth: 460}} dangerouslySetInnerHTML={{__html: post ? post.html : ''}} />
           <Image src="balkan-bread-field.png" w="250px" h="198px" />
         </div>
       </div>
