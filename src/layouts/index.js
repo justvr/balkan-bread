@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import Helmet from 'react-helmet'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { StaticQuery, graphql } from 'gatsby'
@@ -36,28 +37,27 @@ const Layout = ({ children, location, i18nMessages }) => {
             locale={langKey}
             messages={i18nMessages}
           >
-            <div>
-              <Helmet
-                title="Gatsby Default Starter"
-                meta={[
-                  { name: 'description', content: 'Sample' },
-                  { name: 'keywords', content: 'sample, something' },
-                ]}
-              />
-              <Header langs={langsMenu} />
-              <div
-                style={{
-                  margin: '0 auto',
-                  maxWidth: 960,
-                  padding: '0px 1.0875rem 1.45rem',
-                  paddingTop: 0,
-                  textAlign: 'center'
-                }}
-              >
-                <Image src="balkan-bread-field.png" w="250px" h="198px" />
-                {children}
-              </div>
+            <Helmet
+              title="Gatsby Default Starter"
+              meta={[
+                { name: 'description', content: 'Sample' },
+                { name: 'keywords', content: 'sample, something' },
+              ]}
+            />
+            <Header langs={langsMenu} />
+            <div
+              style={{
+                margin: '0 auto',
+                maxWidth: 960,
+                padding: '0px 1.0875rem 1.45rem',
+                paddingTop: 0,
+                textAlign: 'center'
+              }}
+            >
+              <Image src="balkan-bread-field.png" w="250px" h="198px" />
+              {children}
             </div>
+            <Footer />
           </IntlProvider>
         )
       }}
