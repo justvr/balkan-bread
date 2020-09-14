@@ -1,5 +1,6 @@
 ---
 date: '2020-09-05'
+image: 'balkan-bread-winter-in-berlin.png'
 lang: 'sr'
 path: '/zelena-zima'
 title: 'Zelena zima'

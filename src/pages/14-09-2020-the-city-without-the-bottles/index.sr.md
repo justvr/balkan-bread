@@ -1,5 +1,6 @@
 ---
 date: '2020-09-14'
+image: 'city-without-bottles.png'
 lang: 'sr'
 path: '/grad-bez-flasa'
 title: 'Grad bez flaša'

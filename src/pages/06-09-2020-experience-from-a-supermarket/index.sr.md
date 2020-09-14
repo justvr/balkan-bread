@@ -1,5 +1,6 @@
 ---
 date: '2020-09-06'
+image: 'experience-from-a-market.png'
 lang: 'sr'
 path: '/iskustvo-iz-supermarketa-u-nemackoj'
 title: 'A kako je u supermarketima?'

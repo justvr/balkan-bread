@@ -40,7 +40,7 @@ const Layout = ({ location, i18nMessages, data }) => {
           <h1 style={{color: '#f26f60'}}>{post ? post.frontmatter.title : ''}</h1>
           <small>{post ? post.frontmatter.date : ''}</small>
           <div style={{margin: '0 auto', maxWidth: 460}} dangerouslySetInnerHTML={{__html: post ? post.html : ''}} />
-          <Image src="balkan-bread-field.png" w="250px" h="198px" />
+          {post.frontmatter.image ? <Image src={post.frontmatter.image} /> : <Image src="balkan-bread-field.png" />}
         </div>
       </div>
     </IntlProvider>
@@ -52,9 +52,10 @@ export const postQuery = graphql`
 		markdownRemark(frontmatter: { path: { eq: $path } }) {
 			html
 			frontmatter {
-				title
 				date(formatString: "MMMM, DD, YYYY")
+        image
 				path
+				title
 			}
 		}
     site {
