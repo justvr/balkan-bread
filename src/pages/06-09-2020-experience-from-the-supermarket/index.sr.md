@@ -1,8 +1,8 @@
 ---
-path: '/iskustvo-iz-supermarketa-u-nemackoj'
-title: 'A kako je u supermarketima?'
 date: '2020-09-06'
 lang: 'sr'
+path: '/iskustvo-iz-supermarketa-u-nemackoj'
+title: 'A kako je u supermarketima?'
 ------
 Skoro sam se preselila u Berlin.
 
