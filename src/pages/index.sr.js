@@ -17,7 +17,7 @@ const IndexPage = (props) => (
               node {
                 id
                 frontmatter {
-                  date(formatString: "MMMM DD, YYYY")
+                  date(formatString: "MMMM, YYYY")
                   lang
                   path
                   title
@@ -42,7 +42,7 @@ const IndexPage = (props) => (
                   &nbsp;
                   <small>
                     {' '}
-                    <em>published on</em> {frontmatter.date}
+                    <em>objavljeno</em> {frontmatter.date}
                   </small>
                   <hr style={{maxWidth: `60px`, margin: `1rem auto 0`,}} />
                   <br />

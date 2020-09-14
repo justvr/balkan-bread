@@ -17,7 +17,7 @@ const IndexPage = (props) => (
               node {
                 id
                 frontmatter {
-                  date(formatString: "MMMM DD, YYYY")
+                  date(formatString: "MMMM, YYYY")
                   lang
                   path
                   title
