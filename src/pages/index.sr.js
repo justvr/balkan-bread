@@ -32,6 +32,12 @@ const IndexPage = (props) => (
 
         return (
           <div>
+            <q className="description">
+              U ovoj pekari se peče mnogo različitog hleba. Testo je prošlo kroz mnoga usta, a sada i kroz moju tastaturu.
+              Hleb uzima mnoge oblike ispravljene i izvitoperene različitim znanjem i iskustvima.
+              Ali se na kraju svede na to da sve to jedan veliki Balkanski Hleb.
+            </q>
+            <hr style={{maxWidth: `60px`, margin: `1rem auto 1.2rem`,}} />
             {edges.map(edge => {
               const { frontmatter } = edge.node;
               return (
