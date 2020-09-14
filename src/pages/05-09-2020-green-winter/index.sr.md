@@ -1,7 +1,7 @@
 ---
 date: '2020-09-05'
 lang: 'sr'
-path: '/sr/zelena-zima'
+path: '/en/zelena-zima'
 title: 'Zelena zima'
 ---
 
