@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import Helmet from 'react-helmet'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { graphql } from 'gatsby'
@@ -42,6 +43,7 @@ const Layout = ({ location, i18nMessages, data }) => {
           <div style={{margin: '0 auto', maxWidth: 460}} dangerouslySetInnerHTML={{__html: post ? post.html : ''}} />
           {post && post.frontmatter.image ? <Image src={post.frontmatter.image} w="250px" /> : <Image src="balkan-bread-field.png" />}
         </div>
+        <Footer />
       </div>
     </IntlProvider>
   )
