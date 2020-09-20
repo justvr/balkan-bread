@@ -33,9 +33,9 @@ const IndexPage = (props) => (
         return (
           <div>
             <q className="description">
-              U ovoj pekari se peče mnogo različitog hleba. Testo je prošlo kroz mnoga usta, a sada i kroz moju tastaturu.
+              U ovoj pekari pečemo mnogo različitog hleba. Testo je prošlo kroz mnoga usta, a sada i kroz moju tastaturu.
               Hleb uzima mnoge oblike ispravljene i izvitoperene različitim znanjem i iskustvima.
-              Ali se na kraju svede na to da sve to jedan veliki Balkanski Hleb.
+              Ali na kraju tu smo gde Balkan sreće Berlin i svi mi jedemo <Link to="/balkan-bread">Balkanski Hleb</Link>.
             </q>
             <hr style={{maxWidth: `60px`, margin: `1rem auto 1.2rem`,}} />
             {edges.map(edge => {
@@ -43,7 +43,7 @@ const IndexPage = (props) => (
               return (
                 <div key={frontmatter.path}>
                   <Link style={{textDecoration: 'none'}} to={frontmatter.path}>
-                    <h2 style={{color: '#00bfa6', fontSize: 'inherit', marginBottom: '0.5rem'}}>{frontmatter.title}</h2>
+                    <h2 style={{fontSize: 'inherit', marginBottom: '0.5rem'}}>{frontmatter.title}</h2>
                   </Link>
                   &nbsp;
                   <small>

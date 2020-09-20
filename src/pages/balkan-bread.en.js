@@ -5,9 +5,9 @@ import Layout from "../layouts/en"
 const SecondPage = (props) => (
   <Layout location={props.location}>
     <div>
-      <h1>Oi da segunda pagina!</h1>
-      <p>Bem viando a pagina 2</p>
-      <Link to="/en/">Voltar pro início</Link>
+      <h1>Balkan bread</h1>
+      <p>Welcome</p>
+      <Link to="/">Go back to the homepage</Link>
     </div>
   </Layout>
 )

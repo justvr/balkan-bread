@@ -38,10 +38,10 @@ const Layout = ({ children, location, i18nMessages }) => {
             messages={i18nMessages}
           >
             <Helmet
-              title="Gatsby Default Starter"
+              title="gde Balkan peče život u Berlinu"
               meta={[
-                { name: 'description', content: 'Sample' },
-                { name: 'keywords', content: 'sample, something' },
+                { name: 'description', content: 'Upoznajte život u Nemačkoj. Saznajte nove ideje i možda primenite u Vašem svakodnevnom životu' },
+                { name: 'keywords', content: 'berlin, nemacka, balkan, svakodnevnica, kako izgleda ziveti u nemackoj berlin' },
               ]}
             />
             <Header langs={langsMenu} />
@@ -49,7 +49,7 @@ const Layout = ({ children, location, i18nMessages }) => {
               style={{
                 margin: '0 auto',
                 maxWidth: 960,
-                padding: '0px 1.0875rem 1.45rem',
+                padding: '1.45rem 1.0875rem',
                 paddingTop: 0,
                 textAlign: 'center'
               }}

@@ -35,7 +35,7 @@ const IndexPage = (props) => (
             <q className="description">
               Icing bear claw ice cream chocolate gummi bears cookie fruitcake oat cake cake.
               Cheesecake chocolate toffee chocolate cake.
-              Wafer pastry bonbon ice cream jelly beans ice cream croissant dragée pudding.
+              Wafer pastry bonbon ice cream jelly beans ice cream croissant dragée <Link to="/balkan-bread">pudding</Link>..
             </q>
             <hr style={{maxWidth: `60px`, margin: `1rem auto 1.2rem`,}} />
             {edges.map(edge => {
@@ -43,7 +43,7 @@ const IndexPage = (props) => (
               return (
                 <div key={frontmatter.path}>
                   <Link style={{textDecoration: 'none'}} to={frontmatter.path}>
-                    <h2 style={{color: '#00bfa6', fontSize: 'inherit', marginBottom: '0.5rem'}}>{frontmatter.title}</h2>
+                    <h2 style={{fontSize: 'inherit', marginBottom: '0.5rem'}}>{frontmatter.title}</h2>
                   </Link>
                   &nbsp;
                   <small>
