@@ -18,17 +18,15 @@ const Header = (props) => (
         padding: '0 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          <Image style={{marginBottom: '0'}} src="balkan-bread-logo.svg" w="200px" h="69px" />
-        </Link>
-      </h1>
+      <Link
+        to="/"
+        style={{
+          color: 'white',
+          textDecoration: 'none',
+        }}
+      >
+        <Image style={{marginBottom: '0'}} src="balkan-bread-logo.svg" w="200px" h="69px" />
+      </Link>
       <SelectLanguage langs={props.langs} />
     </div>
   </div>
