@@ -25,7 +25,7 @@ const Header = (props) => (
           textDecoration: 'none',
         }}
       >
-        <Image style={{marginBottom: '0'}} src="balkan-bread-logo.svg" w="200px" h="69px" />
+        <Image style={{marginBottom: '0'}} src="balkan-bread-logo.svg" w="200px" h="69px" alt="balkanbread logo" />
       </Link>
       <SelectLanguage langs={props.langs} />
     </div>

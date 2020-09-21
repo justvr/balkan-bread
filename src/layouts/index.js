@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 import Helmet from 'react-helmet'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { StaticQuery, graphql } from 'gatsby'
-import { IntlProvider } from 'react-intl';
+import { FormattedMessage, IntlProvider } from 'react-intl';
 import 'intl';
 import './index.css'
 import Image from '../service/image';

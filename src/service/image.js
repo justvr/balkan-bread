@@ -5,7 +5,7 @@ function Image(props) {
     <div style={{display: 'flex', position: 'relative', width: props.w, height: props.h, margin: '0 auto'}}>
       <img
         src={require(`../images/${props.src}`)}
-        alt="Logo" />
+        alt={props.logo} />
     </div>
   )
 }

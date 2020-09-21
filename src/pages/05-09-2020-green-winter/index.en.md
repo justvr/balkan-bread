@@ -4,7 +4,7 @@ image: 'balkan-bread-winter-in-berlin.png'
 lang: 'en'
 path: '/en/zelena-zima'
 title: 'Green Winter'
----
+------
 
 I recently moved to Berlin.
 
