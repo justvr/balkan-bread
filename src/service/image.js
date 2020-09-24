@@ -4,6 +4,7 @@ function Image(props) {
   return (
     <div style={{display: 'flex', position: 'relative', width: props.w, height: props.h, margin: '0 auto'}}>
       <img
+        style={{width: '100%'}}
         src={require(`../images/${props.src}`)}
         alt={props.logo} />
     </div>
