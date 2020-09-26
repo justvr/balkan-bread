@@ -45,16 +45,16 @@ module.exports = {
           postPage: "src/templates/post.js",
           query: `
           {
-              allMarkdownRemark {
-                  edges {
-                  node {
-                      fields {
-                      slug,
-                      langKey
-                      }
+            allMarkdownRemark {
+              edges {
+                node {
+                  fields {
+                    slug,
+                    langKey
                   }
-                  }
+                }
               }
+            }
           }
           `,
         },
