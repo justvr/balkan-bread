@@ -21,10 +21,10 @@ const Layout = ({ location, i18nMessages, data }) => {
   return (
     <div>
       <Helmet
-        title={post.frontmatter.title}
+        title={post ? post.frontmatter.title : ''}
         meta={[
-          { name: 'description', content: `${post.frontmatter.description}` },
-          { name: 'keywords', content: `${post.frontmatter.keywords}` },
+          { name: 'description', content: `${post ? post.frontmatter.description : ''}` },
+          { name: 'keywords', content: `${post ? post.frontmatter.keywords : ''}` },
         ]}
       />
       <Header langs={langsMenu} />
