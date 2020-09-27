@@ -2,9 +2,17 @@ const languages = require('./src/data/languages');
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.balkanbread.com`,
+    siteUrl: `https://hopeful-gates-0a8969.netlify.app/`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://hopeful-gates-0a8969.netlify.app/',
+        sitemap: 'https://hopeful-gates-0a8969.netlify.app/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
