@@ -12,7 +12,7 @@ module.exports = {
         sitemap: 'https://hopeful-gates-0a8969.netlify.app/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
-    }
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
