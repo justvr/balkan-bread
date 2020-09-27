@@ -5,12 +5,11 @@ import Footer from '../components/footer'
 import Helmet from 'react-helmet'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { StaticQuery, graphql } from 'gatsby'
-import { FormattedMessage, IntlProvider } from 'react-intl';
 import 'intl';
 import './index.css'
 import Image from '../service/image';
 
-const Layout = ({ children, location, i18nMessages }) => {
+const Layout = ({ children, location }) => {
   return (
     <StaticQuery
       query={graphql`
@@ -33,10 +32,7 @@ const Layout = ({ children, location, i18nMessages }) => {
         const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
 
         return (
-          <IntlProvider
-            locale={langKey}
-            messages={i18nMessages}
-          >
+          <>
             <Helmet
               title="gde Balkan peče život u Berlinu"
               meta={[
@@ -58,7 +54,7 @@ const Layout = ({ children, location, i18nMessages }) => {
               {children}
             </div>
             <Footer />
-          </IntlProvider>
+          </>
         )
       }}
     />
