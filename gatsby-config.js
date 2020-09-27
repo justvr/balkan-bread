@@ -1,7 +1,11 @@
 const languages = require('./src/data/languages');
 
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://www.balkanbread.com`,
+  },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
