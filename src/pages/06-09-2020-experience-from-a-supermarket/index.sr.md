@@ -1,6 +1,8 @@
 ---
 date: '2020-09-06'
+description: 'kupovina u supermarketima izgleda kao prijatno iznenađenje'
 image: 'experience-from-a-market.png'
+keywords: 'svakodnevnica, kupovina, supermarket'
 lang: 'sr'
 path: '/iskustvo-iz-supermarketa-u-nemackoj'
 title: 'A kako je u supermarketima?'

@@ -1,6 +1,8 @@
 ---
 date: '2020-09-05'
+description: 'winter in berlin from the point of view of an eastern european'
 image: 'balkan-bread-winter-in-berlin.png'
+keywords: 'every day life, city nature, parks'
 lang: 'en'
 path: '/en/zelena-zima'
 title: 'Green Winter'

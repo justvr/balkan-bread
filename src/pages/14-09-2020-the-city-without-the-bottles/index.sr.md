@@ -1,6 +1,8 @@
 ---
 date: '2020-09-14'
+description: 'reciklaza flasa se isplati u nemackoj'
 image: 'city-without-bottles.png'
+keywords: 'svakodnevnica, reciklaza'
 lang: 'sr'
 path: '/grad-bez-flasa'
 title: 'Grad bez flaša'
