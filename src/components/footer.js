@@ -23,7 +23,8 @@ const Footer = () => (
     >
       <div style={{display: 'flex'}}>
         <Link
-          to="/"
+          target="_blank"
+          to="http://www.fb.com/balkanbread"
         >
           <Image src="facebook.svg" w="30px" />
         </Link>
