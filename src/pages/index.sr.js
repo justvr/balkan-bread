@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Layout from '../layouts/sr'
 import { StaticQuery, graphql } from 'gatsby'
+import Image from '../service/image';
 
 const IndexPage = (props) => (
   <Layout location={props.location}>
@@ -32,6 +33,7 @@ const IndexPage = (props) => (
 
         return (
           <div>
+            <Image src="balkan-bread-field.png" w="250px" h="198px" />
             <q>
               U ovoj pekari testo je tako fino da prolazi i kroz tastaturu.
               Hleb uzima mnoge oblike ispravljene i izvitoperene različitim znanjem i iskustvima.

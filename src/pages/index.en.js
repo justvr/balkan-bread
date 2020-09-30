@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Layout from "../layouts/en"
-import { StaticQuery, graphql } from "gatsby"
+import Layout from '../layouts/en'
+import { StaticQuery, graphql } from 'gatsby'
+import Image from '../service/image';
 
 const IndexPage = (props) => (
   <Layout location={props.location}>
@@ -32,6 +33,7 @@ const IndexPage = (props) => (
 
         return (
           <div>
+            <Image src="balkan-bread-field.png" w="250px" h="198px" />
             <q>
               Icing bear claw ice cream chocolate gummi bears cookie fruitcake oat cake cake.
               Cheesecake chocolate toffee chocolate cake.
