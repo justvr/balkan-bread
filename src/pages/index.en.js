@@ -35,7 +35,7 @@ const IndexPage = (props) => (
             <q>
               Icing bear claw ice cream chocolate gummi bears cookie fruitcake oat cake cake.
               Cheesecake chocolate toffee chocolate cake.
-              Wafer pastry bonbon ice cream jelly beans ice cream croissant dragée <Link to="/balkan-bread"><h1 style={{fontSize: '16px',}}>pudding</h1></Link>..
+              Wafer pastry bonbon ice cream jelly beans ice cream croissant dragée <Link to="/balkan-bread"><h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>pudding</h1></Link>..
             </q>
             <hr style={{maxWidth: `60px`, margin: `1rem auto 1.2rem`,}} />
             {edges.map(edge => {

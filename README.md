@@ -16,7 +16,7 @@ Work in progress...
     yarn develop
     ```
 
-1.  **Open the source code and start editing!**
+2.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
@@ -28,3 +28,11 @@ Work in progress...
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
+## Contributors
+
+- Translations and social networks - [Sam Katterfield]()
+- Logo Design - [Andrija Milosevic](https://andrejamilosevic.myportfolio.com/)
+
+### Illustrations
+
+- [Undraw](https://undraw.co/)
