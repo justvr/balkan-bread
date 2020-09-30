@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Layout from "../layouts/sr"
-import { StaticQuery, graphql } from "gatsby"
+import Layout from '../layouts/sr'
+import { StaticQuery, graphql } from 'gatsby'
 
 const IndexPage = (props) => (
   <Layout location={props.location}>
@@ -32,10 +32,11 @@ const IndexPage = (props) => (
 
         return (
           <div>
-            <q className="description">
-              U ovoj pekari pečemo mnogo različitog hleba. Testo je prošlo kroz mnoga usta, a sada i kroz moju tastaturu.
+            <q>
+              U ovoj pekari testo je tako fino da prolazi i kroz tastaturu.
               Hleb uzima mnoge oblike ispravljene i izvitoperene različitim znanjem i iskustvima.
-              Ali na kraju tu smo gde Balkan sreće Berlin i svi mi jedemo <Link to="/balkan-bread">Balkanski Hleb</Link>.
+              Ali na kraju tu smo gde Balkan sreće Berlin, a svi koji odemo na kraju ipak jedemo
+              <Link to="/balkan-bread"><h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>Balkanski Hleb</h1></Link>.
             </q>
             <hr style={{maxWidth: `60px`, margin: `1rem auto 1.2rem`,}} />
             {edges.map(edge => {

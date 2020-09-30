@@ -16,7 +16,7 @@ const Footer = () => (
         flexDirection: 'column',
         justifyContent: 'space-between',
         margin: '0 auto',
-        maxWidth: 960,
+        maxWidth: 860,
         padding: '1.0875rem',
         textAlign: 'center'
       }}
@@ -26,16 +26,6 @@ const Footer = () => (
           to="/"
         >
           <Image src="facebook.svg" w="30px" />
-        </Link>
-        <Link
-          to="/"
-        >
-          <Image src="instagram.svg" w="30px" />
-        </Link>
-        <Link
-          to="/"
-        >
-          <Image src="patreon.svg" w="30px" />
         </Link>
       </div>
       <small>copyright ©️ Balkan Bread 2020</small>

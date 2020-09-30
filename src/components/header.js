@@ -14,7 +14,7 @@ const Header = (props) => (
         display: 'flex',
         justifyContent: 'space-between',
         margin: '0 auto',
-        maxWidth: 960,
+        maxWidth: 860,
         padding: '0 1.0875rem',
       }}
     >

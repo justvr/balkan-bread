@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <Header siteTitle='data.site.siteMetadata.title' />
       <div
         style={{
-          maxWidth: 960,
+          maxWidth: 860,
           padding: `1.45rem 1.0875rem`,
           textAlign: `center`,
         }}

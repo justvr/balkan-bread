@@ -32,7 +32,7 @@ const Layout = ({ children, location, i18nMessages, data }) => {
       <div
         style={{
           margin: '0 auto',
-          maxWidth: 960,
+          maxWidth: 860,
           padding: '1.45rem 1.0875rem',
           paddingTop: 0,
           textAlign: 'center'
