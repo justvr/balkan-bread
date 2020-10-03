@@ -40,7 +40,7 @@ const Layout = ({ location, i18nMessages, data }) => {
         <small>{post ? post.frontmatter.date : ''}</small>
         <div style={{margin: '0 auto', maxWidth: 460}} dangerouslySetInnerHTML={{__html: post ? post.html : ''}} />
         {post && post.frontmatter.image ? <Image src={post.frontmatter.image} w="250px" /> : <Image src="balkan-bread-field.png" />}
-        <Link to={homeLink}>{langKey === 'en' ? 'back to home' : 'nazad na početnu'}</Link>
+        <Link to={homeLink}>{langKey === 'en' ? 'give me more bread' : 'daj mi još hleba'}</Link>
       </div>
       <Footer />
     </div>
