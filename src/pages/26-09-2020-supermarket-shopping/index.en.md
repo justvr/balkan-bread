@@ -4,7 +4,7 @@ description: 'supermarkerts in germany seem to be really nice from the point of 
 image: 'experience-from-a-market.png'
 keywords: 'everyday life, supermarkets'
 lang: 'en'
-path: '/en/supermarket-shopping'
+path: '/en/kupovina-u-supermarketima'
 title: 'Supermarket shopping'
 ------
 I recently moved to Berlin.
