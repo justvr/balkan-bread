@@ -31,7 +31,7 @@ Work in progress...
 ## Contributors
 
 - Translations and social networks - [Sam Katterfield](https://www.upwork.com/o/profiles/users/~01bffa8eb8c8cea476/)
-- Logo Design - [Andrija Milosevic](https://andrejamilosevic.myportfolio.com/)
+- Logo Design - [Andreja Milosevic](https://andrejamilosevic.myportfolio.com/)
 
 ### Illustrations
 
