@@ -27,8 +27,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `balkan bread`,
-        short_name: `balkan bread`,
+        name: `Balkan Bread`,
+        short_name: `Balkan Bread`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
