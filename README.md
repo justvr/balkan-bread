@@ -3,10 +3,7 @@
 This blog is made with Gatsby.js supporting internationalization i18n.
 
 ## Live 💫
-Work in progress...
-
-### Ok, staging
-[Link to staging](https://hopeful-gates-0a8969.netlify.app/)
+[BalkanBread](https://www.balkanbread.com/)
 
 ## 🚀 Quick start (provided by Gatsby, but shorter)
 
