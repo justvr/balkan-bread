@@ -6,31 +6,37 @@ const Footer = () => (
   <div
     style={{
       background: '#fff4e1',
+      padding: '1.0875rem',
+      alignItems: 'center',
+      color: 'rgb(242, 109, 94)',
+      textAlign: 'center',
     }}
   >
     <div
       style={{
-        alignItems: 'center',
-        color: 'rgb(242, 109, 94)',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between',
         margin: '0 auto',
         maxWidth: 860,
-        padding: '1.0875rem',
-        textAlign: 'center'
       }}
     >
-      <div style={{display: 'flex'}}>
-        <Link
-          target="_blank"
-          to="http://www.fb.com/balkanbread"
-        >
-          <Image src="facebook.svg" w="30px" />
-        </Link>
-      </div>
-      <small>copyright ©️ Balkan Bread 2020</small>
+      <Link
+        target="_blank"
+        to="http://www.fb.com/balkanbread"
+      >
+        <Image src="facebook.svg" w="30px" />
+      </Link>
     </div>
+    <div
+      style={{
+        margin: '0 auto',
+        maxWidth: 860,
+      }}
+    >
+      <Link to="/terms-and-conditions" style={{color: 'rgb(242, 109, 94)'}}><small>Terms & conditions</small></Link>|
+      <Link to="/privacy-and-cookie-management" style={{color: 'rgb(242, 109, 94)'}}>
+        <small>Privacy & cookie management</small>
+      </Link>
+    </div>
+    <small>copyright ©️ Balkan Bread 2020</small>
   </div>
 )
 
