@@ -7,6 +7,7 @@ import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { IntlProvider } from 'react-intl';
 import 'intl';
 import './index.css'
+import Image from '../service/image';
 
 const Layout = ({ children, location, i18nMessages }) => {
   const languages = require('../data/languages');
@@ -40,6 +41,7 @@ const Layout = ({ children, location, i18nMessages }) => {
           textAlign: 'center'
         }}
       >
+        <Image src="balkan-bread-field.png" w="250px" h="198px" alt="hero image" />
         {children}
       </div>
       <Footer />

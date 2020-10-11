@@ -6,7 +6,7 @@ function Image(props) {
       <img
         style={{width: '100%'}}
         src={require(`../images/${props.src}`)}
-        alt={props.logo} />
+        alt={props.alt} />
     </div>
   )
 }

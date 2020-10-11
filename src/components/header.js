@@ -4,11 +4,7 @@ import SelectLanguage from './selectLanguage';
 import Image from '../service/image';
 
 const Header = (props) => (
-  <div
-    style={{
-      background: '#fff4e1',
-    }}
-  >
+  <div style={{ background: '#fff4e1', }}>
     <div
       style={{
         display: 'flex',

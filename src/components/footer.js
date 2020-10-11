@@ -7,14 +7,14 @@ const Footer = () => (
     <div style={{height: '113px'}} />
     <div
       style={{
-        background: '#fff4e1',
-        padding: '1.0875rem',
         alignItems: 'center',
-        color: 'rgb(188, 52, 37)',
-        textAlign: 'center',
-        position: 'fixed',
+        background: '#fff4e1',
         bottom: '0',
-        width: '100%'
+        color: 'rgb(188, 52, 37)',
+        padding: '1.0875rem',
+        position: 'fixed',
+        textAlign: 'center',
+        width: '100%',
       }}
     >
       <div
@@ -41,7 +41,7 @@ const Footer = () => (
           <small>Privacy & Cookie Policy</small>
         </Link>
       </div>
-      <small>copyright ©️ Balkan Bread 2020</small>
+      <small>copyright &#xa9; Balkan Bread 2020</small>
     </div>
   </>
 )

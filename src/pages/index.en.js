@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Layout from '../layouts/en'
 import { StaticQuery, graphql } from 'gatsby'
-import Image from '../service/image';
 
 const IndexPage = (props) => (
   <Layout location={props.location}>
@@ -32,8 +31,7 @@ const IndexPage = (props) => (
         const { edges } = data ? data.allMarkdownRemark : null;
 
         return (
-          <div>
-            <Image src="balkan-bread-field.png" w="250px" h="198px" />
+          <>
             <q>
               In this bakery, the dough is so fine that it passes through the keyboard.
               The Bread takes many forms. It is kneaded and twisted through different knowledge and experiences.
@@ -60,7 +58,7 @@ const IndexPage = (props) => (
                 </div>
               );
             })}
-          </div>
+          </>
         )
       }}
     />
