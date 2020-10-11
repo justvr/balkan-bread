@@ -4,15 +4,14 @@ import Link from 'gatsby-link';
 
 const SelectLanguage = (props) => {
   const links = props.langs ? props.langs.map(lang =>
-    <Link to={lang.link} key={lang.langKey} style={{
-      color: 'white',
-      textDecoration: 'none',
-      marginBottom: 0
-    }}>
-      <li style={{margin: '0 5px', color: 'rgb(188, 52, 37)'}} selected={lang.selected}>
+    <li key={lang.langKey} style={{margin: '0 5px', color: 'rgb(188, 52, 37)'}} selected={lang.selected}>
+      <Link to={lang.link} style={{
+        textDecoration: 'none',
+        marginBottom: 0
+      }}>
         {lang.langKey}
-      </li>
-    </Link>
+      </Link>
+    </li>
   ) : 'en';
 
   return (

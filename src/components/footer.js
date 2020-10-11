@@ -27,7 +27,7 @@ const Footer = () => (
           target="_blank"
           to="http://www.fb.com/balkanbread"
         >
-          <Image src="facebook.svg" w="30px" />
+          <Image src="facebook.svg" w="30px" alt="facebook icon" />
         </Link>
       </div>
       <div
