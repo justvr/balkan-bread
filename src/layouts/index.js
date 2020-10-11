@@ -21,6 +21,9 @@ const Layout = ({ children, location, i18nMessages }) => {
       messages={i18nMessages}
     >
       <Helmet
+        htmlAttributes={{
+          lang: langKey,
+        }}
         title={i18nMessages.seo.title}
         meta={[
           { name: 'description', content: `${i18nMessages.seo.meta.description}` },

@@ -29,6 +29,9 @@ const Layout = ({ location, data, pageContext }) => {
   return (
     <>
       <Helmet
+        htmlAttributes={{
+          lang: langKey,
+        }}
         title={post ? post.frontmatter.title : ''}
         meta={[
           { name: 'description', content: `${post ? post.frontmatter.description : ''}` },
