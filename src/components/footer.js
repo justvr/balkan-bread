@@ -3,41 +3,47 @@ import Link from 'gatsby-link'
 import Image from '../service/image';
 
 const Footer = () => (
-  <div
-    style={{
-      background: '#fff4e1',
-      padding: '1.0875rem',
-      alignItems: 'center',
-      color: 'rgb(242, 109, 94)',
-      textAlign: 'center',
-    }}
-  >
+  <>
+    <div style={{height: '113px'}} />
     <div
       style={{
-        margin: '0 auto',
-        maxWidth: 860,
+        background: '#fff4e1',
+        padding: '1.0875rem',
+        alignItems: 'center',
+        color: 'rgb(242, 109, 94)',
+        textAlign: 'center',
+        position: 'fixed',
+        bottom: '0',
+        width: '100%'
       }}
     >
-      <Link
-        target="_blank"
-        to="http://www.fb.com/balkanbread"
+      <div
+        style={{
+          margin: '0 auto',
+          maxWidth: 860,
+        }}
       >
-        <Image src="facebook.svg" w="30px" />
-      </Link>
+        <Link
+          target="_blank"
+          to="http://www.fb.com/balkanbread"
+        >
+          <Image src="facebook.svg" w="30px" />
+        </Link>
+      </div>
+      <div
+        style={{
+          margin: '0 auto',
+          maxWidth: 860,
+        }}
+      >
+        <Link to="/terms-and-conditions" style={{color: 'rgb(242, 109, 94)'}}><small>Terms & conditions</small></Link>|
+        <Link to="/privacy-and-cookie-management" style={{color: 'rgb(242, 109, 94)'}}>
+          <small>Privacy & cookie management</small>
+        </Link>
+      </div>
+      <small>copyright ©️ Balkan Bread 2020</small>
     </div>
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 860,
-      }}
-    >
-      <Link to="/terms-and-conditions" style={{color: 'rgb(242, 109, 94)'}}><small>Terms & conditions</small></Link>|
-      <Link to="/privacy-and-cookie-management" style={{color: 'rgb(242, 109, 94)'}}>
-        <small>Privacy & cookie management</small>
-      </Link>
-    </div>
-    <small>copyright ©️ Balkan Bread 2020</small>
-  </div>
+  </>
 )
 
 export default Footer;

@@ -6,10 +6,15 @@ import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n'
 import { graphql } from 'gatsby'
 import 'intl';
 import Image from '../service/image'
-// import { IntlProvider, FormattedMessage } from "react-intl";
 import Link from 'gatsby-link'
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const Layout = ({ location, i18nMessages, data }) => {
+const Layout = ({ location, data, pageContext }) => {
+  const {
+    breadcrumb: { crumbs },
+  } = pageContext
+  const customCrumbLabel = location.pathname.toLowerCase()
+
   const languages = require('../data/languages');
   const post = data.markdownRemark;
   const url = location.pathname;
@@ -19,7 +24,7 @@ const Layout = ({ location, i18nMessages, data }) => {
   const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
 
   return (
-    <div>
+    <>
       <Helmet
         title={post ? post.frontmatter.title : ''}
         meta={[
@@ -42,8 +47,13 @@ const Layout = ({ location, i18nMessages, data }) => {
         {post && post.frontmatter.image ? <Image src={post.frontmatter.image} w="250px" /> : <Image src="balkan-bread-field.png" />}
         <Link to={homeLink}>{langKey === 'en' ? 'give me more bread' : 'hoću još hleba'}</Link>
       </div>
+      <Breadcrumb
+        crumbs={crumbs}
+        crumbSeparator=""
+        crumbLabel={customCrumbLabel}
+      />
       <Footer />
-    </div>
+    </>
   )
 };
 

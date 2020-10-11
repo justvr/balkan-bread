@@ -73,6 +73,33 @@ module.exports = {
         name: 'pages'
       }
     },
-    'gatsby-transformer-remark'
+    'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-plugin-breadcrumb`,
+      options: {
+        // useAutoGen: required 'true' to use autogen
+        useAutoGen: true,
+        // autoGenHomeLabel: optional 'Home' is default
+        autoGenHomeLabel: `Home`,
+        // exlude: optional, include this array to overwrite paths you don't want to
+        // generate breadcrumbs for.
+        exclude: [
+          `/404/`,
+          `/404.html`,
+        ],
+        // crumbLabelUpdates: optional, update specific crumbLabels in the path
+        // crumbLabelUpdates: [
+        //   {
+        //     pathname: '/book',
+        //     crumbLabel: 'Books'
+        //   }
+        // ],
+        // trailingSlashes: optional, will add trailing slashes to the end
+        // of crumb pathnames. default is false
+        // trailingSlashes: true,
+        // usePathPrefix: optional, if you are using pathPrefix above
+        // usePathPrefix: '/blog',
+      }
+    }
   ],
 }

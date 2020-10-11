@@ -8,7 +8,7 @@ import { IntlProvider } from 'react-intl';
 import 'intl';
 import './index.css'
 
-const Layout = ({ children, location, i18nMessages, data }) => {
+const Layout = ({ children, location, i18nMessages }) => {
   const languages = require('../data/languages');
   const url = location.pathname;
   const { langs, defaultLangKey } = languages;
