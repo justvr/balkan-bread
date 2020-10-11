@@ -44,7 +44,7 @@ const Layout = ({ location, data, pageContext }) => {
           textAlign: 'center'
         }}
       >
-        <h1 style={{color: '#f26f60'}}>{post ? post.frontmatter.title : ''}</h1>
+        <h1 style={{color: 'rgb(188, 52, 37)'}}>{post ? post.frontmatter.title : ''}</h1>
         <small>{post ? post.frontmatter.date : ''}</small>
         <div style={{margin: '0 auto', maxWidth: 460}} dangerouslySetInnerHTML={{__html: post ? post.html : ''}} />
         {post && post.frontmatter.image ? <Image src={post.frontmatter.image} w="250px" /> : <Image src="balkan-bread-field.png" />}

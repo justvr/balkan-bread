@@ -10,7 +10,7 @@ const Footer = () => (
         background: '#fff4e1',
         padding: '1.0875rem',
         alignItems: 'center',
-        color: 'rgb(242, 109, 94)',
+        color: 'rgb(188, 52, 37)',
         textAlign: 'center',
         position: 'fixed',
         bottom: '0',
@@ -36,8 +36,8 @@ const Footer = () => (
           maxWidth: 860,
         }}
       >
-        <Link to="/terms-and-conditions" style={{color: 'rgb(242, 109, 94)'}}><small>Terms & Conditions</small></Link>|
-        <Link to="/privacy-and-cookie-management" style={{color: 'rgb(242, 109, 94)'}}>
+        <Link to="/terms-and-conditions" style={{color: 'rgb(188, 52, 37)'}}><small>Terms & Conditions</small></Link>|
+        <Link to="/privacy-and-cookie-management" style={{color: 'rgb(188, 52, 37)'}}>
           <small>Privacy & Cookie Policy</small>
         </Link>
       </div>

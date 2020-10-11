@@ -9,7 +9,7 @@ const SelectLanguage = (props) => {
       textDecoration: 'none',
       marginBottom: 0
     }}>
-      <li style={{margin: '0 5px', color: '#f26d5e'}} selected={lang.selected}>
+      <li style={{margin: '0 5px', color: 'rgb(188, 52, 37)'}} selected={lang.selected}>
         {lang.langKey}
       </li>
     </Link>
