@@ -36,9 +36,9 @@ const Footer = () => (
           maxWidth: 860,
         }}
       >
-        <Link to="/terms-and-conditions" style={{color: 'rgb(242, 109, 94)'}}><small>Terms & conditions</small></Link>|
+        <Link to="/terms-and-conditions" style={{color: 'rgb(242, 109, 94)'}}><small>Terms & Conditions</small></Link>|
         <Link to="/privacy-and-cookie-management" style={{color: 'rgb(242, 109, 94)'}}>
-          <small>Privacy & cookie management</small>
+          <small>Privacy & Cookie Policy</small>
         </Link>
       </div>
       <small>copyright ©️ Balkan Bread 2020</small>
