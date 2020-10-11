@@ -50,7 +50,11 @@ const Layout = ({ location, data, pageContext }) => {
         <h1 style={{color: 'rgb(188, 52, 37)'}}>{post ? post.frontmatter.title : ''}</h1>
         <small>{post ? post.frontmatter.date : ''}</small>
         <div style={{margin: '0 auto', maxWidth: 460}} dangerouslySetInnerHTML={{__html: post ? post.html : ''}} />
-        {post && post.frontmatter.image ? <Image src={post.frontmatter.image} w="250px" /> : <Image src="balkan-bread-field.png" />}
+        {
+          post && post.frontmatter.image
+            ? <Image src={post.frontmatter.image} w="250px" alt={post.frontmatter.title} />
+            : <Image src="balkan-bread-field.png" />
+        }
         <Link to={homeLink}>{langKey === 'en' ? 'give me more bread' : 'hoću još hleba'}</Link>
       </div>
       <Breadcrumb
