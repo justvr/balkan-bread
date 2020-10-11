@@ -48,9 +48,6 @@ a:hover {
   outline-width: 0;
   text-decoration: none;
 }
-a:visited {
-  color: rgb(188, 52, 37);
-}
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
