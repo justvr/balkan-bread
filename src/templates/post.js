@@ -13,7 +13,10 @@ const Layout = ({ location, data, pageContext }) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext
-  const customCrumbLabel = location.pathname.toLowerCase()
+  let customCrumbLabel = location.pathname.toLowerCase().replace('/', '')
+  if (customCrumbLabel.startsWith('en/')) {
+    customCrumbLabel = customCrumbLabel.slice(3)
+  }
 
   const languages = require('../data/languages');
   const post = data.markdownRemark;
@@ -49,7 +52,7 @@ const Layout = ({ location, data, pageContext }) => {
       </div>
       <Breadcrumb
         crumbs={crumbs}
-        crumbSeparator=""
+        crumbSeparator="/"
         crumbLabel={customCrumbLabel}
       />
       <Footer />
