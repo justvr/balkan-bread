@@ -1,5 +1,7 @@
 # Balkan Bread
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eb716fa2-0a9c-44bb-b565-47a0e1299238/deploy-status)](https://app.netlify.com/sites/hopeful-gates-0a8969/deploys)
+
 This blog is made with Gatsby.js supporting internationalization i18n.
 
 ## Live 💫
