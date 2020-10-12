@@ -29,7 +29,7 @@ This blog is made with Gatsby.js supporting internationalization i18n.
 
 ## Contributors
 
-- Translations and social networks - [Sam Katterfield](https://www.upwork.com/o/profiles/users/~01bffa8eb8c8cea476/)
+- Translations and social media - [Sam Katterfield](https://www.upwork.com/o/profiles/users/~01bffa8eb8c8cea476/)
 - Logo Design - [Andreja Milosevic](https://andrejamilosevic.myportfolio.com/)
 
 ### Illustrations
