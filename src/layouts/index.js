@@ -29,11 +29,19 @@ const Layout = ({ children, location, i18nMessages }) => {
         meta={[
           { name: 'description', content: `${i18nMessages.seo.meta.description}` },
           { name: 'keywords', content: `${i18nMessages.seo.meta.keywords}` },
+          { property: 'og:type', content: 'website' },
+          { property: 'og:title', content: 'balkan bread' },
+          { property: 'og:description', content: `${i18nMessages.seo.meta.description}` }
         ]}
       >
-        <script async defer crossOrigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0" nonce="59oAFkZh"></script>
+        <script
+          async
+          defer
+          crossOrigin="anonymous"
+          src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0"
+          nonce="59oAFkZh"
+        />
       </Helmet>
-      <div id="fb-root"></div>
       <Header langs={langsMenu} />
       <div
         style={{
@@ -46,7 +54,15 @@ const Layout = ({ children, location, i18nMessages }) => {
       >
         <Image src="balkan-bread-field.png" w="250px" h="198px" alt="hero image" />
         {children}
-        <div className="fb-like" data-href="https://www.facebook.com/balkanbread" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+        <div
+          className="fb-like"
+          data-href="https://www.facebook.com/balkanbread"
+          data-width=""
+          data-layout="button_count"
+          data-action="like"
+          data-size="large"
+          data-share="true"
+        />
       </div>
       <Footer />
     </IntlProvider>
