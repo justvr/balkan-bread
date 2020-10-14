@@ -5,7 +5,7 @@ image: 'city-without-bottles.png'
 keywords: 'everyday life, recycling, supermarkets'
 lang: 'en'
 path: '/en/parkovi-bez-flasa'
-title: 'Parks without bottles'
+title: 'Parks without Bottles'
 ------
 Something’s missing from the parks. They’re full of people (Berliners love to spend their free time in the parks). There’s trash, cigarette butts… ahaaa but no empty bottles!
 

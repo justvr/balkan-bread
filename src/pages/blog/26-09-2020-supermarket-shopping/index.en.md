@@ -5,7 +5,7 @@ image: 'experience-from-a-market.png'
 keywords: 'everyday life, supermarkets'
 lang: 'en'
 path: '/en/kupovina-u-supermarketima'
-title: 'Supermarket shopping'
+title: 'Supermarket Shopping'
 ------
 I recently moved to Berlin.
 
