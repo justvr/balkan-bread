@@ -4,7 +4,7 @@ import Layout from '../layouts/en'
 const PrivacyAndCookieManagement = (props) => (
   <Layout location={props.location}>
     <div>
-      <h1>Privacy Policy for https://www.balkanbread.com/</h1>
+      <h1>Privacy Policy for Balkan Bread</h1>
       <p>At Balkan Bread, accessible from https://www.balkanbread.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Balkan Bread and how we use it.</p>
       <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
       <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Balkan Bread. This policy is not applicable to any information collected offline or via channels other than this website. Our Privacy Policy was created with the help of the <a href="https://www.privacypolicygenerator.info">Privacy Policy Generator</a> and the <a href="https://www.generateprivacypolicy.com/">Free Privacy Policy Generator</a>.</p>
