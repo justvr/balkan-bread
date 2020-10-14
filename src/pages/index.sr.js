@@ -7,7 +7,7 @@ const IndexPage = (props) => (
   <Layout location={props.location}>
     <StaticQuery
       query={graphql`
-        query IndexPtPageQuery {
+        query IndexSrPageQuery {
           allMarkdownRemark(
             sort: { order: DESC, fields: frontmatter___date }
             filter: { frontmatter: {lang: {eq: "sr"}}}
