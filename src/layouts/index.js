@@ -16,6 +16,20 @@ const Layout = ({ children, location, i18nMessages }) => {
   const langKey = getCurrentLangKey(langs, defaultLangKey, url);
   const homeLink = `/${langKey}/`.replace(`/${defaultLangKey}/`, '/');
   const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'blogPost',
+    'about': `${i18nMessages.seo.meta.description}`,
+    'author': 'justvr',
+    'contentLocation': 'Berlin',
+    'dateCreated': '2020-09-13',
+    'isFamilyFriendly': 'true',
+    'keywords': `${i18nMessages.seo.meta.keywords}`,
+    'name': 'Balkan Bread',
+    'translator': 'Sam Katterfield',
+    'typicalAgeRange': '22-',
+    'url': `${location.href}`,
+  }
   return (
     <IntlProvider
       locale={langKey}
@@ -29,9 +43,10 @@ const Layout = ({ children, location, i18nMessages }) => {
         meta={[
           { name: 'description', content: `${i18nMessages.seo.meta.description}` },
           { name: 'keywords', content: `${i18nMessages.seo.meta.keywords}` },
-          { property: 'og:type', content: 'website' },
+          { property: 'og:description', content: `${i18nMessages.seo.meta.description}` },
           { property: 'og:title', content: 'balkan bread' },
-          { property: 'og:description', content: `${i18nMessages.seo.meta.description}` }
+          { property: 'og:type', content: 'website' },
+          { property: 'og:url', content: `${location.href}`},
         ]}
       >
         <script
@@ -41,6 +56,7 @@ const Layout = ({ children, location, i18nMessages }) => {
           src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0"
           nonce="59oAFkZh"
         />
+        <script type="application/ld+json">{`${JSON.stringify(schema)}`}</script>
       </Helmet>
       <Header langs={langsMenu} />
       <div
