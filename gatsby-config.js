@@ -10,7 +10,7 @@ module.exports = {
       options: {
         host: 'https://www.balkanbread.com',
         sitemap: 'https://www.balkanbread.com/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
+        policy: [{ userAgent: '*', disallow: '' }]
       }
     },
     `gatsby-plugin-sitemap`,
