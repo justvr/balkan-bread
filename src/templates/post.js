@@ -53,14 +53,14 @@ const Layout = ({ location, data, pageContext }) => {
             ? <Image src={post.frontmatter.image} w="250px" alt={post.frontmatter.title} />
             : <Image src="balkan-bread-field.png" />
         }
-        <Link
-          target="_blank"
+        <a
+          className="fb-btn"
           href={`https://www.facebook.com/sharer/sharer.php?u=${location.href}`}
           rel="noopener noreferrer"
-          className="fb-btn"
+          target="_blank"
         >
           Share
-        </Link>
+        </a>
         <br />
         <Link to={homeLink}>{langKey === 'en' ? 'give me more bread' : 'hoću još hleba'}</Link>
       </div>
