@@ -17,7 +17,6 @@ const Layout = ({ location, data, pageContext }) => {
   if (customCrumbLabel.startsWith('en/')) {
     customCrumbLabel = customCrumbLabel.slice(3)
   }
-
   const languages = require('../data/languages');
   const post = data.markdownRemark;
   const url = location.pathname;
@@ -25,7 +24,7 @@ const Layout = ({ location, data, pageContext }) => {
   const langKey = getCurrentLangKey(langs, defaultLangKey, url);
   const homeLink = `/${langKey}/`.replace(`/${defaultLangKey}/`, '/');
   const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
-
+  console.log(`https://www.facebook.com/sharer/sharer.php?u=${location.href}`)
   return (
     <>
       <Helmet
@@ -55,6 +54,15 @@ const Layout = ({ location, data, pageContext }) => {
             ? <Image src={post.frontmatter.image} w="250px" alt={post.frontmatter.title} />
             : <Image src="balkan-bread-field.png" />
         }
+        <Link
+          target="_blank"
+          to={`https://www.facebook.com/sharer/sharer.php?u=${location.href}`}
+          rel="noopener noreferrer"
+          className="fb-btn"
+        >
+          Share
+        </Link>
+        <br />
         <Link to={homeLink}>{langKey === 'en' ? 'give me more bread' : 'hoću još hleba'}</Link>
       </div>
       <Breadcrumb
