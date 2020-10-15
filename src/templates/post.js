@@ -24,7 +24,6 @@ const Layout = ({ location, data, pageContext }) => {
   const langKey = getCurrentLangKey(langs, defaultLangKey, url);
   const homeLink = `/${langKey}/`.replace(`/${defaultLangKey}/`, '/');
   const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
-  console.log(`https://www.facebook.com/sharer/sharer.php?u=${location.href}`)
   return (
     <>
       <Helmet
@@ -56,7 +55,7 @@ const Layout = ({ location, data, pageContext }) => {
         }
         <Link
           target="_blank"
-          to={`https://www.facebook.com/sharer/sharer.php?u=${location.href}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${location.href}`}
           rel="noopener noreferrer"
           className="fb-btn"
         >
