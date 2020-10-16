@@ -5,7 +5,7 @@ image: 'one-way-ticket.png'
 keywords: 'everyday life, moving'
 lang: 'en'
 path: '/en/karta-u-jednom-pravcu'
-title: 'One-Way Ticket'
+title: 'One-way Ticket'
 ------
 There are a lot of emotions when you buy a one-way ticket. And when you don't know what awaits you. And when your mother wants you to stay but you’d rather not come back.
 
