@@ -64,7 +64,7 @@ const Layout = ({ location, data, pageContext }) => {
           Share
         </a>
         <br />
-        <Link to={homeLink}>{langKey === 'en' ? 'give me more bread' : 'hoću još hleba'}</Link>
+        <Link to={homeLink}>{langKey === 'en' ? 'one more piece please' : 'dodaj mi još jedno parče'}</Link>
       </div>
       <Breadcrumb
         crumbs={crumbs}
