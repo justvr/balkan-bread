@@ -1,6 +1,6 @@
 const languages = require('./src/data/languages');
 require('dotenv').config({
-  path: `.env.${process.env.FB_APP_ID}`,
+  path: `.env.${process.env.NODE_ENV}`,
 })
 
 module.exports = {

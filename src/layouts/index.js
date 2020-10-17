@@ -62,7 +62,7 @@ const Layout = ({ children, location, i18nMessages }) => {
         }}
       >
         {children}
-        <FacebookProvider appId={process.env.FB_APP_ID}>
+        <FacebookProvider appId={process.env.GATSBY_FB_APP_ID}>
           <Like
             href="http://www.facebook.com/balkanbread"
             layout="button_count"
