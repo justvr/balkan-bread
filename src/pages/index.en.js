@@ -40,7 +40,6 @@ const IndexPage = (props) => (
               In the end we are where the Balkans meet Berlin, and all of us who leave still eat
               <h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>Balkan bread</h1>.
             </q>
-            justvr
             <hr style={{maxWidth: `60px`, margin: `1rem auto 1.2rem`,}} />
             {edges.map(edge => {
               const { frontmatter } = edge.node;

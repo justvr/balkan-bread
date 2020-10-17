@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import Helmet from 'react-helmet'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { IntlProvider } from 'react-intl';
 import 'intl';
 import './index.css'
 import { FacebookProvider, Like } from 'react-facebook';
+import SEO from "../components/seo"
 
 const Layout = ({ children, location, i18nMessages }) => {
   const languages = require('../data/languages');
@@ -35,22 +35,14 @@ const Layout = ({ children, location, i18nMessages }) => {
       locale={langKey}
       messages={i18nMessages}
     >
-      <Helmet
-        htmlAttributes={{
-          lang: langKey,
-        }}
+      <SEO
+        description={i18nMessages.seo.meta.description}
+        keywords={i18nMessages.seo.meta.keywords}
+        lang={langKey}
+        ogType='website'
         title={i18nMessages.seo.title}
-        meta={[
-          { name: 'description', content: `${i18nMessages.seo.meta.description}` },
-          { name: 'keywords', content: `${i18nMessages.seo.meta.keywords}` },
-          { property: 'og:description', content: `${i18nMessages.seo.meta.description}` },
-          { property: 'og:title', content: 'balkan bread' },
-          { property: 'og:type', content: 'website' },
-          { property: 'og:url', content: `${location.href}`},
-        ]}
-      >
-        <script type="application/ld+json">{`${JSON.stringify(schema)}`}</script>
-      </Helmet>
+        schema={schema}
+      />
       <Header langs={langsMenu} />
       <div
         style={{
@@ -58,7 +50,7 @@ const Layout = ({ children, location, i18nMessages }) => {
           maxWidth: 860,
           padding: '1.45rem 1.0875rem',
           paddingTop: 0,
-          textAlign: 'center'
+          textAlign: 'center',
         }}
       >
         {children}

@@ -5,7 +5,11 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
+    title: `cultural differences between living in germany berlin and serbia - balkanbread`,
+    description: `living in germany berlin compared to the life in serbia and balkan`,
     siteUrl: `https://www.balkanbread.com`,
+    keywords: ['berlin', 'germany', 'balkan', 'everyday life'],
+    author: `justvr`
   },
   plugins: [
     {
