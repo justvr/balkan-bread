@@ -7,6 +7,7 @@ import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { IntlProvider } from 'react-intl';
 import 'intl';
 import './index.css'
+import { FacebookProvider, Like } from 'react-facebook';
 
 const Layout = ({ children, location, i18nMessages }) => {
   const languages = require('../data/languages');
@@ -48,13 +49,6 @@ const Layout = ({ children, location, i18nMessages }) => {
           { property: 'og:url', content: `${location.href}`},
         ]}
       >
-        <script
-          async
-          defer
-          crossOrigin="anonymous"
-          src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0"
-          nonce="59oAFkZh"
-        />
         <script type="application/ld+json">{`${JSON.stringify(schema)}`}</script>
       </Helmet>
       <Header langs={langsMenu} />
@@ -68,15 +62,14 @@ const Layout = ({ children, location, i18nMessages }) => {
         }}
       >
         {children}
-        <div
-          className="fb-like"
-          data-href="https://www.facebook.com/balkanbread"
-          data-width=""
-          data-layout="button_count"
-          data-action="like"
-          data-size="large"
-          data-share="true"
-        />
+        <FacebookProvider appId={process.env.FB_APP_ID}>
+          <Like
+            href="http://www.facebook.com/balkanbread"
+            layout="button_count"
+            share
+            size="large"
+          />
+        </FacebookProvider>
       </div>
       <Footer />
     </IntlProvider>
