@@ -4,6 +4,6 @@ module.exports = {
       description: 'living in germany berlin compared to the life in serbia',
       keywords: 'berlin, germany, balkan, everyday life'
     },
-    title: 'cultural differences between living in germany berlin and serbia',
+    title: 'cultural differences between living in germany berlin and serbia - balkanbread',
   }
 };

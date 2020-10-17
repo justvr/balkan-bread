@@ -32,7 +32,7 @@ const Layout = ({ location, data, pageContext }) => {
         htmlAttributes={{
           lang: langKey,
         }}
-        title={post ? post.frontmatter.title : ''}
+        title={post ? post.frontmatter.title + ' - balkanbread' : ''}
         meta={[
           { name: 'description', content: `${post ? post.frontmatter.description : ''}` },
           { name: 'keywords', content: `${post ? post.frontmatter.keywords : ''}` },
