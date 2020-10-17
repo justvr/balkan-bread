@@ -1,4 +1,7 @@
 const languages = require('./src/data/languages');
+require('dotenv').config({
+  path: `.env.${process.env.FB_APP_ID}`,
+})
 
 module.exports = {
   siteMetadata: {
