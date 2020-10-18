@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import Helmet from 'react-helmet'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n'
 import { graphql } from 'gatsby'
 import 'intl';
 import Image from '../service/image'
 import Link from 'gatsby-link'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import SEO from '../components/seo'
 
 const Layout = ({ location, data, pageContext }) => {
   const basePath = 'https://www.balkanbread.com'
@@ -28,15 +28,11 @@ const Layout = ({ location, data, pageContext }) => {
 
   return (
     <>
-      <Helmet
-        htmlAttributes={{
-          lang: langKey,
-        }}
-        title={post ? post.frontmatter.title + ' - balkanbread' : ''}
-        meta={[
-          { name: 'description', content: `${post ? post.frontmatter.description : ''}` },
-          { name: 'keywords', content: `${post ? post.frontmatter.keywords : ''}` },
-        ]}
+      <SEO
+        description={`${post ? post.frontmatter.description : ''}`}
+        keywords={`${post ? post.frontmatter.keywords : ''}`}
+        lang={langKey}
+        title={post ? post.frontmatter.title : ''}
       />
       <Header langs={langsMenu} />
       <div
@@ -64,7 +60,9 @@ const Layout = ({ location, data, pageContext }) => {
           Share
         </a>
         <br />
-        <Link to={homeLink}>{langKey === 'en' ? 'one more piece please' : 'dodaj mi još jedno parče'}</Link>
+        <Link to={homeLink}>
+          {langKey === 'en' ? 'one more piece please' : 'dodaj mi još jedno parče'}
+        </Link>
       </div>
       <Breadcrumb
         crumbs={crumbs}

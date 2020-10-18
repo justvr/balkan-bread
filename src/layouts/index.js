@@ -7,7 +7,7 @@ import { IntlProvider } from 'react-intl';
 import 'intl';
 import './index.css'
 import { FacebookProvider, Like } from 'react-facebook';
-import SEO from "../components/seo"
+import SEO from '../components/seo'
 
 const Layout = ({ children, location, i18nMessages }) => {
   const languages = require('../data/languages');

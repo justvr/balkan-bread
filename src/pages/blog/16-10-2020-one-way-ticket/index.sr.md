@@ -1,8 +1,8 @@
 ---
 date: '2020-10-16'
-description: 'seljenje iz domovine nikada nije lako'
+description: 'seljenje iz domovine nikada nije lako, selidba za nemacku'
 image: 'one-way-ticket.png'
-keywords: 'everyday life, moving'
+keywords: 'selidba'
 lang: 'sr'
 path: '/karta-u-jednom-pravcu'
 title: 'Karta u jednom pravcu'

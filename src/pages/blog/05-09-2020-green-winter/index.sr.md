@@ -1,8 +1,8 @@
 ---
 date: '2020-09-05'
-description: 'tako izgleda zima u berlinu'
+description: 'ovako izgleda zima u berlinu'
 image: 'balkan-bread-winter-in-berlin.png'
-keywords: 'svakodnevnica, priroda u gradu, parkovi'
+keywords: svakodnevnica, priroda u gradu, parkovi
 lang: 'sr'
 path: '/zelena-zima'
 title: 'Zelena zima'
