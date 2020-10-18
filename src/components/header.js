@@ -15,13 +15,19 @@ const Header = (props) => (
       }}
     >
       <Link
-        to="/"
+        to={'en' === props.langKey ? '/en/' : '/'}
         style={{
           color: 'white',
           textDecoration: 'none',
         }}
       >
-        <Image style={{marginBottom: '0'}} src="balkan-bread-logo.svg" w="200px" h="69px" alt="balkanbread logo" />
+        <Image
+          style={{marginBottom: '0'}}
+          src="balkan-bread-logo.svg"
+          w="200px"
+          h="69px"
+          alt="balkanbread logo"
+        />
       </Link>
       <SelectLanguage langs={props.langs} />
     </div>

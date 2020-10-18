@@ -43,7 +43,7 @@ const Layout = ({ location, data, pageContext }) => {
           'name': post ? post.frontmatter.title : '',
         }}
       />
-      <Header langs={langsMenu} />
+      <Header langs={langsMenu} langKey={langKey} />
       <div
         style={{
           margin: '0 auto',

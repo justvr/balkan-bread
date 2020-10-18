@@ -43,7 +43,7 @@ const Layout = ({ children, location, i18nMessages }) => {
           'url': `${location.href}`,
         }}
       />
-      <Header langs={langsMenu} />
+      <Header langs={langsMenu} langKey={langKey} />
       <div
         style={{
           margin: '0 auto',
