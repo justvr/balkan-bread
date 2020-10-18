@@ -16,20 +16,7 @@ const Layout = ({ children, location, i18nMessages }) => {
   const langKey = getCurrentLangKey(langs, defaultLangKey, url);
   const homeLink = `/${langKey}/`.replace(`/${defaultLangKey}/`, '/');
   const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'blogPost',
-    'about': `${i18nMessages.seo.meta.description}`,
-    'author': 'justvr',
-    'contentLocation': 'Berlin',
-    'dateCreated': '2020-09-13',
-    'isFamilyFriendly': 'true',
-    'keywords': `${i18nMessages.seo.meta.keywords}`,
-    'name': 'Balkan Bread',
-    'translator': 'Sam Katterfield',
-    'typicalAgeRange': '22-',
-    'url': `${location.href}`,
-  }
+
   return (
     <IntlProvider
       locale={langKey}
@@ -41,7 +28,20 @@ const Layout = ({ children, location, i18nMessages }) => {
         lang={langKey}
         ogType='website'
         title={i18nMessages.seo.title}
-        schema={schema}
+        schema={{
+          '@context': 'https://schema.org',
+          '@type': 'blogPost',
+          'about': `${i18nMessages.seo.meta.description}`,
+          'author': 'justvr',
+          'contentLocation': 'Berlin',
+          'dateCreated': '2020-09-13',
+          'isFamilyFriendly': 'true',
+          'keywords': `${i18nMessages.seo.meta.keywords}`,
+          'name': 'Balkan Bread',
+          'translator': 'Sam Katterfield',
+          'typicalAgeRange': '22-',
+          'url': `${location.href}`,
+        }}
       />
       <Header langs={langsMenu} />
       <div
