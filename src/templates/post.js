@@ -38,6 +38,7 @@ const Layout = ({ location, data, pageContext }) => {
           '@type':'Article',
           'author': 'justvr',
           'datePublished': post ? post.frontmatter.date : '',
+          'headline': post ? post.frontmatter.title : '',
           'image': post ? require(`../images/${post.frontmatter.image}`) : '',
           'name': post ? post.frontmatter.title : '',
         }}
