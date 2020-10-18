@@ -30,7 +30,7 @@ const Layout = ({ children, location, i18nMessages }) => {
         title={i18nMessages.seo.title}
         schema={{
           '@context': 'https://schema.org',
-          '@type': 'blogPost',
+          '@type': 'WebPage',
           'about': `${i18nMessages.seo.meta.description}`,
           'author': 'justvr',
           'contentLocation': 'Berlin',

@@ -33,6 +33,14 @@ const Layout = ({ location, data, pageContext }) => {
         keywords={`${post ? post.frontmatter.keywords : ''}`}
         lang={langKey}
         title={post ? post.frontmatter.title : ''}
+        schema={{
+          '@context':'https://schema.org',
+          '@type':'Article',
+          'author': 'justvr',
+          'datePublished': post ? post.frontmatter.date : '',
+          'image': post ? require(`../images/${post.frontmatter.image}`) : '',
+          'name': post ? post.frontmatter.title : '',
+        }}
       />
       <Header langs={langsMenu} />
       <div
@@ -65,9 +73,9 @@ const Layout = ({ location, data, pageContext }) => {
         </Link>
       </div>
       <Breadcrumb
+        crumbLabel={customCrumbLabel}
         crumbs={crumbs}
         crumbSeparator="/"
-        crumbLabel={customCrumbLabel}
       />
       <Footer />
     </>
