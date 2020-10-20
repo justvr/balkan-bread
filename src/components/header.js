@@ -23,7 +23,7 @@ const Header = (props) => (
       >
         <Image
           style={{marginBottom: '0'}}
-          src="balkan-bread-logo.png"
+          src="balkan-bread-logo.svg"
           w="200px"
           alt="balkanbread logo"
         />
