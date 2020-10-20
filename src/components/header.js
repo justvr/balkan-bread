@@ -20,7 +20,7 @@ const Header = (props) => (
           textDecoration: 'none',
         }}
       >
-        <img src={'../static/balkan-bread-logo.png'} alt="balkanbread logo"/>
+        <img src={'../balkan-bread-logo.png'} alt="balkanbread logo"/>
       </Link>
       <SelectLanguage langs={props.langs} />
     </div>
