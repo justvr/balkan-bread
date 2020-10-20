@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import SelectLanguage from './selectLanguage';
+import Image from '../service/image';
 
 const Header = (props) => (
   <div style={{ background: '#fff4e1', }}>
@@ -20,7 +21,12 @@ const Header = (props) => (
           textDecoration: 'none',
         }}
       >
-        <img src={'../balkan-bread-logo.png'} alt="balkanbread logo"/>
+        <Image
+          style={{marginBottom: '0'}}
+          src="balkan-bread-logo.png"
+          w="200px"
+          alt="balkanbread logo"
+        />
       </Link>
       <SelectLanguage langs={props.langs} />
     </div>
