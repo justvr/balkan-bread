@@ -38,7 +38,7 @@ const IndexPage = (props) => (
               In this bakery, the dough is so fine that it passes through the keyboard.
               The Bread takes many forms. It is kneaded and twisted through different knowledge and experiences.
               In the end we are where the Balkans meet Berlin, and all of us who leave still eat
-              <h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>Balkan bread</h1>.
+              <Link to="/en/balkan-bread"><h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>Balkan bread</h1></Link>.
             </q>
             <hr style={{maxWidth: `60px`, margin: `1rem auto 1.2rem`,}} />
             {edges.map(edge => {

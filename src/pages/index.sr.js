@@ -38,7 +38,7 @@ const IndexPage = (props) => (
               U ovoj pekari testo je tako fino da prolazi i kroz tastaturu.
               Hleb uzima mnoge oblike ispravljene i izvitoperene različitim znanjem i iskustvima.
               Ali na kraju tu smo gde Balkan sreće Berlin, a svi koji odemo na kraju ipak jedemo
-              <h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>Balkanski Hleb</h1>.
+              <Link to="/balkan-bread"><h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>Balkanski Hleb</h1></Link>.
             </q>
             <hr style={{maxWidth: `60px`, margin: `1rem auto 1.2rem`,}} />
             {edges.map(edge => {

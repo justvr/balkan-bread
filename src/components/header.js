@@ -25,6 +25,7 @@ const Header = (props) => (
           style={{marginBottom: '0'}}
           src="balkan-bread-logo.svg"
           w="200px"
+          h="69px"
           alt="balkanbread logo"
         />
       </Link>
