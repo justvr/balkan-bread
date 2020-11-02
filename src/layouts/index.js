@@ -66,10 +66,27 @@ const Layout = ({ children, location, i18nMessages }) => {
       </div>
       <Footer />
       <CookieConsent
-        location="bottom"
-        buttonText="Accept"
+        buttonStyle={{
+          border: 'none',
+          margin: '0.5rem',
+        }}
+        buttonText="I understand"
+        cookieName="gatsby-gdpr-google-analytics"
         declineButtonText="Decline"
-        cookieName="gatsby-gdpr-google-analytics">
+        disableStyles={true}
+        enableDeclineButton
+        expired={30}
+        flipButtons
+        style={{
+          background: 'rgb(63 191 165)',
+          border: '2px solid rgb(49, 127, 96)',
+          borderRadius: '0.5rem',
+          padding: '1.45rem',
+          position: 'fixed',
+          right: 0,
+          bottom: '100px'
+        }}
+      >
         This site uses cookies ...
       </CookieConsent>
     </IntlProvider>
