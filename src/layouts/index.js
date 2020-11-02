@@ -8,6 +8,7 @@ import 'intl';
 import './index.css'
 import { FacebookProvider, Like } from 'react-facebook';
 import SEO from '../components/seo'
+import CookieConsent from 'react-cookie-consent';
 
 const Layout = ({ children, location, i18nMessages }) => {
   const languages = require('../data/languages');
@@ -64,6 +65,13 @@ const Layout = ({ children, location, i18nMessages }) => {
         </FacebookProvider>
       </div>
       <Footer />
+      <CookieConsent
+        location="bottom"
+        buttonText="Accept"
+        declineButtonText="Decline"
+        cookieName="gatsby-gdpr-google-analytics">
+        This site uses cookies ...
+      </CookieConsent>
     </IntlProvider>
   )
 }

@@ -107,6 +107,18 @@ module.exports = {
         // usePathPrefix: optional, if you are using pathPrefix above
         // usePathPrefix: '/blog',
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: process.env.GOOGLE_ANALYTICS,
+          // Setting this parameter is optional
+          anonymize: true
+        },
+        // Defines the environments where the tracking should be available  - default is ["production"]
+        environments: ['production', 'development']
+      },
+    },
   ],
 }
