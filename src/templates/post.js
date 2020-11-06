@@ -70,7 +70,7 @@ const Layout = ({ location, data, pageContext }) => {
         </a>
         <br />
         <Link to={homeLink}>
-          {langKey === 'en' ? 'one more piece please' : 'dodaj mi još jedno parče'}
+          {langKey === 'en' ? 'one more slice please' : 'dodaj mi još jedno parče'}
         </Link>
       </div>
       <Breadcrumb

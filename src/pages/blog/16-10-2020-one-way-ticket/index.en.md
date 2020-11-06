@@ -13,7 +13,7 @@ When there is no real reason to leave, but you feel like you’ve spent your who
 
 You want to really test yourself. And get to know yourself. You want to leave the social and cultural ties you knew.
 
-And then you're already at the airport. And your family is saying goodbye. And tears do not come. Just excitement. And it's time to keep quiet and wait. But you don't know what awaits you
+And then you're already at the airport. And your family is saying goodbye. And tears do not come. Just excitement. And it's time to keep quiet and wait. But you don't know what awaits you.
 
 The unknown, I suppose.
 
