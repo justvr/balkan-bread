@@ -13,18 +13,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-gdpr-cookies`,
-      options: {
-        googleAnalytics: {
-          trackingId: process.env.GOOGLE_ANALYTICS,
-          // Setting this parameter is optional and necessary for ie. Germany
-          anonymize: true
-        },
-        // Defines the environments where the tracking should be available  - default is ["production"]
-        environments: ['production', 'development']
-      },
-    },
-    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://www.balkanbread.com',
