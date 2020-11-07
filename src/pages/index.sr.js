@@ -33,7 +33,9 @@ const IndexPage = (props) => (
 
         return (
           <>
-            <Image src="balkan-bread-field.png" w="250px" h="198px" alt="hero image" />
+            <div>
+              <Image src="balkan-bread-field.png" w="250px" h="198px" alt="hero image" />
+            </div>
             <q>
               U ovoj pekari testo je tako fino da prolazi i kroz tastaturu.
               Hleb uzima mnoge oblike ispravljene i izvitoperene različitim znanjem i iskustvima.
