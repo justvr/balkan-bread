@@ -30,7 +30,7 @@ const BalkanBread = (props) => (
       <p>Provela sam sate istražujući život u Nemačkoj. A nije moralo biti tako. Volela bih da sam imala mesto gde ću pronaći informacije o znakovima pored puta, o ljudima, o institucijama, o dokumentaciji, o proizvodima, o jeziku, o... životu.</p>
       <p>Obećavam da ću realno pisati o svakom aspektu života iz moje perspektive. Šta sam ja i šta su drugi doživeli i naučili. Nove ideje. Dobre i loše stvari.</p>
       <p>Trudiću se da približim kulturu i da približim život koji ja tek sada otkrivam.</p>
-      <p>To se odnosi i na hranu, a mi Balkanci uvek dodamo hleb.</p>
+      <p>To se odnosi i na hranu, a mi Balkanci uvek dodamo i parče hleba.</p>
       <Image src="balkan-bread-about.png" h="180px" w="250px" />
       <Link to="/">Početna</Link>
     </div>
