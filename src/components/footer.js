@@ -25,6 +25,13 @@ const Footer = () => (
       >
         <Link
           target="_blank"
+          to="https://www.instagram.com/balkanbread/"
+          rel="noopener noreferrer"
+        >
+          <Image src="instagram.svg" w="22px" alt="instagram icon" />
+        </Link>
+        <Link
+          target="_blank"
           to="http://www.fb.com/balkanbread"
           rel="noopener noreferrer"
         >
