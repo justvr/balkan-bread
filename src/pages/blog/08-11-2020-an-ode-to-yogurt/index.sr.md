@@ -1,7 +1,7 @@
 ---
 date: '2020-11-08'
 description: 'pravi jogurt nedostaje u berlinu'
-keywords: 'svakodnevnica, jogurt, doručak'
+keywords: 'svakodnevnica, jogurt, balkanski doručak, doručak u berlinu, selidba za berlin'
 image: 'an-ode-to-yogurt.png'
 lang: 'sr'
 path: '/oda-jogurtu'
