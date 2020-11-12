@@ -69,6 +69,15 @@ function SEO(
         },
       ].concat(meta)}
     >
+      <script async src='https://www.googletagmanager.com/gtag/js?id=G-VFMLXXHDC3'></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-VFMLXXHDC3');
+        `}
+      </script>
       <script type="application/ld+json">{`${JSON.stringify(schema)}`}</script>
     </Helmet>
   )
