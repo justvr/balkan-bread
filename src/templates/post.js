@@ -8,6 +8,7 @@ import Image from '../service/image'
 import Link from 'gatsby-link'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import SEO from '../components/seo'
+import Cookie from '../components/cookie'
 
 const Layout = ({ location, data, pageContext }) => {
   const basePath = 'https://www.balkanbread.com'
@@ -79,6 +80,7 @@ const Layout = ({ location, data, pageContext }) => {
         crumbSeparator="/"
       />
       <Footer />
+      <Cookie />
     </>
   )
 };
