@@ -15,7 +15,7 @@ And he’d recently moved to Berlin too.
 
 We became friends. He is German. And he’s led a different sort of life from mine. He’s traveled to various distant lands, with koalas, elephants, and other exotic creatures.
 
-I listened to his stories about the culture, the people, and the nature he saw. And about how much our consumerism is destroying all of it. <a href="https://www.theguardian.com/world/2020/mar/25/coronavirus-nature-is-sending-us-a-message-says-un-environment-chief" rel="noopener" target="_blank">And how the destruction over there affects our world here. Which is best proved by the coronavirus crisis</a>
+I listened to his stories about the culture, the people, and the nature he saw. And about how much our consumerism is destroying all of it. And how <a href="https://www.theguardian.com/world/2020/mar/25/coronavirus-nature-is-sending-us-a-message-says-un-environment-chief" rel="noopener" target="_blank">the destruction over there affects our world here</a>. Which is best proved by the coronavirus crisis.
 
 He talked about solutions, and how we can help fix all of this. He was talking about a web browser called <a href="https://www.ecosia.org/?c=en" rel="noopener" target="_blank">Ecosia</a>.
 

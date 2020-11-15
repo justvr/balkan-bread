@@ -5,7 +5,7 @@ image: 'ecosia.png'
 keywords: 'ecosia, životna sredina, web pretraživač'
 lang: 'sr'
 path: '/ecosia-klikni-ovde-da-sadis-drvece'
-title: 'Klikni ovde da posadiš drveće'
+title: 'Klikni ovde da posadiš drvo'
 ------
 Skoro sam se preselila u Berlin.
 
@@ -15,7 +15,7 @@ I on se skoro preselio u Berlin.
 
 Postali smo prijatelji. On je Nemac. I vodio je život drugačiji od mene. Putovao je po raznim dalekim zemljama sa koalama i indijskim slonovima.
 
-Slušala sam njegove priče o kulturi, ljudima, prirodi koju je on video. I o tome koliko naš konzumerizam uništava taj svet tamo. <a href="https://www.theguardian.com/world/2020/mar/25/coronavirus-nature-is-sending-us-a-message-says-un-environment-chief" rel="noopener" target="_blank">I koliko taj uništeni svet tamo uništava naš svet ovde. Što je najbolje dokazala i dokazuje kriza sa korona virusom.</a>
+Slušala sam njegove priče o kulturi, ljudima, prirodi koju je on video. I o tome koliko naš konzumerizam uništava taj svet tamo. I koliko <a href="https://www.theguardian.com/world/2020/mar/25/coronavirus-nature-is-sending-us-a-message-says-un-environment-chief" rel="noopener" target="_blank">taj uništeni svet tamo uništava naš svet ovde</a>. Što je najbolje dokazala i dokazuje kriza sa korona virusom.
 
 A onda je pričao o rešenjima, i kako mi možemo pomoći da se to popravi. On je pričao o web pretraživaču koji se zove <a href="https://www.ecosia.org/?c=en" rel="noopener" target="_blank">Ecosia</a>.
 
@@ -33,4 +33,4 @@ Volim kada vidim izveštaje koliko je to značilo porodicama širom sveta. Volim
 
 I još malo da se pohvalim da sam pasivno posadila još par stotina drveća, jer je par članova moje porodice počelo da sadi drveće sa mnom.
 
-A nadam se i da ću ih posaditi još kada i ti probaš Ecosiju.
+A nadam se da ću ih posaditi još kada i ti probaš Ecosiju.
