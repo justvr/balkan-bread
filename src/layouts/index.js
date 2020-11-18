@@ -59,7 +59,6 @@ const Layout = ({ children, location, i18nMessages }) => {
           <Like
             href="http://www.facebook.com/balkanbread"
             layout="button_count"
-            share
             size="large"
           />
         </FacebookProvider>
