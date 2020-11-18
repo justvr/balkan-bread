@@ -23,20 +23,20 @@ const Footer = () => (
           maxWidth: 860,
         }}
       >
-        <Link
-          target="_blank"
-          to="https://www.instagram.com/balkanbread/"
+        <a
+          href="https://www.instagram.com/balkanbread/"
           rel="noopener noreferrer"
+          target="_blank"
         >
           <Image src="instagram.svg" w="22px" alt="instagram icon" />
-        </Link>
-        <Link
-          target="_blank"
-          to="http://www.fb.com/balkanbread"
+        </a>
+        <a
+          href="http://www.fb.com/balkanbread"
           rel="noopener noreferrer"
+          target="_blank"
         >
           <Image src="facebook.svg" w="30px" alt="facebook icon" />
-        </Link>
+        </a>
       </div>
       <div
         style={{
