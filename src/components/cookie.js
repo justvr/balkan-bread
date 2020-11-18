@@ -4,7 +4,7 @@ import cookie from '../service/cookie.js'
 import Link from 'gatsby-link'
 
 function Cookie() {
-  const [show, setShow] = useState(true)
+  const [show, setShow] = useState(false)
 
   function accept() {
     cookie.set('GA4', 'accepted')
@@ -15,8 +15,8 @@ function Cookie() {
   }
 
   useEffect(() => {
-    if ('accepted' === cookie.get('GA4')) {
-      setShow(false)
+    if ('accepted' !== cookie.get('GA4')) {
+      setShow(true)
     }
   }, [])
 
