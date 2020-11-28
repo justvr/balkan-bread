@@ -1,0 +1,44 @@
+---
+date: '2020-11-29'
+description: 'kupovina u supermarketima izgleda kao prijatno iznenađenje'
+image: 'bank-your-dough.png'
+keywords: 'svakodnevnica, kupovina, supermarket'
+lang: 'en'
+path: '/en/izvaditi-karticu-iz-banke'
+title: 'Bank your Dough'
+------
+Nedavno sam se preselila u Berlin.
+
+Usred ludila oko selidbe poslodavac mi traži račun gde da uplati željno iščekivani deo plate.
+
+Hm, izgleda da srpski račun ne funkcioniše. Udahni duboko, zagrej prste. Vreme je za još malo sedenja ispred kompjutera i istraživanja.
+
+Plan je: Otvoriti račun u bilo kojoj banci što pre. Nemačke tradicionalne banke su prilično spore, traže <i><a href="https://service.berlin.de/dienstleistung/120686/" target="_blank" rel="noopener">Anmeldung</a></i> (prijava boravišta) i uglavnom očekuju da govoriš nemački. Ne, ne i ne.
+
+Druga opcija: Mobilne banke na engleskom, gde je registracija brza i laka, gde me ne pitaju za <i>Anmeldung</i>. Da!
+
+U nastavku teksta ću uporediti mobilne banke koje ja koristim:
+osnovno održavanje kartica je besplatno,
+registracija je jednostavna preko aplikacije i sa veoma jasnim uputstvima,
+sve je na engleskom, nema nemačkog.
+
+<a href=”https://n26.com/en-eu” rel=”noopener”>N26</a> - nemačka banka
+Ograničenje - sa automata se može podići besplatno 5 puta u Nemačkoj, dok je u ostalim zemljama Evropske Unije besplatno.
+Prednosti - nudi 2 besplatna <i>Mesta</i> (eng. <i>Space</i>), pored Glavnog <i>Mesta</i> u kojima se može jasno videti mesečna potrošnja. Na primer, Plata, Kirija, Ušteđevina. Odmah se jasno vidi na početku meseca koliko novca je ostalo na raspolaganju za trošenje u mesecu.
+
+<a href=”https://www.revolut.com/en-DE” rel=”noopener”>Revolut</a> - engleska banka
+Engleska banka koja se seli u Litvaniju zbog Brexita.
+Ograničenje - besplatno se sa automata može podići 200€ mesečno, nakon toga naplaćuju 2% od iznosa koji se podiže.
+Prednosti - ja sam Revolut karticu poslala roditeljima, jer je konverzija evra veoma niska, tako da oni mogu da podignu novac bez razmišljanja sa automata u bilo kom trenutku.
+Revolut mobilna aplikacija ima opciju za akcije, tako da oni zainteresovani u investiranje imaju lak start. Međutim,
+
+<a href=”https://vivid.money/en-eu/” rel=”noopener”>VividMoney</a> - ruska banka
+VividMoney je nova mobilna banka na nemačkom tržištu.
+Ograničenje - besplatno se sa automata može podići 200€ mesečno, nakon toga naplaćuju 2% od iznosa koji se podiže.
+Prednosti - trude se da privuku nove korisnike. Oni nude različit procenat <i>cacheback</i>-a u akcijama na korišćenju kartice pri potrošnji novca. Npr kupovinom u Lidlu, Aldiju, Netflix, Playstation dobijem 10% <i>cacheback</i>-a. Steam 5%, dug je spisak. Šta god da platim njihovom karticom dobijem 0.1% <i>cacheback</i>-a, korišćenjem kartice van Evropske Unije je 1% na kupovinu, 3% na restorane itd. Ima puno opcija da se novac povrati.
+
+<i>Ukoliko želite da izvadite ovu karticu, a živite u Nemačkoj idite preko mog referral linka da bih dobila par evra za održavanje ovog bloga: <a href=”https://vivid.money/r/justina3LZ” rel=”noopener” target=”_blank”>https://vivid.money/r/justina3LZ</a>. Hvala puno :)</i>
+
+I mogu reći da zasad nisam imala nikakvih problema sa njima. Ljudi koji žive malo duže ovde (i uglavnom svi Nemci) bi uvek pomenuli aferu sa Wirecard-om kada je 1.9 bilion evra nestalo <a href=”https://en.wikipedia.org/wiki/Wirecard_scandal” rel=”noopener” target=”_blank”>https://en.wikipedia.org/wiki/Wirecard_scandal</a>.
+
+I ne znam kako će se to odvijati sa ovim mobilnim bankama, ali ja i mnogi ljudi drže svoju ušteđevinu na računima mobilnih banki.

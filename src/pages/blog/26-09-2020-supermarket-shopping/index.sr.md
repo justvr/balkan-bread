@@ -5,7 +5,7 @@ image: 'experience-from-a-market.png'
 keywords: 'svakodnevnica, kupovina, supermarket'
 lang: 'sr'
 path: '/kupovina-u-supermarketima'
-title: 'Kupovina u supermarketima'
+title: 'Kupovina u supermarketimaa'
 ------
 Skoro sam se preselila u Berlin.
 
