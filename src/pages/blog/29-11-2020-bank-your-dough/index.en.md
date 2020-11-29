@@ -4,41 +4,50 @@ description: 'kupovina u supermarketima izgleda kao prijatno iznenađenje'
 image: 'bank-your-dough.png'
 keywords: 'svakodnevnica, kupovina, supermarket'
 lang: 'en'
-path: '/en/izvaditi-karticu-iz-banke'
+path: '/en/dilema-o-bankarskim-karticama'
 title: 'Bank your Dough'
 ------
-Nedavno sam se preselila u Berlin.
+I recently moved to Berlin.
 
-Usred ludila oko selidbe poslodavac mi traži račun gde da uplati željno iščekivani deo plate.
+In the midst of the madness of moving, my employer asked me for a bank account where they could pay me my eagerly awaited salary.
 
-Hm, izgleda da srpski račun ne funkcioniše. Udahni duboko, zagrej prste. Vreme je za još malo sedenja ispred kompjutera i istraživanja.
+Um, yes of course, the Serbian account won’t work. I told myself “Take a deep breath, warm up your fingers. It's time for a little more research infront of the computer".
 
-Plan je: Otvoriti račun u bilo kojoj banci što pre. Nemačke tradicionalne banke su prilično spore, traže <i><a href="https://service.berlin.de/dienstleistung/120686/" target="_blank" rel="noopener">Anmeldung</a></i> (prijava boravišta) i uglavnom očekuju da govoriš nemački. Ne, ne i ne.
+The plan is: Open an account in any bank as soon as possible. Traditional German banks are quite slow, they require an <i> <a href="https://service.berlin.de/dienstleistung/120686/" target="_blank" rel="noopener">Anmeldung</i></a> (residence registration), and mostly expect you to speak German. No, no and no.
 
-Druga opcija: Mobilne banke na engleskom, gde je registracija brza i laka, gde me ne pitaju za <i>Anmeldung</i>. Da!
+Another option: A Mobile Bank in English, where registration is quick and easy, and where they don't ask me for an <i> Anmeldung </i>. Yes!
 
-U nastavku teksta ću uporediti mobilne banke koje ja koristim:
-osnovno održavanje kartica je besplatno,
-registracija je jednostavna preko aplikacije i sa veoma jasnim uputstvima,
-sve je na engleskom, nema nemačkog.
+Below I compare the mobile banks I currently use. All have the same minimum criteria:
 
-<a href=”https://n26.com/en-eu” rel=”noopener”>N26</a> - nemačka banka
-Ograničenje - sa automata se može podići besplatno 5 puta u Nemačkoj, dok je u ostalim zemljama Evropske Unije besplatno.
-Prednosti - nudi 2 besplatna <i>Mesta</i> (eng. <i>Space</i>), pored Glavnog <i>Mesta</i> u kojima se može jasno videti mesečna potrošnja. Na primer, Plata, Kirija, Ušteđevina. Odmah se jasno vidi na početku meseca koliko novca je ostalo na raspolaganju za trošenje u mesecu.
+Basic card maintenance is free,
+Registration is simple via the app and there are very clear instructions,
+Everything is in English. German is not required
 
-<a href=”https://www.revolut.com/en-DE” rel=”noopener”>Revolut</a> - engleska banka
-Engleska banka koja se seli u Litvaniju zbog Brexita.
-Ograničenje - besplatno se sa automata može podići 200€ mesečno, nakon toga naplaćuju 2% od iznosa koji se podiže.
-Prednosti - ja sam Revolut karticu poslala roditeljima, jer je konverzija evra veoma niska, tako da oni mogu da podignu novac bez razmišljanja sa automata u bilo kom trenutku.
-Revolut mobilna aplikacija ima opciju za akcije, tako da oni zainteresovani u investiranje imaju lak start. Međutim,
+<a href="https://n26.com/en-eu" rel="noopener" target="_blank">N26</a> - German bank
+Restriction - You can withdraw cash from German ATMs up to 5 times per month without fees. In other eurozone countries you get unlimited free withdrawals.
 
-<a href=”https://vivid.money/en-eu/” rel=”noopener”>VividMoney</a> - ruska banka
-VividMoney je nova mobilna banka na nemačkom tržištu.
-Ograničenje - besplatno se sa automata može podići 200€ mesečno, nakon toga naplaćuju 2% od iznosa koji se podiže.
-Prednosti - trude se da privuku nove korisnike. Oni nude različit procenat <i>cacheback</i>-a u akcijama na korišćenju kartice pri potrošnji novca. Npr kupovinom u Lidlu, Aldiju, Netflix, Playstation dobijem 10% <i>cacheback</i>-a. Steam 5%, dug je spisak. Šta god da platim njihovom karticom dobijem 0.1% <i>cacheback</i>-a, korišćenjem kartice van Evropske Unije je 1% na kupovinu, 3% na restorane itd. Ima puno opcija da se novac povrati.
+Advantages - offers 2 free <i> Places </i> (<i> Space </i>), in addition to the Main <i> Places </i> where you can stash your cash and clearly keep an eye on your spending. For example, Salary, Rent, Savings etc. It is immediately clear at the beginning of the month how much money is left to spend
 
-<i>Ukoliko želite da izvadite ovu karticu, a živite u Nemačkoj idite preko mog referral linka da bih dobila par evra za održavanje ovog bloga: <a href=”https://vivid.money/r/justina3LZ” rel=”noopener” target=”_blank”>https://vivid.money/r/justina3LZ</a>. Hvala puno :)</i>
+<a href="https://www.revolut.com/en-DE" rel="noopener" target="_blank">Revolut</a> -
+A British bank that’s moving to Lithuania due to Brexit.
 
-I mogu reći da zasad nisam imala nikakvih problema sa njima. Ljudi koji žive malo duže ovde (i uglavnom svi Nemci) bi uvek pomenuli aferu sa Wirecard-om kada je 1.9 bilion evra nestalo <a href=”https://en.wikipedia.org/wiki/Wirecard_scandal” rel=”noopener” target=”_blank”>https://en.wikipedia.org/wiki/Wirecard_scandal</a>.
+Restriction - you can withdraw € 200 per month from the ATM free of charge. After that there’s a charge of 2% for withdrawals.
 
-I ne znam kako će se to odvijati sa ovim mobilnim bankama, ali ja i mnogi ljudi drže svoju ušteđevinu na računima mobilnih banki.
+Advantages - I sent the Revolut card to my parents because the exchange rates are very good. They can withdraw cash from the ATM at any time without worrying about the cost of converting it from Euros.
+
+The Revolut mobile app gives you the option to buy stocks, so those interested in investing have an easy start. However,
+
+<a href="https://vivid.money/en-eu/" rel="noopener" target="_blank"> VividMoney</a> - Russian-backed
+VividMoney is a new mobile bank on the German market.
+
+Restriction - On the free account you can withdraw up to €200 per month without fees, if you withdraw at least €50 each time.
+
+Advantages - To try and attract new users they offer a variety of benefits. You can get cashback in the form of ‘stock rewards’ when using their debit card. For example, when shopping at Lidl, Aldi, Netflix, or Playstation you earn 10% cashback. At Steam it’s 5%. If you use the card outside the European Union, you get 1% cashback for regular shopping, 3% for restaurants etc etc. There’s lots of options for getting a nice little cashback bonus.
+
+<i>If you want to get this card and you live in Germany, go via my referral link to get a few euros for yourself and at the same time help to maintain this blog: <a href="https://vivid.money/r/justina3LZ" rel ="noopener" target="_blank"> https://vivid.money/r/justina3LZ</a>. Thanks a lot :) </i>
+
+People who’ve been here a bit longer would always mention <a href="https://en.wikipedia.org/wiki/Wirecard_scandal" rel="noopener" target="_blank">the Wirecard affair when 1.9 billion euros disappeared</a>. So they wouldn’t consider an online bank for their primary bank.
+
+I don't know how it will work out with these companies, but myself and many people keep their savings in mobile bank accounts.
+
+I can say that so far I have had no problems with any of them.
