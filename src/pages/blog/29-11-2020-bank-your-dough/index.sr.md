@@ -35,9 +35,7 @@ Revolut mobilna aplikacija ima opciju za akcije, tako da oni zainteresovani u in
 <a href="https://vivid.money/en-eu/" target="_blank" rel="noopener">VividMoney</a> - ruska banka <br />
 VividMoney je nova mobilna banka na nemačkom tržištu.
 Ograničenja - besplatno se sa automata može podići 200€ mesečno, nakon toga naplaćuju 2% od iznosa koji se podiže. <br />
-Prednosti - trude se da privuku nove korisnike. Oni nude različiti procenat <i>cacheback</i>-a u akcijama na korišćenju kartice pri potrošnji novca. Npr. kupovinom u Lidlu, Aldiju, Netflix, Playstation dobijem 10% <i>cacheback</i>-a. Steam 5%, dug je spisak. Šta god da platim njihovom karticom dobijem 0.1% <i>cacheback</i>-a, korišćenjem kartice van Evropske Unije je 1% na kupovinu, 3% na restorane itd. Ima puno opcija da se novac povrati.
-
-<i>Ukoliko želite da izvadite ovu karticu, a živite u Nemačkoj idite preko mog referral linka da bih dobila par evra za održavanje ovog bloga: <a href="https://vivid.money/r/justina3LZ" rel="noopener" target="_blank">https://vivid.money/r/justina3LZ</a>. Hvala puno :)</i>
+Prednosti - trude se da privuku nove korisnike. Oni nude različit procenat <i>cacheback</i>-a u akcijama na korišćenju kartice pri potrošnji novca. Npr. kupovinom u Lidlu, Aldiju, Netflix, Playstation dobijem 10% <i>cacheback</i>-a. Dug je spisak.
 
 Ljudi koji žive malo duže ovde (i uglavnom svi Nemci) bi uvek pomenuli aferu sa <a href="https://en.wikipedia.org/wiki/Wirecard_scandal" rel="noopener" target="_blank">Wirecard-om kada je 1.9 bilion evra nestalo</a>. Tako da oni ne bi razmatrali online banke kao svoje primarne banke.
 

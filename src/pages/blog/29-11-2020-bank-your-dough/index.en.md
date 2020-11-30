@@ -42,9 +42,7 @@ VividMoney is a new mobile bank on the German market.
 
 Restriction - On the free account you can withdraw up to €200 per month without fees, if you withdraw at least €50 each time.
 
-Advantages - To try and attract new users they offer a variety of benefits. You can get cashback in the form of ‘stock rewards’ when using their debit card. For example, when shopping at Lidl, Aldi, Netflix, or Playstation you earn 10% cashback. At Steam it’s 5%. If you use the card outside the European Union, you get 1% cashback for regular shopping, 3% for restaurants etc etc. There’s lots of options for getting a nice little cashback bonus.
-
-<i>If you want to get this card and you live in Germany, go via my referral link to get a few euros for yourself and at the same time help to maintain this blog: <a href="https://vivid.money/r/justina3LZ" rel ="noopener" target="_blank"> https://vivid.money/r/justina3LZ</a>. Thanks a lot :) </i>
+Advantages - To try and attract new users they offer a variety of benefits. You can get cashback in the form of ‘stock rewards’ when using their debit card. For example, when shopping at Lidl, Aldi, Netflix, or Playstation you earn 10% cashback.
 
 People who’ve been here a bit longer would always mention <a href="https://en.wikipedia.org/wiki/Wirecard_scandal" rel="noopener" target="_blank">the Wirecard affair when 1.9 billion euros disappeared</a>. So they wouldn’t consider an online bank for their primary bank.
 
