@@ -9,7 +9,7 @@ title: 'Click Here to Plant Trees'
 ------
 I recently moved to Berlin.
 
-And I met a guy.
+And I met someone.
 
 And he’d recently moved to Berlin too.
 
