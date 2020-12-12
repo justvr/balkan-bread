@@ -1,44 +1,38 @@
 ---
-date: '2020-11-29'
-description: 'kupovina u supermarketima izgleda kao prijatno iznenađenje'
-image: 'bank-your-dough.png'
-keywords: 'svakodnevnica, kupovina, supermarket'
+date: '2020-12-13'
+description: 'u Nemackoj se jos uvek seku jele za Novu godinu'
+image: 'christmas-dead-trees.png'
+keywords: 'bozic u berlinu, nova godina'
 lang: 'sr'
-path: '/dilema-o-bankarskim-karticama'
-title: 'Dilema o bankarskim karticama'
+path: '/svo-to-uzalud-iseceno-drvece'
+title: 'Svo to uzalud isečeno drveće'
 ------
-Nedavno sam se preselila u Berlin.
+Skoro sam se preselila u Berlin.
 
-Usred ludila oko selidbe poslodavac mi traži račun da uplati željno iščekivanu platu.
+I videla sam nekoga kako leži na ulici. Kada sam prišla da pomognem shvatila sam da je jelka.
 
-Hm, izgleda da srpski račun ne funkcioniše. Udahni duboko, zagrej prste. Vreme je za još malo sedenja ispred kompjutera i istraživanja.
+Međutim, nakon prvog susreta primetila sam da je jelke moguće naći svud redom po trotoarima.
 
-Plan je: Otvoriti račun u bilo kojoj banci što pre. Nemačke tradicionalne banke su prilično spore, traže <i><a href="https://service.berlin.de/dienstleistung/120686/" target="_blank" rel="noopener">Anmeldung</a></i> (prijavu boravišta) i uglavnom očekuju da stranka govori nemački. Ne, ne i ne.
+I onda mi je došlo do glave. To su novogodišnje jelke.
 
-Druga opcija: Mobilne banke na engleskom, gde je registracija brza i laka, gde me ne pitaju za <i>Anmeldung</i>. Da!
+Malo mi je bilo neobično. Grad je potpuno neokićen. Te sam usred selidbe i zaboravila da je Nova godina.
 
-U nastavku teksta ću uporediti mobilne banke koje ja koristim:
-osnovno održavanje kartica je besplatno,
-registracija je jednostavna preko aplikacije i sa veoma jasnim uputstvima,
-sve je na engleskom, nema nemačkog.
+Pa oni još uvek seku jelke za Novu godinu!
 
-<a href="https://n26.com/en-eu" target="_blank" rel="noopener">N26</a> - nemačka banka <br />
-Ograničenja - sa automata se može podići besplatno 5 puta u Nemačkoj, dok je u ostalim zemljama Evropske Unije besplatno. <br />
-Prednosti - nudi 2 besplatna <i>Mesta</i> (eng. <i>Space</i>), pored Glavnog <i>Mesta</i> u kojima se može jasno videti mesečna potrošnja. Na primer, Plata, Kirija, Ušteđevina. Odmah se jasno vidi na početku meseca koliko novca je ostalo na raspolaganju za trošenje.
+Neka davna kultura koja je u Srbiji odavno prevaziđena.
 
-<a href="https://www.revolut.com/en-DE" target="_blank" rel="noopener">Revolut</a> - engleska banka <br />
-Engleska banka koja se seli u Litvaniju zbog Brexita.
-Ograničenja - besplatno se sa automata može podići 200€ mesečno, nakon toga naplaćuju 2% od iznosa koji se podiže. <br />
-Prednosti - ja sam Revolut karticu poslala roditeljima, jer je konverzija evra veoma niska, tako da oni mogu da podignu novac bez razmišljanja sa automata u bilo kom trenutku.
-Revolut mobilna aplikacija ima opciju za akcije, tako da oni zainteresovani u investiranje imaju lak start.
+Moj deda je uvek govorio kako je greota seći drvo da bi se iskoristilo za ukras.
 
-<a href="https://vivid.money/en-eu/" target="_blank" rel="noopener">VividMoney</a> - ruska banka <br />
-VividMoney je nova mobilna banka na nemačkom tržištu.
-Ograničenja - besplatno se sa automata može podići 200€ mesečno, nakon toga naplaćuju 2% od iznosa koji se podiže. <br />
-Prednosti - trude se da privuku nove korisnike. Oni nude različit procenat <i>cacheback</i>-a u akcijama na korišćenju kartice pri potrošnji novca. Npr. kupovinom u Lidlu, Aldiju, Netflix, Playstation dobijem 10% <i>cacheback</i>-a. Dug je spisak.
+U Srbiji se kupuju jelke sa busenom pa se nakon Nove godine posade.
 
-Ljudi koji žive malo duže ovde (i uglavnom svi Nemci) bi uvek pomenuli aferu sa <a href="https://en.wikipedia.org/wiki/Wirecard_scandal" rel="noopener" target="_blank">Wirecard-om kada je 1.9 bilion evra nestalo</a>. Tako da oni ne bi razmatrali online banke kao svoje primarne banke.
+Ili se kite plastične.
 
-I ne znam kako će se to odvijati sa pomenutim mobilnim bankama, ali ja i mnogi ljudi drže svoju ušteđevinu na računima mobilnih banki.
+Moja prodica je uvek kitila hibiskuse...
 
-Mogu reći da zasad nisam imala nikakvih problema sa njima.
+A u Nemačkoj se prave marketi za prodaju Novogodišnjih jelki. Kada se prođe pored, one i dalje mirišu. Sveže isečene.
+
+Kažu: to su jelke koje rastu i seku se u skladu sa propisima o životnoj sredini. Kao da se sečenje drveća da bi služilo kao prosta dekoracija nekoliko dana može opravdati propisima.
+
+Valjda će uskoro shvatiti i oni.
+
+A dotad će me srce zaboleti svaki put kada prođem pored nesrećne jelke, koja je ostavljena da truli na pločniku u bari svojih iglica.
