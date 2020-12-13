@@ -5,7 +5,7 @@ image: 'christmas-dead-trees.png'
 keywords: 'christmas in berlin, new years eve, German Christmas customs'
 lang: 'en'
 path: '/en/poseceni-u-najboljim-godinama'
-title: 'Cut Down in their Prime'
+title: 'Cut Down in Their Prime'
 ------
 
 I recently moved to Berlin.
