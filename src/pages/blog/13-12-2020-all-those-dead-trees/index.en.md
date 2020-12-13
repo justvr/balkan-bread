@@ -4,21 +4,21 @@ description: 'chopping down millions of trees each December is still a Christmas
 image: 'christmas-dead-trees.png'
 keywords: 'christmas in berlin, new years eve, German Christmas customs'
 lang: 'en'
-path: '/en/svo-to-uzalud-iseceno-drvece'
-title: 'All those dead Trees'
+path: '/en/poseceni-u-najboljim-godinama'
+title: 'Cut Down in their Prime'
 ------
 
 I recently moved to Berlin.
 
 And I saw something lying on the street. When I got closer to help, I realized that it was a tree - not a person.
 
-After this first encounter with a tree, I noticed that old chopped down evergreens could be found on sidewalks all over the city
+After this first encounter with a tree, I noticed that old chopped down evergreens could be found on sidewalks all over the city.
 
 And then I realized what was going on. They’re Christmas trees.
 
 It was a little unusual for me. There aren’t gaudy festive decorations hanging from the lampposts of Berlin. And in the middle of moving country, I’d forgotten that it was January.
 
-Here they still cut down trees for Christmas
+Here they still cut down trees for Christmas.
 
 An old-fashioned custom that has long been almost forgotten in Serbia.
 
@@ -28,7 +28,7 @@ Christmas trees are sold with their roots in Serbia, so they can be planted afte
 
 Alternatively, we decorate artificial trees.
 
-My family has always put decorations on hibiscus plants
+My family has always put decorations on hibiscus plants.
 
 In Germany temporary markets pop up for the sale of Christmas trees. When you walk by, the trees smell freshly cut. That distinctive December scent.
 
