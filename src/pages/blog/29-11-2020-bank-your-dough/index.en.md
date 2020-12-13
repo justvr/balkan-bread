@@ -1,39 +1,51 @@
 ---
-date: '2020-12-13'
-description: 'chopping down millions of trees each December is still a Christmas tradition in Germany'
-image: 'christmas-dead-trees.png'
-keywords: 'christmas in berlin, new years eve, German Christmas customs'
+date: '2020-11-29'
+description: 'kupovina u supermarketima izgleda kao prijatno iznenađenje'
+image: 'bank-your-dough.png'
+keywords: 'svakodnevnica, kupovina, supermarket'
 lang: 'en'
-path: '/en/svo-to-uzalud-iseceno-drvece'
-title: 'All those dead Trees'
+path: '/en/dilema-o-bankarskim-karticama'
+title: 'Bank your Dough'
 ------
-
 I recently moved to Berlin.
 
-And I saw something lying on the street. When I got closer to help, I realized that it was a tree - not a person.
+In the midst of the madness of moving, my employer asked me for a bank account where they could pay me my eagerly awaited salary.
 
-After this first encounter with a tree, I noticed that old chopped down evergreens could be found on sidewalks all over the city
+Um, yes of course, the Serbian account won’t work. I told myself “Take a deep breath, warm up your fingers. It's time for a little more research infront of the computer".
 
-And then I realized what was going on. They’re Christmas trees.
+The plan is: Open an account in any bank as soon as possible. Traditional German banks are quite slow, they require an <i> <a href="https://service.berlin.de/dienstleistung/120686/" target="_blank" rel="noopener">Anmeldung</i></a> (residence registration), and mostly expect you to speak German. No, no and no.
 
-It was a little unusual for me. There aren’t gaudy festive decorations hanging from the lampposts of Berlin. And in the middle of moving country, I’d forgotten that it was January.
+Another option: A Mobile Bank in English, where registration is quick and easy, and where they don't ask me for an <i> Anmeldung </i>. Yes!
 
-Here they still cut down trees for Christmas
+Below I compare the mobile banks I currently use. All have the same minimum criteria:
 
-An old-fashioned custom that has long been almost forgotten in Serbia.
+Basic card maintenance is free,
+Registration is simple via the app and there are very clear instructions,
+Everything is in English. German is not required
 
-My grandfather always said that it was a sin to cut down a living tree to use as an ornament. To kill them for simple decoration.
+<a href="https://n26.com/en-eu" rel="noopener" target="_blank">N26</a> - German bank
+Restriction - You can withdraw cash from German ATMs up to 5 times per month without fees. In other eurozone countries you get unlimited free withdrawals.
 
-Christmas trees are sold with their roots in Serbia, so they can be planted after the New Year.
+Advantages - offers 2 free <i> Places </i> (<i> Space </i>), in addition to the Main <i> Places </i> where you can stash your cash and clearly keep an eye on your spending. For example, Salary, Rent, Savings etc. It is immediately clear at the beginning of the month how much money is left to spend
 
-Alternatively, we decorate artificial trees.
+<a href="https://www.revolut.com/en-DE" rel="noopener" target="_blank">Revolut</a> -
+A British bank that’s moving to Lithuania due to Brexit.
 
-My family has always put decorations on hibiscus plants
+Restriction - you can withdraw € 200 per month from the ATM free of charge. After that there’s a charge of 2% for withdrawals.
 
-In Germany temporary markets pop up for the sale of Christmas trees. When you walk by, the trees smell freshly cut. That distinctive December scent.
+Advantages - I sent the Revolut card to my parents because the exchange rates are very good. They can withdraw cash from the ATM at any time without worrying about the cost of converting it from Euros.
 
-They say “well these trees are grown and harvested in accordance with environmental regulations”. As if cutting down trees to serve as decorations for a few days can be justified by any regulation.
+The Revolut mobile app gives you the option to buy stocks, so those interested in investing have an easy start. However,
 
-I guess they'll figure it out one day.
+<a href="https://vivid.money/en-eu/" rel="noopener" target="_blank"> VividMoney</a> - Russian-backed
+VividMoney is a new mobile bank on the German market.
 
-Until then, my heart will ache every time I pass by an unfortunate discarded Christmas tree that’s been left to rot on the sidewalk in a pile of its own needles.
+Restriction - On the free account you can withdraw up to €200 per month without fees, if you withdraw at least €50 each time.
+
+Advantages - To try and attract new users they offer a variety of benefits. You can get cashback in the form of ‘stock rewards’ when using their debit card. For example, when shopping at Lidl, Aldi, Netflix, or Playstation you earn 10% cashback.
+
+People who’ve been here a bit longer would always mention <a href="https://en.wikipedia.org/wiki/Wirecard_scandal" rel="noopener" target="_blank">the Wirecard affair when 1.9 billion euros disappeared</a>. So they wouldn’t consider an online bank for their primary bank.
+
+I don't know how it will work out with these companies, but myself and many people keep their savings in mobile bank accounts.
+
+I can say that so far I have had no problems with any of them.
