@@ -9,6 +9,7 @@ import Link from 'gatsby-link'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import SEO from '../components/seo'
 import Cookie from '../components/cookie'
+import '../assets/reset.css'
 
 const Layout = ({ location, data, pageContext }) => {
   const basePath = 'https://www.balkanbread.com'
@@ -56,11 +57,13 @@ const Layout = ({ location, data, pageContext }) => {
         <h1 style={{color: 'rgb(188, 52, 37)'}}>{post ? post.frontmatter.title : ''}</h1>
         <small>{post ? post.frontmatter.date : ''}</small>
         <div style={{margin: '0 auto', maxWidth: 460}} dangerouslySetInnerHTML={{__html: post ? post.html : ''}} />
-        {
-          post && post.frontmatter.image
-            ? <Image src={post.frontmatter.image} w="250px" alt={post.frontmatter.title} />
-            : <Image src="balkan-bread-field.png" />
-        }
+        <div>
+          {
+            post && post.frontmatter.image
+              ? <Image src={post.frontmatter.image} w="250px" alt={post.frontmatter.title} />
+              : <Image src="balkan-bread-field.png" />
+          }
+        </div>
         <a
           href={`https://www.facebook.com/sharer/sharer.php?u=${basePath + url}`}
           className="fb-btn"

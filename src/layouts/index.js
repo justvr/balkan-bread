@@ -5,10 +5,10 @@ import Footer from '../components/footer'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { IntlProvider } from 'react-intl';
 import 'intl';
-import './index.css'
 import { FacebookProvider, Like } from 'react-facebook';
 import SEO from '../components/seo'
 import Cookie from '../components/cookie'
+import '../assets/reset.css'
 
 const Layout = ({ children, location, i18nMessages }) => {
   const languages = require('../data/languages');

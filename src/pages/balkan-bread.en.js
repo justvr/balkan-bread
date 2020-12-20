@@ -31,7 +31,9 @@ const BalkanBread = (props) => (
       <p>I promise to write realistically about every aspect of life from my perspective. Who I am and what others have experienced and learned. New ideas and insights. Good and bad experiences.</p>
       <p>I will try to show off the Berlin culture that I know and to share the lifestyle that I am still now only just discovering.</p>
       <p>This also applies to food, and us Balkan people never eat a meal without bread.</p>
-      <Image src="balkan-bread-about.png" h="180px" w="250px" />
+      <div>
+        <Image src="balkan-bread-about.png" h="180px" w="250px" />
+      </div>
       <Link to="/en">Go back to the homepage</Link>
     </div>
   </Layout>

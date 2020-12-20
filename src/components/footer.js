@@ -17,33 +17,23 @@ const Footer = () => (
         width: '100%',
       }}
     >
-      <div
-        style={{
-          margin: '0 auto',
-          maxWidth: 860,
-        }}
-      >
+      <div>
         <a
           href="https://www.instagram.com/balkanbread/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <Image src="instagram.svg" w="22px" alt="instagram icon" />
+          <Image src="instagram.svg" alt="instagram icon" />
         </a>
         <a
           href="http://www.fb.com/balkanbread"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <Image src="facebook.svg" w="30px" alt="facebook icon" />
+          <Image src="facebook.svg" alt="facebook icon" />
         </a>
       </div>
-      <div
-        style={{
-          margin: '0 auto',
-          maxWidth: 860,
-        }}
-      >
+      <div>
         <Link to="/terms-and-conditions" style={{color: 'rgb(188, 52, 37)'}}><small>Terms & Conditions</small></Link>
       </div>
       <small>copyright &#xa9; Balkan Bread 2020</small>

@@ -20,7 +20,7 @@ const SelectLanguage = (props) => {
       alignItems: 'center',
       display: 'inline-flex',
       listStyle: 'none',
-      marginBottom: 0,
+      margin: 0,
       }}
     >
       {links}
