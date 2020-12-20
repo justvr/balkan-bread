@@ -28,6 +28,8 @@ const Layout = ({ children, location, i18nMessages }) => {
         keywords={i18nMessages.seo.meta.keywords}
         lang={langKey}
         ogType='website'
+        ogImage={require(`../images/balkan-bread-logo.png`)}
+        ogUrl={location.href}
         title={i18nMessages.seo.title}
         schema={{
           '@context': 'https://schema.org',

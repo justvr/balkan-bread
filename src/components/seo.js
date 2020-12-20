@@ -19,6 +19,8 @@ function SEO(
     ogType,
     schema,
     title,
+    ogImage,
+    ogUrl,
   }) {
   const { site } = useStaticQuery(
     graphql`
@@ -66,6 +68,14 @@ function SEO(
         {
           property: `og:type`,
           content: ogType,
+        },
+        {
+          property: `og:image`,
+          content: ogImage,
+        },
+        {
+          property: `og:url`,
+          content: ogUrl,
         },
       ].concat(meta)}
     >

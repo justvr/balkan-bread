@@ -31,10 +31,13 @@ const Layout = ({ location, data, pageContext }) => {
   return (
     <>
       <SEO
-        description={`${post ? post.frontmatter.description : ''}`}
-        keywords={`${post ? post.frontmatter.keywords : ''}`}
+        description={post ? post.frontmatter.description : ''}
+        keywords={post ? post.frontmatter.keywords : ''}
         lang={langKey}
         title={post ? post.frontmatter.title : ''}
+        ogType={post ? post.frontmatter.title : ''}
+        ogImage={post ? require(`../images/${post.frontmatter.image}`) : ''}
+        ogUrl={location.href}
         schema={{
           '@context':'https://schema.org',
           '@type':'Article',
