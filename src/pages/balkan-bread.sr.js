@@ -32,7 +32,7 @@ const BalkanBread = (props) => (
       <p>Trudiću se da približim kulturu i da približim život koji ja tek sada otkrivam.</p>
       <p>To se odnosi i na hranu, a mi Balkanci uvek dodamo i parče hleba.</p>
       <div>
-        <Image src="balkan-bread-about.png" h="180px" w="250px" />
+        <Image src="balkan-bread-about.png" />
       </div>
       <Link to="/">Početna</Link>
     </div>

@@ -8,7 +8,7 @@ const NotFoundPage = (props) => (
   <Layout location={props.location}>
     <SEO title="404: Not found" />
     <div>
-      <h1>Samo <Image src="balkan-bread-404.png" w="250px" h="142px" /> mrvica ostalo</h1>
+      <h1>Samo <Image src="balkan-bread-404.png" /> mrvica ostalo</h1>
       <p>Pratite <Link to="/">mrvice</Link> da pronađete dobar hleb...</p>
       <p><Link to="/en">You've lost the bakery</Link></p>
     </div>

@@ -34,7 +34,7 @@ const IndexPage = (props) => (
         return (
           <>
             <div>
-              <Image src="balkan-bread-field.png" w="250px" h="198px" alt="hero image" />
+              <Image src="balkan-bread-field.png" alt="hero image" />
             </div>
             <q>
               In this bakery, the dough is so fine that it passes through the keyboard.
