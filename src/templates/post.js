@@ -28,24 +28,24 @@ const Layout = ({ location, data, pageContext }) => {
   const homeLink = `/${langKey}/`.replace(`/${defaultLangKey}/`, '/');
   const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
 
-  return (
+  return post ? (
     <>
       <SEO
-        description={post ? post.frontmatter.description : ''}
-        keywords={post ? post.frontmatter.keywords : ''}
+        description={post.frontmatter.description}
+        keywords={post.frontmatter.keywords}
         lang={langKey}
-        title={post ? post.frontmatter.title : ''}
-        ogType={post ? post.frontmatter.title : ''}
-        ogImage={post ? require(`../images/${post.frontmatter.image}`) : ''}
+        title={post.frontmatter.title}
+        ogType={post.frontmatter.title}
+        ogImage={require(`../images/${post.frontmatter.image}`)}
         ogUrl={location.href}
         schema={{
           '@context':'https://schema.org',
           '@type':'Article',
           'author': 'justvr',
-          'datePublished': post ? post.frontmatter.date : '',
-          'headline': post ? post.frontmatter.title : '',
-          'image': post ? require(`../images/${post.frontmatter.image}`) : '',
-          'name': post ? post.frontmatter.title : '',
+          'datePublished': post.frontmatter.date,
+          'headline': post.frontmatter.title,
+          'image': require(`../images/${post.frontmatter.image}`),
+          'name': post.frontmatter.title,
         }}
       />
       <Header langs={langsMenu} langKey={langKey} />
@@ -57,15 +57,11 @@ const Layout = ({ location, data, pageContext }) => {
           textAlign: 'center'
         }}
       >
-        <h1 style={{color: 'rgb(188, 52, 37)'}}>{post ? post.frontmatter.title : ''}</h1>
-        <small>{post ? post.frontmatter.date : ''}</small>
-        <div style={{margin: '0 auto', maxWidth: 460}} dangerouslySetInnerHTML={{__html: post ? post.html : ''}} />
+        <h1 style={{color: 'rgb(188, 52, 37)'}}>{post.frontmatter.title}</h1>
+        <small>{post.frontmatter.date}</small>
+        <div style={{margin: '0 auto', maxWidth: 460}} dangerouslySetInnerHTML={{__html: post.html}} />
         <div>
-          {
-            post && post.frontmatter.image
-              ? <Image src={post.frontmatter.image} w="250px" alt={post.frontmatter.title} />
-              : <Image src="balkan-bread-field.png" />
-          }
+          <Image src={post.frontmatter.image} alt={post.frontmatter.title} />
         </div>
         <a
           href={`https://www.facebook.com/sharer/sharer.php?u=${basePath + url}`}
@@ -88,7 +84,7 @@ const Layout = ({ location, data, pageContext }) => {
       <Footer />
       <Cookie />
     </>
-  )
+  ) : null
 };
 
 export const postQuery = graphql`

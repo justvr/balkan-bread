@@ -2,7 +2,6 @@ export default {
   set(name, value) {
     var expiryDate = new Date()
     expiryDate.setMonth(expiryDate.getMonth() + 1)
-    console.log(expiryDate)
     document.cookie = `${name}=${value}; expires=${expiryDate}`;
   },
   /**

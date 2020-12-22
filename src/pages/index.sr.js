@@ -34,7 +34,7 @@ const IndexPage = (props) => (
         return (
           <>
             <div>
-              <Image src="balkan-bread-field.png" w="250px" h="198px" alt="hero image" />
+              <Image src="balkan-bread-field.png" alt="hero image" />
             </div>
             <q>
               U ovoj pekari testo je tako fino da prolazi i kroz tastaturu.
