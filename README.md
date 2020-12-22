@@ -12,7 +12,7 @@ This blog is made with Gatsby.js supporting internationalization i18n.
 1.  **Start developing.**
 
     ```shell
-    yarn develop
+    yarn && yarn develop
     ```
 
 2.  **Open the source code and start editing!**
@@ -21,11 +21,15 @@ This blog is made with Gatsby.js supporting internationalization i18n.
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
-## 🎓 Learning Gatsby
+## 🎓 Learning Gatsby (from their documentation)
 
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+
+## 🎓 Learning react-intl
+- Translating tool for constants
+- Check out [react-intl documentation](https://formatjs.io/docs/react-intl)
 
 ## Contributors
 
