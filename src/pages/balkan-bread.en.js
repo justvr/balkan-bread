@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Layout from '../layouts/index';
 import SEO from '../components/seo'
 import Image from '../service/image';
+import { FacebookProvider, Like } from 'react-facebook';
 
 const BalkanBread = (props) => {
   return (
@@ -38,6 +39,13 @@ const BalkanBread = (props) => {
         <div>
           <Image src="balkan-bread-about.png" />
         </div>
+        <FacebookProvider appId={process.env.GATSBY_FB_APP_ID}>
+          <Like
+            href="http://www.facebook.com/balkanbread"
+            layout="button_count"
+            size="large"
+          />
+        </FacebookProvider>
         <Link to="/en">Go back to the homepage</Link>
       </div>
     </Layout>
