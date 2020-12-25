@@ -1,36 +1,21 @@
 import React from 'react'
-// import Header from '../components/header'
-// import Footer from '../components/footer'
-// import { getCurrentLangKey } from 'ptz-i18n'
 import { graphql } from 'gatsby'
 import 'intl';
 import Image from '../service/image'
 import Link from 'gatsby-link'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import SEO from '../components/seo'
-// import Cookie from '../components/cookie'
-// import '../assets/reset.css'
-// import messagesSr from '../data/messages/sr';
-// import messagesEn from '../data/messages/en';
-import Layout from '../layouts/index';
+import Layout from '../layouts/default';
 import { FormattedMessage } from 'react-intl';
 
 const Post = ({ location, data, pageContext }) => {
-  const basePath = 'https://www.balkanbread.com'
   const {
     breadcrumb: { crumbs },
   } = pageContext
-  let customCrumbLabel = location.pathname.toLowerCase().replace('/', '')
-  if (customCrumbLabel.startsWith('en/')) {
-    customCrumbLabel = customCrumbLabel.slice(3)
-  }
-  // const languages = require('../data/languages');
+  const customCrumbLabelOrigin = location.pathname.toLowerCase().replace('/', '')
+  const customCrumbLabel = customCrumbLabelOrigin.startsWith('en/') ? customCrumbLabelOrigin.slice(3) : customCrumbLabelOrigin
   const post = data.markdownRemark;
   const url = location.pathname;
-  // const { langs, defaultLangKey } = languages;
-  // const langKey = getCurrentLangKey(langs, defaultLangKey, url);
-  // const homeLink = `/${langKey}/`.replace(`/${defaultLangKey}/`, '/');
-  // const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
 
   return post ? (
     <Layout
@@ -70,7 +55,7 @@ const Post = ({ location, data, pageContext }) => {
           <Image src={post.frontmatter.image} alt={post.frontmatter.title} />
         </div>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${basePath + url}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${location.origin + url}`}
           className="fb-btn"
           rel="noopener noreferrer"
           target="_blank"
@@ -86,6 +71,7 @@ const Post = ({ location, data, pageContext }) => {
         crumbLabel={customCrumbLabel}
         crumbs={crumbs}
         crumbSeparator="/"
+        disableLinks={[`/${customCrumbLabelOrigin}`]}
       />
     </Layout>
   ) : null
@@ -97,12 +83,12 @@ export const postQuery = graphql`
 			html
 			frontmatter {
 				date(formatString: "MMMM, DD, YYYY")
-				path
-				title
         description
         image
         keywords
         lang
+				path
+				title
 			}
 		}
 	}

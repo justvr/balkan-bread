@@ -1,3 +1,6 @@
+/**
+ * default layout for all pages holding the IntlProvider
+ */
 import React from 'react'
 import PropTypes from 'prop-types'
 import Header from '../components/header'
@@ -7,7 +10,6 @@ import { IntlProvider } from 'react-intl';
 import 'intl';
 import Cookie from '../components/cookie'
 import '../assets/reset.css'
-// import SEO from '../components/seo'
 import messagesEn from '../data/messages/en';
 import messagesSr from '../data/messages/sr';
 import flatten from 'flat'

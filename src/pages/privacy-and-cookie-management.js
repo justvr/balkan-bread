@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../layouts/index';
+import Layout from '../layouts/default';
 
 const PrivacyAndCookieManagement = (props) => (
   <Layout location={props.location}>

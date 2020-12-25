@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Layout from '../layouts/index';
+import Layout from '../layouts/default';
 import SEO from '../components/seo'
 import Image from '../service/image';
 import { FacebookProvider, Like } from 'react-facebook';
@@ -46,6 +46,7 @@ const BalkanBread = (props) => {
             size="large"
           />
         </FacebookProvider>
+        <br />
         <Link to="/en">Go back to the homepage</Link>
       </div>
     </Layout>
