@@ -10,12 +10,13 @@ import SEO from '../components/seo'
 const IndexPage = (props) => (
   <>
     <SEO
+      lang='en'
       description={messages.seo.meta.description}
       keywords={messages.seo.meta.keywords}
       ogType='website'
       ogImage={require(`../images/balkan-bread-logo.png`)}
       ogUrl={props.location.href}
-      title='{messages.seo.title}'
+      title={messages.seo.title}
       schema={{
         '@context': 'https://schema.org',
         '@type': 'WebPage',

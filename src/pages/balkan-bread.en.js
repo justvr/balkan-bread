@@ -1,12 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Layout from '../layouts/en'
+import Layout from '../layouts/index';
 import SEO from '../components/seo'
 import Image from '../service/image';
 
 const BalkanBread = (props) => {
   return (
-    <Layout location={props.location}>
+    <Layout
+      location={props.location}
+      i18nMessages='en'
+    >
       <SEO
         description='explaining balkan bread'
         keywords='balkan bread'

@@ -6,5 +6,7 @@ module.exports = {
     },
     title: 'cultural differences between living in germany berlin and serbia',
   },
-  postHomeLink: 'one more slice please'
+  post: {
+    homeLink: 'one more slice please'
+  },
 };

@@ -1,7 +1,7 @@
 import React from 'react'
 // import Header from '../components/header'
 // import Footer from '../components/footer'
-import { getCurrentLangKey } from 'ptz-i18n'
+// import { getCurrentLangKey } from 'ptz-i18n'
 import { graphql } from 'gatsby'
 import 'intl';
 import Image from '../service/image'
@@ -10,8 +10,8 @@ import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import SEO from '../components/seo'
 // import Cookie from '../components/cookie'
 // import '../assets/reset.css'
-import messagesSr from '../data/messages/sr';
-import messagesEn from '../data/messages/en';
+// import messagesSr from '../data/messages/sr';
+// import messagesEn from '../data/messages/en';
 import Layout from '../layouts/index';
 import { FormattedMessage } from 'react-intl';
 
@@ -24,22 +24,24 @@ const Post = ({ location, data, pageContext }) => {
   if (customCrumbLabel.startsWith('en/')) {
     customCrumbLabel = customCrumbLabel.slice(3)
   }
-  const languages = require('../data/languages');
+  // const languages = require('../data/languages');
   const post = data.markdownRemark;
   const url = location.pathname;
-  const { langs, defaultLangKey } = languages;
-  const langKey = getCurrentLangKey(langs, defaultLangKey, url);
+  // const { langs, defaultLangKey } = languages;
+  // const langKey = getCurrentLangKey(langs, defaultLangKey, url);
   // const homeLink = `/${langKey}/`.replace(`/${defaultLangKey}/`, '/');
   // const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
+
   return post ? (
     <Layout
       location={location}
-      i18nMessages={'en' === langKey ? messagesEn : messagesSr}
+      i18nMessages={'en' === post.frontmatter.lang ? 'en' : 'sr'}
     >
       <SEO
+        lang={post.frontmatter.lang}
         description={post.frontmatter.description}
         keywords={post.frontmatter.keywords}
-        title='{post.frontmatter.title}'
+        title={post.frontmatter.title}
         ogType={post.frontmatter.title}
         ogImage={require(`../images/${post.frontmatter.image}`)}
         ogUrl={location.href}
@@ -76,8 +78,8 @@ const Post = ({ location, data, pageContext }) => {
           Share
         </a>
         <br />
-        <Link to={'en' === langKey ? '/en/' : '/'}>
-          <FormattedMessage id="postHomeLink" />
+        <Link to={'en' === post.frontmatter.lang ? '/en/' : '/'}>
+          <FormattedMessage id="post.homeLink" />
         </Link>
       </div>
       <Breadcrumb
@@ -95,11 +97,12 @@ export const postQuery = graphql`
 			html
 			frontmatter {
 				date(formatString: "MMMM, DD, YYYY")
+				path
+				title
         description
         image
         keywords
-				path
-				title
+        lang
 			}
 		}
 	}

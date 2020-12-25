@@ -6,5 +6,7 @@ module.exports = {
     },
     title: 'gde Balkan peče život u Berlinu',
   },
-  postHomeLink: 'dodaj mi još jedno parče'
+  post: {
+    homeLink: 'dodaj mi još jedno parče'
+  },
 };

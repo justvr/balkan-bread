@@ -7,12 +7,12 @@ import { IntlProvider } from 'react-intl';
 import 'intl';
 import Cookie from '../components/cookie'
 import '../assets/reset.css'
-import SEO from '../components/seo'
-// messages
+// import SEO from '../components/seo'
 import messagesEn from '../data/messages/en';
 import messagesSr from '../data/messages/sr';
+import flatten from 'flat'
 
-const Layout = ({ children, location, i18nMessages }) => {
+const Layout = ({ children, location }) => {
   const languages = require('../data/languages');
   const url = location.pathname;
   const { langs, defaultLangKey } = languages;
@@ -23,9 +23,8 @@ const Layout = ({ children, location, i18nMessages }) => {
   return (
     <IntlProvider
       locale={langKey}
-      messages={'en' === langKey ? messagesEn : messagesSr}
+      messages={'en' === langKey ? flatten(messagesEn) : flatten(messagesSr)}
     >
-      <SEO lang={langKey} />
       <Header langs={langsMenu} langKey={langKey} />
       <div
         style={{

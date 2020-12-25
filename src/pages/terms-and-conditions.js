@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../layouts/en'
+import Layout from '../layouts/index';
 
 const TermsAndConditions = (props) => (
   <Layout location={props.location}>
