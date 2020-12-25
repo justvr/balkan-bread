@@ -12,7 +12,7 @@ const BalkanBread = (props) => {
         keywords='balkan bread'
         lang='en'
         ogType='website'
-        title='About'
+        title='About Balkan Bread'
       />
       <div
         style={{

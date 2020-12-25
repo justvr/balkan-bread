@@ -1,10 +1,10 @@
-import React from 'react';
-import Layout from './index';
+// import React from 'react';
+// import Layout from './index';
 
-import messages from '../data/messages/sr';
+// import messages from '../data/messages/sr';
 
-export default (props) => (
-  <Layout
-    {...props}
-    i18nMessages={messages}
-  />);
+// export default (props) => (
+//   <Layout
+//     {...props}
+//     i18nMessages={messages}
+//   />);

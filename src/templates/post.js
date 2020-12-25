@@ -5,7 +5,7 @@ import { getCurrentLangKey } from 'ptz-i18n'
 import { graphql } from 'gatsby'
 import 'intl';
 import Image from '../service/image'
-// import Link from 'gatsby-link'
+import Link from 'gatsby-link'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import SEO from '../components/seo'
 // import Cookie from '../components/cookie'
@@ -13,6 +13,7 @@ import SEO from '../components/seo'
 import messagesSr from '../data/messages/sr';
 import messagesEn from '../data/messages/en';
 import Layout from '../layouts/index';
+import { FormattedMessage } from 'react-intl';
 
 const Post = ({ location, data, pageContext }) => {
   const basePath = 'https://www.balkanbread.com'
@@ -30,7 +31,6 @@ const Post = ({ location, data, pageContext }) => {
   const langKey = getCurrentLangKey(langs, defaultLangKey, url);
   // const homeLink = `/${langKey}/`.replace(`/${defaultLangKey}/`, '/');
   // const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
-
   return post ? (
     <Layout
       location={location}
@@ -39,8 +39,7 @@ const Post = ({ location, data, pageContext }) => {
       <SEO
         description={post.frontmatter.description}
         keywords={post.frontmatter.keywords}
-        lang={langKey}
-        title={post.frontmatter.title}
+        title='{post.frontmatter.title}'
         ogType={post.frontmatter.title}
         ogImage={require(`../images/${post.frontmatter.image}`)}
         ogUrl={location.href}
@@ -77,9 +76,9 @@ const Post = ({ location, data, pageContext }) => {
           Share
         </a>
         <br />
-        {/* <Link to={homeLink}>
-          {langKey === 'en' ? 'one more slice please' : 'dodaj mi još jedno parče'}
-        </Link> */}
+        <Link to={'en' === langKey ? '/en/' : '/'}>
+          <FormattedMessage id="postHomeLink" />
+        </Link>
       </div>
       <Breadcrumb
         crumbLabel={customCrumbLabel}

@@ -5,5 +5,6 @@ module.exports = {
       keywords: 'berlin, germany, balkan, everyday life'
     },
     title: 'cultural differences between living in germany berlin and serbia',
-  }
+  },
+  postHomeLink: 'one more slice please'
 };
