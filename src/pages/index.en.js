@@ -1,11 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Layout from '../layouts/en'
+import Layout from '../layouts/index';
 import { StaticQuery, graphql } from 'gatsby'
 import Image from '../service/image';
+import messages from '../data/messages/en';
 
 const IndexPage = (props) => (
-  <Layout location={props.location}>
+  <Layout
+    location={props.location}
+    i18nMessages={messages}
+  >
     <StaticQuery
       query={graphql`
         query IndexEnPageQuery {

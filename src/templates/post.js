@@ -1,17 +1,20 @@
 import React from 'react'
-import Header from '../components/header'
-import Footer from '../components/footer'
-import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n'
+// import Header from '../components/header'
+// import Footer from '../components/footer'
+import { getCurrentLangKey } from 'ptz-i18n'
 import { graphql } from 'gatsby'
 import 'intl';
 import Image from '../service/image'
-import Link from 'gatsby-link'
+// import Link from 'gatsby-link'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import SEO from '../components/seo'
-import Cookie from '../components/cookie'
-import '../assets/reset.css'
+// import Cookie from '../components/cookie'
+// import '../assets/reset.css'
+import messagesSr from '../data/messages/sr';
+import messagesEn from '../data/messages/en';
+import Layout from '../layouts/index';
 
-const Layout = ({ location, data, pageContext }) => {
+const Post = ({ location, data, pageContext }) => {
   const basePath = 'https://www.balkanbread.com'
   const {
     breadcrumb: { crumbs },
@@ -25,11 +28,14 @@ const Layout = ({ location, data, pageContext }) => {
   const url = location.pathname;
   const { langs, defaultLangKey } = languages;
   const langKey = getCurrentLangKey(langs, defaultLangKey, url);
-  const homeLink = `/${langKey}/`.replace(`/${defaultLangKey}/`, '/');
-  const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
+  // const homeLink = `/${langKey}/`.replace(`/${defaultLangKey}/`, '/');
+  // const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
 
   return post ? (
-    <>
+    <Layout
+      location={location}
+      i18nMessages={'en' === langKey ? messagesEn : messagesSr}
+    >
       <SEO
         description={post.frontmatter.description}
         keywords={post.frontmatter.keywords}
@@ -48,7 +54,6 @@ const Layout = ({ location, data, pageContext }) => {
           'name': post.frontmatter.title,
         }}
       />
-      <Header langs={langsMenu} langKey={langKey} />
       <div
         style={{
           margin: '0 auto',
@@ -72,18 +77,16 @@ const Layout = ({ location, data, pageContext }) => {
           Share
         </a>
         <br />
-        <Link to={homeLink}>
+        {/* <Link to={homeLink}>
           {langKey === 'en' ? 'one more slice please' : 'dodaj mi još jedno parče'}
-        </Link>
+        </Link> */}
       </div>
       <Breadcrumb
         crumbLabel={customCrumbLabel}
         crumbs={crumbs}
         crumbSeparator="/"
       />
-      <Footer />
-      <Cookie />
-    </>
+    </Layout>
   ) : null
 };
 
@@ -103,4 +106,4 @@ export const postQuery = graphql`
 	}
 `
 
-export default Layout
+export default Post
