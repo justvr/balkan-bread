@@ -1,13 +1,15 @@
 module.exports = {
+  introduction1: 'In this bakery, the dough is so fine that it passes through the keyboard. The Bread takes many forms. It is kneaded and twisted through different knowledge and experiences. In the end we are where the Balkans meet Berlin, and all of us who leave still eat',
+  introduction2: 'Balkan Bread',
   cookie: {
-    title: 'How about, cookies',
-    description1: `We've got some cookies to improve your experience.
-    By using Balkan Bread you agree to our`,
-    description2: 'Cookie Policy',
     buttons: {
       accept: 'got it',
       reject: 'reject'
-    }
+    },
+    description1: `We've got some cookies to improve your experience.
+    By using Balkan Bread you agree to our`,
+    description2: 'Cookie Policy',
+    title: 'How about, cookies',
   },
   date: {
     1: 'January',

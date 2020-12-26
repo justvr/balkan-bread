@@ -67,12 +67,10 @@ const IndexPage = (props) => (
               <Image src="balkan-bread-field.png" alt="hero image" />
             </div>
             <q>
-              U ovoj pekari testo je tako fino da prolazi i kroz tastaturu.
-              Hleb uzima mnoge oblike ispravljene i izvitoperene različitim znanjem i iskustvima.
-              Ali na kraju tu smo gde Balkan sreće Berlin, a svi koji odemo na kraju ipak jedemo
+              <FormattedMessage id="introduction1" />
               <Link to="/balkan-bread">
                 <h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>
-                  Balkanski Hleb
+                  <FormattedMessage id="introduction2" />
                 </h1>
               </Link>.
             </q>

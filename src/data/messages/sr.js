@@ -1,12 +1,14 @@
 module.exports = {
+  introduction1: 'U ovoj pekari testo je tako fino da prolazi i kroz tastaturu. Hleb uzima mnoge oblike ispravljene i izvitoperene različitim znanjem i iskustvima. Ali na kraju tu smo gde Balkan sreće Berlin, a svi koji odemo na kraju ipak jedemo',
+  introduction2: 'Balkanski Hleb',
   cookie: {
-    title: 'Kolačići',
-    description1: `Spremili smo kolačiće da poboljšamo Vaše iskustvo. Korišćenjem Balkan Bread-a slažete se sa našom`,
-    description2: 'Polisom o kolačićima',
     buttons: {
       accept: 'OK',
       reject: 'ne sada'
-    }
+    },
+    description1: `Spremili smo kolačiće da poboljšamo Vaše iskustvo. Korišćenjem Balkan Bread-a slažete se sa našom`,
+    description2: 'Polisom o kolačićima',
+    title: 'Kolačići',
   },
   date: {
     1: 'Januara',
