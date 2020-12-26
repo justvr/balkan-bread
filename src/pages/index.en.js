@@ -6,6 +6,7 @@ import Image from '../service/image';
 import messages from '../data/messages/en';
 import { FacebookProvider, Like } from 'react-facebook';
 import SEO from '../components/seo'
+import { FormattedMessage } from 'react-intl';
 
 const IndexPage = (props) => (
   <Layout
@@ -47,7 +48,7 @@ const IndexPage = (props) => (
               node {
                 id
                 frontmatter {
-                  date(formatString: "MMMM, YYYY")
+                  date(formatString: "M, YYYY")
                   lang
                   path
                   title
@@ -66,14 +67,20 @@ const IndexPage = (props) => (
               <Image src="balkan-bread-field.png" alt="hero image" />
             </div>
             <q>
-              In this bakery, the dough is so fine that it passes through the keyboard.
-              The Bread takes many forms. It is kneaded and twisted through different knowledge and experiences.
-              In the end we are where the Balkans meet Berlin, and all of us who leave still eat
-              <Link to="/en/balkan-bread"><h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>Balkan bread</h1></Link>.
+              <FormattedMessage id="introduction1" />
+              <Link to="/en/balkan-bread">
+                <h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>
+                  <FormattedMessage id="introduction2" />
+                </h1>
+              </Link>.
             </q>
             <hr style={{maxWidth: `60px`, margin: `1rem auto 1.2rem`,}} />
             {edges.map(edge => {
               const { frontmatter } = edge.node;
+              const date = frontmatter.date
+              const month = date.split(',')[0]
+              const year = date.split(',')[1]
+
               return (
                 <div key={frontmatter.path}>
                   <Link style={{textDecoration: 'none'}} to={frontmatter.path}>
@@ -82,7 +89,7 @@ const IndexPage = (props) => (
                   &nbsp;
                   <small>
                     {' '}
-                    <em>published on</em> {frontmatter.date}
+                    <em><FormattedMessage id="published" /></em> {messages.date[month]}{year}
                   </small>
                   <hr style={{maxWidth: `60px`, margin: `1rem auto 0`,}} />
                   <br />

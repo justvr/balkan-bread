@@ -15,9 +15,9 @@ I on se skoro preselio u Berlin.
 
 Postali smo prijatelji. On je Nemac. I vodio je život drugačiji od mene. Putovao je po raznim dalekim zemljama sa koalama i indijskim slonovima.
 
-Slušala sam njegove priče o kulturi, ljudima, prirodi koju je on video. I o tome koliko naš konzumerizam uništava taj svet tamo. I koliko <a href="https://www.theguardian.com/world/2020/mar/25/coronavirus-nature-is-sending-us-a-message-says-un-environment-chief" rel="noopener" target="_blank">taj uništeni svet tamo uništava naš svet ovde</a>. Što je najbolje dokazala i dokazuje kriza sa korona virusom.
+Slušala sam njegove priče o kulturi, ljudima, prirodi koju je on video. I o tome koliko naš konzumerizam uništava taj svet tamo. I koliko <a href="https://www.theguardian.com/world/2020/mar/25/coronavirus-nature-is-sending-us-a-message-says-un-environment-chief" rel="noopener noreferrer" target="_blank">taj uništeni svet tamo uništava naš svet ovde</a>. Što je najbolje dokazala i dokazuje kriza sa korona virusom.
 
-A onda je pričao o rešenjima, i kako mi možemo pomoći da se to popravi. On je pričao o web pretraživaču koji se zove <a href="https://www.ecosia.org/?c=en" rel="noopener" target="_blank">Ecosia</a>.
+A onda je pričao o rešenjima, i kako mi možemo pomoći da se to popravi. On je pričao o web pretraživaču koji se zove <a href="https://www.ecosia.org/?c=en" rel="noopener noreferrer" target="_blank">Ecosia</a>.
 
 Ecosia koristi zarađeni prihod da sadi drveće širom sveta gde je to najpotrebnije. I ne samo da sadi drveće, već da edukuje i uključuje lokalno stanovništvo u projekte. Dosad su posadili preko 110 miliona drveća!
 

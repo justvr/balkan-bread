@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import '../service/cookie.js'
 import cookie from '../service/cookie.js'
 import Link from 'gatsby-link'
+import { FormattedMessage } from 'react-intl';
 
 function Cookie() {
   const [show, setShow] = useState(false)
@@ -40,35 +41,34 @@ function Cookie() {
           maxWidth: 860,
         }}
       >
-        <p>How about, cookies
+        <p><FormattedMessage id="cookie.title" />
           <br />
           <small>
-            We've got some cookies to improve your experience.
-            By using Balkan Bread you agree to our
+            <FormattedMessage id="cookie.description1" />
             <Link to="/privacy-and-cookie-management" style={{marginLeft: '6px'}}>
-              Cookie Policy
+              <FormattedMessage id="cookie.description2" />
             </Link>.
           </small>
         </p>
         <button
           onClick={accept}
           style={{
-            border: 0,
-            padding: '0.4rem 1.2rem',
-            background: 'rgb(49, 127, 96)',
-            borderRadius: '30px',
-            color: 'white',
-            textTransform: 'uppercase',
-            fontSize: '0.8rem',
-            marginRight: '0.4rem',
-          }}>
-            got it
-          </button>
+          border: 0,
+          padding: '0.4rem 1.2rem',
+          background: 'rgb(49, 127, 96)',
+          borderRadius: '30px',
+          color: 'white',
+          textTransform: 'uppercase',
+          fontSize: '0.8rem',
+          marginRight: '0.4rem',
+        }}>
+          <FormattedMessage id="cookie.buttons.accept" />
+        </button>
         <button
           onClick={reject}
           style={{background: 'none', border: 0}}
         >
-          reject
+          <FormattedMessage id="cookie.buttons.reject" />
         </button>
       </div>
     </div>) : null
