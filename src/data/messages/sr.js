@@ -5,5 +5,8 @@ module.exports = {
       keywords: ['berlin', 'nemacka', 'balkan', 'svakodnevnica', 'kako izgleda ziveti u nemackoj u berlinu']
     },
     title: 'gde Balkan peče život u Berlinu',
-  }
+  },
+  post: {
+    homeLink: 'dodaj mi još jedno parče'
+  },
 };

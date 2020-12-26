@@ -1,39 +1,31 @@
 import React from 'react'
-import Header from '../components/header'
-import Footer from '../components/footer'
-import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n'
 import { graphql } from 'gatsby'
 import 'intl';
 import Image from '../service/image'
 import Link from 'gatsby-link'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import SEO from '../components/seo'
-import Cookie from '../components/cookie'
-import '../assets/reset.css'
+import Layout from '../layouts/default';
+import { FormattedMessage } from 'react-intl';
 
-const Layout = ({ location, data, pageContext }) => {
-  const basePath = 'https://www.balkanbread.com'
+const Post = ({ location, data, pageContext }) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext
-  let customCrumbLabel = location.pathname.toLowerCase().replace('/', '')
-  if (customCrumbLabel.startsWith('en/')) {
-    customCrumbLabel = customCrumbLabel.slice(3)
-  }
-  const languages = require('../data/languages');
+  const customCrumbLabelOrigin = location.pathname.toLowerCase().replace('/', '')
+  const customCrumbLabel = customCrumbLabelOrigin.startsWith('en/') ? customCrumbLabelOrigin.slice(3) : customCrumbLabelOrigin
   const post = data.markdownRemark;
   const url = location.pathname;
-  const { langs, defaultLangKey } = languages;
-  const langKey = getCurrentLangKey(langs, defaultLangKey, url);
-  const homeLink = `/${langKey}/`.replace(`/${defaultLangKey}/`, '/');
-  const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url)).map((item) => ({ ...item, link: item.link.replace(`/${defaultLangKey}/`, '/') }));
 
   return post ? (
-    <>
+    <Layout
+      location={location}
+      i18nMessages={'en' === post.frontmatter.lang ? 'en' : 'sr'}
+    >
       <SEO
+        lang={post.frontmatter.lang}
         description={post.frontmatter.description}
         keywords={post.frontmatter.keywords}
-        lang={langKey}
         title={post.frontmatter.title}
         ogType={post.frontmatter.title}
         ogImage={require(`../images/${post.frontmatter.image}`)}
@@ -48,7 +40,6 @@ const Layout = ({ location, data, pageContext }) => {
           'name': post.frontmatter.title,
         }}
       />
-      <Header langs={langsMenu} langKey={langKey} />
       <div
         style={{
           margin: '0 auto',
@@ -64,7 +55,7 @@ const Layout = ({ location, data, pageContext }) => {
           <Image src={post.frontmatter.image} alt={post.frontmatter.title} />
         </div>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${basePath + url}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${location.origin + url}`}
           className="fb-btn"
           rel="noopener noreferrer"
           target="_blank"
@@ -72,18 +63,17 @@ const Layout = ({ location, data, pageContext }) => {
           Share
         </a>
         <br />
-        <Link to={homeLink}>
-          {langKey === 'en' ? 'one more slice please' : 'dodaj mi još jedno parče'}
+        <Link to={'en' === post.frontmatter.lang ? '/en/' : '/'}>
+          <FormattedMessage id="post.homeLink" />
         </Link>
       </div>
       <Breadcrumb
         crumbLabel={customCrumbLabel}
         crumbs={crumbs}
         crumbSeparator="/"
+        disableLinks={[`/${customCrumbLabelOrigin}`]}
       />
-      <Footer />
-      <Cookie />
-    </>
+    </Layout>
   ) : null
 };
 
@@ -96,6 +86,7 @@ export const postQuery = graphql`
         description
         image
         keywords
+        lang
 				path
 				title
 			}
@@ -103,4 +94,4 @@ export const postQuery = graphql`
 	}
 `
 
-export default Layout
+export default Post

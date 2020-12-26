@@ -90,10 +90,7 @@ module.exports = {
         autoGenHomeLabel: `Home`,
         // exlude: optional, include this array to overwrite paths you don't want to
         // generate breadcrumbs for.
-        exclude: [
-          `/404/`,
-          `/404.html`,
-        ],
+        exclude: [`/404/`],
         // crumbLabelUpdates: optional, update specific crumbLabels in the path
         // crumbLabelUpdates: [
         //   {

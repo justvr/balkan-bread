@@ -1,3 +1,6 @@
+/**
+ * default layout for all pages holding the IntlProvider
+ */
 import React from 'react'
 import PropTypes from 'prop-types'
 import Header from '../components/header'
@@ -5,12 +8,13 @@ import Footer from '../components/footer'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { IntlProvider } from 'react-intl';
 import 'intl';
-import { FacebookProvider, Like } from 'react-facebook';
-import SEO from '../components/seo'
 import Cookie from '../components/cookie'
 import '../assets/reset.css'
+import messagesEn from '../data/messages/en';
+import messagesSr from '../data/messages/sr';
+import flatten from 'flat'
 
-const Layout = ({ children, location, i18nMessages }) => {
+const Layout = ({ children, location }) => {
   const languages = require('../data/languages');
   const url = location.pathname;
   const { langs, defaultLangKey } = languages;
@@ -21,31 +25,8 @@ const Layout = ({ children, location, i18nMessages }) => {
   return (
     <IntlProvider
       locale={langKey}
-      messages={i18nMessages}
+      messages={'en' === langKey ? flatten(messagesEn) : flatten(messagesSr)}
     >
-      <SEO
-        description={i18nMessages.seo.meta.description}
-        keywords={i18nMessages.seo.meta.keywords}
-        lang={langKey}
-        ogType='website'
-        ogImage={require(`../images/balkan-bread-logo.png`)}
-        ogUrl={location.href}
-        title={i18nMessages.seo.title}
-        schema={{
-          '@context': 'https://schema.org',
-          '@type': 'WebPage',
-          'about': `${i18nMessages.seo.meta.description}`,
-          'author': 'justvr',
-          'contentLocation': 'Berlin',
-          'dateCreated': '2020-09-13',
-          'isFamilyFriendly': 'true',
-          'keywords': `${i18nMessages.seo.meta.keywords}`,
-          'name': 'Balkan Bread',
-          'translator': 'Sam Katterfield',
-          'typicalAgeRange': '22-',
-          'url': `${location.href}`,
-        }}
-      />
       <Header langs={langsMenu} langKey={langKey} />
       <div
         style={{
@@ -57,13 +38,6 @@ const Layout = ({ children, location, i18nMessages }) => {
         }}
       >
         {children}
-        <FacebookProvider appId={process.env.GATSBY_FB_APP_ID}>
-          <Like
-            href="http://www.facebook.com/balkanbread"
-            layout="button_count"
-            size="large"
-          />
-        </FacebookProvider>
       </div>
       <Footer />
       <Cookie />

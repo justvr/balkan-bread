@@ -1,11 +1,40 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Layout from '../layouts/en'
+import Layout from '../layouts/default';
 import { StaticQuery, graphql } from 'gatsby'
 import Image from '../service/image';
+import messages from '../data/messages/en';
+import { FacebookProvider, Like } from 'react-facebook';
+import SEO from '../components/seo'
 
 const IndexPage = (props) => (
-  <Layout location={props.location}>
+  <Layout
+    location={props.location}
+    i18nMessages='en'
+  >
+    <SEO
+      lang='en'
+      description={messages.seo.meta.description}
+      keywords={messages.seo.meta.keywords}
+      ogType='website'
+      ogImage={require(`../images/balkan-bread-logo.png`)}
+      ogUrl={props.location.href}
+      title={messages.seo.title}
+      schema={{
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        'about': `${messages.seo.meta.description}`,
+        'author': 'justvr',
+        'contentLocation': 'Berlin',
+        'dateCreated': '2020-09-13',
+        'isFamilyFriendly': 'true',
+        'keywords': `${messages.seo.meta.keywords}`,
+        'name': 'Balkan Bread',
+        'translator': 'Sam Katterfield',
+        'typicalAgeRange': '22-',
+        'url': `${props.location.href}`,
+      }}
+    />
     <StaticQuery
       query={graphql`
         query IndexEnPageQuery {
@@ -60,6 +89,13 @@ const IndexPage = (props) => (
                 </div>
               );
             })}
+            <FacebookProvider appId={process.env.GATSBY_FB_APP_ID}>
+              <Like
+                href="http://www.facebook.com/balkanbread"
+                layout="button_count"
+                size="large"
+              />
+            </FacebookProvider>
           </>
         )
       }}
