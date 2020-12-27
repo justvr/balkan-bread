@@ -5,7 +5,7 @@ image: 'how-does-new-year-eve-looks-like-in-berlin.png'
 keywords: 'celebrate, new year, 2020, 2021, silvester, fireworks, new year’s eve'
 lang: 'en'
 path: '/en/vatrometom-u-novu-godinu-u-berlinu'
-title: 'Celebrate a Lovely Loud New Year in Berlin'
+title: 'Celebrate a Loud New Year in Berlin'
 ------
 
 Even before I moved to Berlin, I’d heard big things about how they celebrated New Year’s Eve. And I didn't really believe it until I saw it.
@@ -26,7 +26,7 @@ At midnight true bedlam begins, for which everyone has been preparing for days.
 
 People go out on the street and <a href="https://www.dw.com/en/column-germanys-inexplicable-love-affair-with-fireworks/a-55746329" target="_blank" rel="noopener noreferrer">light the pyrotechnics</a> that they’ve collected during the previous month. It's a sound I’ve never experienced before.
 
-Thick smoke stops any sparse traffic still on the streets. Teenagers use pretty realistic looking handguns to <a href="https://berlinspectator.com/2020/12/08/berlin-interior-senator-geisel-worried-about-new-years-eve-1/" target="_blank" rel="noopener noreferrer">fire blanks into the air</a> (or at random cars, pedestrians, each other etc etc). You’ll find spent casings all over the streets for days afterwards.
+Thick smoke stops any sparse traffic still on the streets. Teenagers use starter pistols to <a href="https://berlinspectator.com/2020/12/08/berlin-interior-senator-geisel-worried-about-new-years-eve-1/" target="_blank" rel="noopener noreferrer">fire blanks into the air</a> (or at random cars, pedestrians, each other etc etc). They look pretty similar to the real thing. You’ll find spent casings all over the streets for days afterwards.
 
 And the next day, there is endless garbage covering the streets. Everything is covered with glasses, bottles, boxes, firecracker caps, fireworks, confetti…
 

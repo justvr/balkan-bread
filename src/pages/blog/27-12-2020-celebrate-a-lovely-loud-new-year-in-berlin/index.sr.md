@@ -24,9 +24,9 @@ Oni koji nemaju ništa isplanirano mogu da se pridruže žurci u vozu koji kruž
 
 Dok u ponoć počinje maksimalno ludilo za šta su se svi spremali.
 
-Svi izlaze na ulicu da <a href="https://www.dw.com/en/column-germanys-inexplicable-love-affair-with-fireworks/a-55746329" target="_blank" rel="noopener noreferrer">upale vatromet</a> i petarde koje su skupljali tokom prethodnog meseca. To je buka koju nisam ranije doživela.
+Svi izlaze na ulicu da <a href="https://www.dw.com/en/column-germanys-inexplicable-love-affair-with-fireworks/a-55746329" target="_blank" rel="noopener noreferrer">upale pirotehniku</a> koju su skupljali tokom prethodnog meseca. To je buka koju nisam ranije doživela.
 
-Dimna zavesa zaustavlja proređeni saobraćaj. Tinejdžeri trče po ulici sa pištoljima koji <a href="https://berlinspectator.com/2020/12/08/berlin-interior-senator-geisel-worried-about-new-years-eve-1/" target="_blank" rel="noopener noreferrer">ispaljuju ćorke</a> pucajući u vazduh ili u prolazne automobile, pešake, kante, na šta god naiđu. U narednim danima se kapisle mogu pronaći danima kasnije.
+Dimna zavesa zaustavlja proređeni saobraćaj. Tinejdžeri trče po ulici sa <a href="https://berlinspectator.com/2020/12/08/berlin-interior-senator-geisel-worried-about-new-years-eve-1/" target="_blank" rel="noopener noreferrer">pištoljima koji ispaljuju ćorke</a> pucajući u vazduh ili u prolazne automobile... pešake... kante, na šta god naiđu. Kapisle se mogu pronaći danima kasnije.
 
 A sutradan od trenutka kada se otvore vrata đubre je nepregledno. Sve je prekriveno čašama, flašama, kutijama, kapislama, štapovima od vatrometa, konfetama…
 
