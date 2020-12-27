@@ -1,6 +1,6 @@
 ---
 date: '2020-11-29'
-description: 'kupovina u supermarketima izgleda kao prijatno iznenađenje'
+description: 'overview of mobile bank cards in germany berlin N26, Revolut, VividMoney'
 image: 'bank-your-dough.png'
 keywords: 'svakodnevnica, kupovina, supermarket'
 lang: 'en'
