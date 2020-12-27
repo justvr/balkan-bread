@@ -4,15 +4,16 @@ import cookie from '../service/cookie.js'
 import Link from 'gatsby-link'
 import { FormattedMessage } from 'react-intl';
 
-function Cookie() {
+const Cookie = () => {
   const [show, setShow] = useState(false)
+
+  function hide() {
+    setShow(false)
+  }
 
   function accept() {
     cookie.set('GA4', 'accepted')
-    setShow(false)
-  }
-  function reject() {
-    setShow(false)
+    hide()
   }
 
   useEffect(() => {
@@ -65,7 +66,7 @@ function Cookie() {
           <FormattedMessage id="cookie.buttons.accept" />
         </button>
         <button
-          onClick={reject}
+          onClick={hide}
           style={{background: 'none', border: 0}}
         >
           <FormattedMessage id="cookie.buttons.reject" />
