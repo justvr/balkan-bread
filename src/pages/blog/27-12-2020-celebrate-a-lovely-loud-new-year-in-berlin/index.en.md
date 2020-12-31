@@ -34,4 +34,5 @@ In some streets, the remains of New Year's Eve stick around for 3+ weeks. I assu
 
 Neighbours organise their own cleaning crews, complete with plastic bags, brooms, rakes, gloves and an impressive amount of enthusiasm for a New Year’s morning. Casual passers-by join in the voluntary cleaning actions.
 
-This year, in 2020, they banned fireworks. I can't say I disagree with the decision.
+This year, in 2020, <a href="https://polizei-berlin.maps.arcgis.com/apps/webappviewer/index.html?id=93f72d461ce74214880e0fa49d8f4c40" target="_blank" rel="noopener noreferrer">they banned fireworks in certain parts of Berlin</a>. I can't say I disagree with the decision.
+
