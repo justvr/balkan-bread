@@ -34,4 +34,4 @@ U nekim ulicama Novogodišnji ostaci ostaju i po 3 nedelje. Pretpostavljam da gr
 
 Zbog toga komšije organizuju plastične kese, metle, grabulje, rukavice i druga pomoćna sredstva za čišćenje. Slučajni prolaznici se priključuju dobrovoljnim akcijama čišćenja.
 
-Ove, 2020. godine su <a href="https://polizei-berlin.maps.arcgis.com/apps/webappviewer/index.html?id=93f72d461ce74214880e0fa49d8f4c40" target="_blank" rel="noopener noreferrer">zabranili vatromet u Berlinu u određenim delovima Berlina</a>. Ne mogu da kažem da se ne slažem sa odlukom.
+Ove, 2020. godine su <a href="https://polizei-berlin.maps.arcgis.com/apps/webappviewer/index.html?id=93f72d461ce74214880e0fa49d8f4c40" target="_blank" rel="noopener noreferrer">zabranili vatromet u određenim delovima Berlina</a>. Ne mogu da kažem da se ne slažem sa odlukom.
