@@ -1,11 +1,11 @@
 ---
 date: '2021-01-10'
-description: 'koronavirus prvi susret karantin sa virusom u francuskoj i berlinu'
+description: 'coronavirus first quarantine experience in france and berlin'
 image: 'coronavirus-balkan-bread-quarantine.png'
-keywords: 'koronavirus, prvi karantin, francuska 2020, berlin'
+keywords: 'coronavirus, first quarantine, france 2020, berlin'
 lang: 'sr'
-path: '/koronavirus-prvi-susret'
-title: 'Koronavirus prvi susret'
+path: '/prvo-iskustvo-sa-covidom-pandemija-coronavirus'
+title: 'Prvo iskustvo sa korona virusom'
 ------
 Sve je počelo tamo negde, daleko.
 

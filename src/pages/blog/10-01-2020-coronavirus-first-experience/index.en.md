@@ -1,11 +1,11 @@
 ---
 date: '2021-01-10'
-description: 'coronaviru first meetup quarantine in france and berlin'
+description: 'coronavirus first quarantine experience in france and berlin'
 image: 'coronavirus-balkan-bread-quarantine.png'
 keywords: 'coronavirus, first quarantine, france 2020, berlin'
 lang: 'en'
-path: '/en/koronavirus-prvi-susret'
-title: 'Coronavirus first meetup'
+path: '/en/prvo-iskustvo-sa-covidom-pandemija-coronavirus'
+title: 'My first covid pandemic'
 ------
 It all started somewhere far away.
 
