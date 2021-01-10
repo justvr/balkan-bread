@@ -5,7 +5,7 @@ image: 'coronavirus-balkan-bread-quarantine.png'
 keywords: 'coronavirus, first quarantine, france 2020, lockdown berlin, covid, lockdown, covid vaccine, covid strain'
 lang: 'en'
 path: '/en/prvo-iskustvo-sa-kovidom-pandemija-koronavirus'
-title: 'My first covid pandemic'
+title: 'My First Covid Pandemic'
 ------
 
 It all started somewhere far away.
