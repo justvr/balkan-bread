@@ -79,6 +79,7 @@ function SEO(
         },
       ].concat(meta)}
     >
+      <meta name="msvalidate.01" content="8928B235C1C713AD037D3099681AD1F8" />
       <script async src='https://www.googletagmanager.com/gtag/js?id=G-VFMLXXHDC3'></script>
       <script>
         {`
