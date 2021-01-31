@@ -652,6 +652,10 @@ pre tt:after {
   color: #ffffff;
 }
 
+.post q {
+  display: block;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

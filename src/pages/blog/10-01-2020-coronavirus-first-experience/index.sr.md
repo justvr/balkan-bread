@@ -30,7 +30,7 @@ Na putu do aerodroma prolaznici, koji se vraćaju iz marketa, primećuju da mi n
 
 Na aerodromu nikad više ljudi. Otkazuju jedan let za Španiju. Putnici se žale da su na aerodromu od jutros, a već je kasno popodne. Ostaju tu do daljnjeg. Španija je zatvorila granice.
 
-U međuvremenu <a href="https://www.srbija.gov.rs/vest/en/151410/serbia-closes-borders-due-to-coronavirus.php" rel="noopener noreferer">Srbija zatvara granice bez najave</a>.
+U međuvremenu <a href="https://www.srbija.gov.rs/vest/en/151410/serbia-closes-borders-due-to-coronavirus.php" rel="noopener noreferer" target="_blank">Srbija zatvara granice bez najave</a>.
 
 Vraćam se u Berlin, gde još uvek sve izgleda kao ono vreme bez korone. Nema maski u prevozu, ni na ulicama. Virus je još uvek daleko.
 
