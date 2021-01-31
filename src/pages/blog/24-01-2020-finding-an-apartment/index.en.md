@@ -17,7 +17,7 @@ The application that finally got me to the next step, an apartment viewing, went
 
 Hi, I'm working as... and earning…. I don't smoke. I don't have a pet. I want to rent an apartment as soon as possible and I would like to take a look at yours. (in German and English)
 
-I wasn’t that shocked the first time I saw 50 people waiting for an apartment viewing. Rows of stakeholders are inevitable. At least it makes it easy to find the right building.
+I wasn’t that shocked the first time I saw 50 people waiting for an apartment viewing. At least it makes it easy to find the right building.
 
 I decided to use the time spent apartment hunting for something positive. I always greeted the crowd I’d see outside viewings.  We’d talk a little and exchange experiences. I’d even meet some again at other viewings. We checked out many of the same apartments. We dreamed of a time when we could all turn off the notifications on our apartment-hunting apps.
 
