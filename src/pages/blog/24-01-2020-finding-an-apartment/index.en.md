@@ -5,7 +5,7 @@ image: 'finding-an-apartment-in-berlin-2020.png'
 keywords: 'everyday life, moving, changing flats'
 lang: 'en'
 path: '/en/trazenje-stana-u-berlinu-u-pandemija-modu-2020'
-title: 'Berlin Apartment Hunting During a Pandemic'
+title: 'Flat Hunting During a Pandemic'
 ------
 Even before moving to Berlin <a href="https://youtu.be/838GDzXPVtA" rel="noopener noreferer" target="_blank">I’d already heard how hard it is to find an apartment</a>.
 

@@ -4,7 +4,7 @@ description: 'traženje stana u Berlinu 2020'
 image: 'finding-an-apartment-in-berlin-2020.png'
 lang: 'sr'
 path: '/trazenje-stana-u-berlinu-u-pandemija-modu-2020'
-title: 'Traženje stana u Berlinu tokom pandemije'
+title: 'Traženje stana tokom pandemije'
 ------
 Nisam se još uvek preselila za Berlin, a <a href="https://youtu.be/838GDzXPVtA" rel="noopener noreferer" target="_blank">već sam čula kako je teško pronaći stan u Berlinu</a>.
 
