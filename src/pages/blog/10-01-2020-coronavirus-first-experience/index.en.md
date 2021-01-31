@@ -38,7 +38,7 @@ They ask about the situation in Germany. Everyone is overwhelmed by current even
 
 I’ve never seen so many people at the airport. They cancel one flight to Spain. Passengers complain that they’ve been at the airport since the morning and it is already late afternoon. They need to remain there until further notice. Spain has closed its borders.
 
-In the meantime, <a href="https://www.srbija.gov.rs/vest/en/151410/serbia-closes-borders-due-to-coronavirus.php" rel="noopener noreferer"> Serbia closes borders without any announcement</a>.
+In the meantime, <a href="https://www.srbija.gov.rs/vest/en/151410/serbia-closes-borders-due-to-coronavirus.php" rel="noopener noreferer" target="_blank"> Serbia closes borders without any announcement</a>.
 
 I'm going back to Berlin, where it still looks like corona doesn’t exist. Masks are not being worn on public transport nor on the street. The virus is still far far away.
 

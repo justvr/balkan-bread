@@ -41,6 +41,7 @@ const Post = ({ location, data, pageContext }) => {
         }}
       />
       <div
+        className="post"
         style={{
           margin: '0 auto',
           maxWidth: 860,
