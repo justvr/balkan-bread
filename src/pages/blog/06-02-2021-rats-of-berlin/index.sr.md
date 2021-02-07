@@ -1,8 +1,8 @@
 ---
-date: '2021-02-06'
+date: '2021-02-07'
 description: 'pacovi u Berlinu'
 image: 'rats-of-berlin.png'
-keywords: 'svakodnevnica, pacovi, macke, psi, divlji svet berlina'
+keywords: 'svakodnevnica, pacovi, macke, psi, divlji svet berlina, selidba, ljubimci u berlinu'
 lang: 'sr'
 path: '/pacovi-berlina'
 title: 'Pacovi Berlina'
@@ -27,4 +27,4 @@ Upoznala sam par ljudi koji su ih imali kao kućne ljubimce. Dobili su ih kao ro
 
 Oni koji su ih imali kažu da su jako pametni i laki za trening. Kaže jedan drug: da je nakon par nedelja umesto 2 imao 41og u kući.
 
-Možda i nije tako čudno što ih ima toliko u gradu…
+Možda i nije tako čudno što ih ima toliko u gradu ...
