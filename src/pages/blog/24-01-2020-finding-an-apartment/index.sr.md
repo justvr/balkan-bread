@@ -2,6 +2,7 @@
 date: '2021-01-31'
 description: 'traženje stana u Berlinu 2020'
 image: 'finding-an-apartment-in-berlin-2020.png'
+keywords: 'svakodnevnica, trazenje stana, berlin'
 lang: 'sr'
 path: '/trazenje-stana-u-berlinu-2020'
 title: 'Traženje stana u Berlinu'
