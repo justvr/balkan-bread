@@ -19,9 +19,9 @@ Write a concise and clear application. Don't mention your visa status until they
 
 The required documents:
 - Passport,
-- <a href="https://www.schufa.de/en/" rel="noopener noreferer">Schufa</a>, a certificate of your credit report. To find an apartment you need a positive Schufa score and a certificate that is at most 3 months old.
-- <a href="https://www.wohnungsboerse.net/mieterselbstauskunft" rel="noopener noreferer"> application form </a>. General information about the applicant such as job, information about their previous apartment, and needs for the new apartment (any pets, young children etc)
-- Your last 3 payslips. This can be problematic if you are moving to Germany for the first time and have just started work. It is usually necessary for your monthly salary to be at least 3 times higher than the rent and
+- <a href="https://www.schufa.de/en/" rel="noopener noreferer">Schufa</a> - a certificate of your credit report. To find an apartment you need a positive Schufa score and a certificate that is at most 3 months old.
+- <a href="https://www.wohnungsboerse.net/mieterselbstauskunft" rel="noopener noreferer">Application Form</a> - general information about the applicant such as job, information about their previous apartment, and needs for the new apartment (any pets, young children etc)
+- Your last 3 payslips - it is usually necessary for your monthly salary to be at least 3 times higher than the rent and
 - <a href="https://ratgeber.immowelt.de/a/mietschuldenfreiheitsbescheinigung-ueblich-aber-nicht-erzwingbar.html" rel="noopener noreferer">Confirmation from your previous landlord that you do not owe any money</a>.
 
 I will write more about where I applied in my next Flat Hunting article.

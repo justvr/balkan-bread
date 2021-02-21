@@ -20,7 +20,7 @@ Napiši kratku i jasnu aplikaciju. Ne pominji Vizu, dok je oni sami ne traže. A
 Šta je potrebno od dokumenata:
 - Pasoš,
 - <a href="https://www.schufa.de/en/" rel="noopener noreferer">Schufa</a> - sertifikat koji potvrđuje da je klijent kreditno sposoban da plaća svoje kredite, račune, zaduženja. Za traženje stana je neophodno da Schufa bude pozitivna i ne starija od 3 meseca ,
-- <a href="https://www.wohnungsboerse.net/mieterselbstauskunft" rel="noopener noreferer">aplikacija</a> - generalne informacije o kandidatu. Lični podaci, podaci o prethodnom stanu i očekivanja o novom stanu,
+- <a href="https://www.wohnungsboerse.net/mieterselbstauskunft" rel="noopener noreferer">Aplikacija</a> - generalne informacije o kandidatu. Lični podaci, podaci o prethodnom stanu i očekivanja o novom stanu,
 - Izveštaj poslednje tri plate. Uglavnom je potrebno da plata bude minimum 3 puta viša od kirije i
 - <a href="https://ratgeber.immowelt.de/a/mietschuldenfreiheitsbescheinigung-ueblich-aber-nicht-erzwingbar.html" rel="noopener noreferer">Potvrda od prethodnog stanodavca da su svi računi izmireni</a>.
 
