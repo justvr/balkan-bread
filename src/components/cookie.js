@@ -4,15 +4,45 @@ import cookie from '../service/cookie.js'
 import Link from 'gatsby-link'
 import { FormattedMessage } from 'react-intl';
 
-function Cookie() {
+const Cookie = () => {
   const [show, setShow] = useState(false)
 
-  function accept() {
-    cookie.set('GA4', 'accepted')
+  function hide() {
     setShow(false)
   }
-  function reject() {
-    setShow(false)
+
+  function addScript( src, callback ) {
+    var s = document.createElement( 'script' )
+    s.setAttribute( 'src', src )
+    s.onload=callback
+    document.body.appendChild( s )
+  }
+
+  function addScriptText(script) {
+    const s = document.createElement('script')
+    s.type = 'text/javascript'
+    const code = script
+    try {
+      s.appendChild(document.createTextNode(code))
+      document.body.appendChild(s)
+    } catch (e) {
+      s.text = code
+      document.body.appendChild(s)
+    }
+  }
+
+  // for now it's only GA4
+  function accept() {
+    cookie.set('GA4', 'accepted')
+    addScript('https://www.googletagmanager.com/gtag/js?id=G-VFMLXXHDC3')
+    addScriptText(`
+      window.dataLayer = window.dataLayer || []
+      function gtag(){dataLayer.push(arguments)}
+      gtag('js', new Date())
+      gtag('config', 'G-VFMLXXHDC3')
+    `)
+
+    hide()
   }
 
   useEffect(() => {
@@ -65,7 +95,7 @@ function Cookie() {
           <FormattedMessage id="cookie.buttons.accept" />
         </button>
         <button
-          onClick={reject}
+          onClick={hide}
           style={{background: 'none', border: 0}}
         >
           <FormattedMessage id="cookie.buttons.reject" />
