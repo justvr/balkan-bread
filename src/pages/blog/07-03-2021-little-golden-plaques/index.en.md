@@ -16,7 +16,7 @@ Finally I paid attention. Each plaque contains a first name, a surname and 2 dat
 
 Often there are candles lit next to the plaques. Right in the middle of the sidewalk. What are they?
 
-<a href=”https://en.wikipedia.org/wiki/Stolperstein” rel=”noopener noreferer” target=”_blank”><i>Stolperstein</i></a> are installed in memory of the victims of Nazi executions and persecution.
+<a href="https://en.wikipedia.org/wiki/Stolperstein" rel="noopener noreferer" target="_blank"><i>Stolperstein</i></a> are installed in memory of the victims of Nazi executions and persecution.
 
 The plaques are located in front of the apartment buildings where the victims lived before the Nazis took them to their deaths. In a lot of places there are several plaques with the same surname. Whole families with the same year of death.
 
