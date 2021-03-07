@@ -43,16 +43,14 @@ module.exports = {
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
+    // @see https://gatsby.dev/offline
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-plugin-i18n',
       options: {
-        langKeyForNull: 'any',
         langKeyDefault: languages.defaultLangKey,
-        useLangKeyLayout: true,
-        prefixDefault: false,
+        langKeyForNull: 'any',
         markdownRemark: {
           postPage: 'src/templates/post.js',
           query: `
@@ -70,6 +68,8 @@ module.exports = {
           }
           `,
         },
+        prefixDefault: false,
+        useLangKeyLayout: true,
       }
     },
     {
@@ -86,22 +86,10 @@ module.exports = {
         // useAutoGen: required 'true' to use autogen
         useAutoGen: true,
         // autoGenHomeLabel: optional 'Home' is default
-        autoGenHomeLabel: `Home`,
+        autoGenHomeLabel: `home`,
         // exlude: optional, include this array to overwrite paths you don't want to
         // generate breadcrumbs for.
         exclude: [`/404/`],
-        // crumbLabelUpdates: optional, update specific crumbLabels in the path
-        // crumbLabelUpdates: [
-        //   {
-        //     pathname: '/book',
-        //     crumbLabel: 'Books'
-        //   }
-        // ],
-        // trailingSlashes: optional, will add trailing slashes to the end
-        // of crumb pathnames. default is false
-        // trailingSlashes: true,
-        // usePathPrefix: optional, if you are using pathPrefix above
-        // usePathPrefix: '/blog',
       }
     },
   ],

@@ -12,7 +12,7 @@ const Post = ({ location, data, pageContext }) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext
-  const customCrumbLabelOrigin = location.pathname.toLowerCase().replace('/', '')
+  const customCrumbLabelOrigin = location.pathname.replace('/', '')
   const customCrumbLabel = customCrumbLabelOrigin.startsWith('en/') ? customCrumbLabelOrigin.slice(3) : customCrumbLabelOrigin
   const post = data.markdownRemark;
   const url = location.pathname;
