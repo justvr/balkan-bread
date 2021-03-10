@@ -27,7 +27,7 @@ const IndexPage = ({ location, data }) => {
     if (edges.length < nmOfArticles) {
       setHasMore(false)
     }
-  }, nmOfArticles)
+  }, [edges.length, nmOfArticles])
 
   return (
     <Layout
