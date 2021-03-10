@@ -90,7 +90,7 @@ const IndexPage = ({ location, data }) => {
         </div>
       );
     })}
-    {hasMore ? <button onClick={onClick}>load more</button> : null}
+    {hasMore ? <button onClick={onClick} className="load-more">read more</button> : null}
     <FacebookProvider appId={process.env.GATSBY_FB_APP_ID}>
       <Like
         href="http://www.facebook.com/balkanbread"
