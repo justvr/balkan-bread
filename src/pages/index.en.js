@@ -90,7 +90,7 @@ const IndexPage = ({ location, data }) => {
         </div>
       );
     })}
-    {hasMore ? <button onClick={onClick} className="load-more">read more</button> : null}
+    {hasMore ? <button onClick={onClick} className="load-more"><FormattedMessage id="read-more" /></button> : null}
     <FacebookProvider appId={process.env.GATSBY_FB_APP_ID}>
       <Like
         href="http://www.facebook.com/balkanbread"
@@ -103,7 +103,7 @@ const IndexPage = ({ location, data }) => {
 }
 
 export const postQuery = graphql`
-query IndexPageQuery {
+query IndexEnPageQuery {
   allMarkdownRemark(
     sort: { order: DESC, fields: frontmatter___date }
     filter: { frontmatter: {lang: {eq: "en"}}}

@@ -25,6 +25,9 @@ module.exports = {
     11: 'November',
     12: 'December'
   },
+  post: {
+    homeLink: 'one more slice please'
+  },
   published: 'published',
   seo: {
     meta: {
@@ -33,7 +36,5 @@ module.exports = {
     },
     title: 'cultural differences between living in germany berlin and serbia',
   },
-  post: {
-    homeLink: 'one more slice please'
-  },
+  'read-more': 'read more'
 };
