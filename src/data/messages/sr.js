@@ -24,6 +24,9 @@ module.exports = {
     11: 'Novembra',
     12: 'Decembra'
   },
+  post: {
+    homeLink: 'dodaj mi još jedno parče'
+  },
   published: 'objavljeno',
   seo: {
     meta: {
@@ -32,7 +35,5 @@ module.exports = {
     },
     title: 'gde Balkan peče život u Berlinu',
   },
-  post: {
-    homeLink: 'dodaj mi još jedno parče'
-  },
+  'read-more': 'učitaj više'
 };

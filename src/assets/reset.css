@@ -657,6 +657,22 @@ pre tt:after {
   display: block;
 }
 
+.load-more {
+  background: transparent;
+  border-radius: 6px;
+  border: 1px solid rgb(49, 127, 96);
+  color: rgb(49, 127, 96);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin-bottom: 1.5rem;
+  padding: 0.6rem;
+  transition: box-shadow 0.3s ease-in;
+}
+.load-more:hover {
+  box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+  color: rgb(49, 127, 96);
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
