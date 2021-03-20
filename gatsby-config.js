@@ -5,11 +5,11 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `cultural differences between living in germany berlin and serbia`,
+    author: `justvr`,
     description: `living in germany berlin compared to the life in serbia and balkan`,
-    siteUrl: `https://www.balkanbread.com`,
     keywords: ['berlin', 'germany', 'balkan', 'everyday life'],
-    author: `justvr`
+    siteUrl: `https://www.balkanbread.com`,
+    title: `cultural differences between living in germany berlin and serbia`,
   },
   plugins: [
     {
@@ -33,13 +33,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
+        background_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
         name: `Balkan Bread`,
         short_name: `Balkan Bread`,
         start_url: `/`,
-        background_color: `#663399`,
         theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

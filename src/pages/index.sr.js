@@ -66,7 +66,8 @@ const IndexPage = ({ location, data }) => {
         <h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>
           <FormattedMessage id="introduction2" />
         </h1>
-      </Link>.
+      </Link>
+      <FormattedMessage id="introduction3" />
     </q>
     <hr style={{maxWidth: `60px`, margin: `1rem auto 1.2rem`,}} />
     {articles.map(edge => {

@@ -1,39 +1,44 @@
 ---
-date: '2021-01-31'
+date: '2021-03-21'
 description: 'finding an apartment in berlin 2020'
-image: 'finding-an-apartment-in-berlin-2020.png'
+image: 'coronavirus-balkan-bread-quarantine.png'
 keywords: 'everyday life, moving, changing flats'
 lang: 'en'
-path: '/en/trazenje-stana-u-berlinu-2020'
-title: 'My Flat Hunting in Berlin'
+path: '/en/corona-virus-fist-wave-germany-serbia'
+title: 'Corona virus Serbia Germany'
 ------
-Even before moving to Berlin <a href="https://youtu.be/838GDzXPVtA" rel="noopener noreferer" target="_blank">I’d already heard how hard it is to find an apartment</a>.
+It all started somewhere far away.
 
-When I started applying for apartments the message I used was long and boring. Who am I, where I come from, who I’ve lived with in the past. I even tried making a joke...
+Silence. Traffic stopped. Public transport is empty. Everyone who can, works from home. Everyone is on a 24-hour shift.
 
-After sending 50 applications and receiving only 2 responses, I called friends for help.
+Those that managed to keep their jobs accepted the ‘new normal’ of working from home.. I heard: “I can finally spend more time with the kids” , “I finally don’t have to waste time commuting to work” - “I can save money on lunch”.
 
-The application that finally got me to the next step, an apartment viewing, went like this:
+Everyone started working out at home. They start jumping around the house, running and skipping. There is talk of new recipes being learnt. Everyone is cleaning their house constantly. Unnecessary things are thrown out. The trash containers are full.
 
-Hi, I'm working as... and earning…. I don't smoke. I don't have a pet. I want to rent an apartment as soon as possible and I would like to take a look at yours. (in German and English)
+Many companies are turning to state aid. Germany is helping companies not to lose employees. Many friends switch to part-time work, the so-called <a href="https://nemackikutak.com/kako-nemacka-stiti-radna-mesta-u-vreme-krize-kurzarbeit/" rel="noreferer noopener" target="_blank"><i>Kurzarbeit</i></a>.
 
-I wasn’t that shocked the first time I saw 50 people waiting for an apartment viewing. At least it makes it easy to find the right building.
+Quarantine started in Serbia 2 weeks after Germany. Everything was prepared. The trade hall was turned into a hospital. Masks were procured from the east, because the EU cannot help.
 
-I decided to use the time spent apartment hunting for something positive. I always greeted the crowd I’d see outside viewings.  We’d talk a little and exchange experiences. I’d even meet some again at other viewings. We checked out many of the same apartments. We dreamed of a time when we could all turn off the notifications on our apartment-hunting apps.
+And then in Serbia, quarantine becomes house arrest. The curfew starts at 6pm on weekdays and is all day during the weekend. Even bakeries are closed (in other countries the equivalent closure would be a supermarket. In Serbia if the bakeries are closed you know something is wrong). You can’t leave the house to walk the dog or to practice sports.
 
-I didn't speak perfect German. Infact it’s more correct to say I didn’t speak German at all. I came up with one question to ask the estate agent:
-<q>Where's the nearest supermarket?</q><q>Wo ist der nächste Supermarkt?</q>
+In Belgrade most people work until 5. Although some workers were allowed to work from home, there were many who did not have this opportunity.
 
-I went to 26 apartment viewings before I eventually got offered one.
+Summer is on the doorstep.
 
-Most agencies did not even reply to my application. The rare times they did, the answer was a simple "No".
+In Berlin, no one wants to sit at home anymore. Parents are tired of babysitting. And they wonder when the schools and kindergartens will open. Companies support them because workers who are parents cannot work at full strength in the same way that they did before.
 
-After 2.5 months of near constant apartment hunting I got used to being in a bad mood… At work, I found complete understanding whenever I asked to go out and look at an apartment during working hours.
+My lower back started to hurt from sitting and working from home. And my eyesight became worse from the impossibility of walking away from the computer, because, in addition to my job, my social life also switched to being exclusively online.
 
-I stopped playing sports, eating properly, meeting up with friends… I was really desperate. I had nightmares where I was forced to move out of Berlin because I couldn’t find a place to live.
+Everyone is slowly relaxing and trying to spend as much time outside as possible. The weather is getting better.
 
-Almost all of my friends who started looking for an apartment around the same time as me found one. I was happy for them but I kept asking myself: where am I going wrong?
+Those who work part-time or who lost their jobs are outdoors. The help of the state is enough to live on comfortably. No worries. The parks are full. A well-known life begins.
 
-"Everyone finds an apartment eventually" is a sentence I heard many times. Then finally I found an apartment too!
+Illegal parties are organized, because gathering a large number of people is still forbidden. The number of newly diagnosed cases of corona is decreasing. Schools, kindergartens, restaurants are opening.
 
-I learnt that finding a flat in Berlin is like a lottery.... You gotta keep playing if you want to win.
+And in Serbia, after such a long and strict quarantine, where there was a curfew for Easter from Thursday to Tuesday, the quarantine is finally terminated. And everything returned to normal as if nothing had ever happened. And somehow just before the election.
+
+Clubs are open, a football match is held, masks are not worn in stores, carelessness returns.
+
+Until the moment when the Government, immediately following the elections, announced  a new quarantine and published data showing the situation in Serbia as significantly worse than it was only a few days earlier. Then the last straw fell on people and they could no longer bear the confusion except to take to the streets and say <a href="https://www.bbc.com/news/world-europe-53332225" rel="noreferer noopener " target="_blank">Not again</a>.
+
+Summer allows you to breathe again and to enjoy a little bit of what was considered normal life before.
