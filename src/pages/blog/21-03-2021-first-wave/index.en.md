@@ -2,7 +2,7 @@
 date: '2021-03-21'
 description: 'life in berlin and serbiaduring the first wave of corona virus in 2020'
 image: 'coronavirus-balkan-bread-quarantine.png'
-keywords: 'everyday life, covid serbia, coronavirus berlin, lockdown berlin, first wave covid’
+keywords: 'everyday life, covid serbia, coronavirus berlin, lockdown berlin, first wave covid'
 lang: 'en'
 path: '/en/zivot-u-nemackoj-srbiji-tokom-prvog-talasa-korana-virusa-2020'
 title: 'The First Wave'

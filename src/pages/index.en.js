@@ -62,7 +62,7 @@ const IndexPage = ({ location, data }) => {
     </div>
     <q>
       <FormattedMessage id="introduction1" />
-      <Link to="/balkan-bread">
+      <Link to="/en/balkan-bread">
         <h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>
           <FormattedMessage id="introduction2" />
         </h1>
