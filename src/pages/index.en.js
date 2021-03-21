@@ -62,11 +62,12 @@ const IndexPage = ({ location, data }) => {
     </div>
     <q>
       <FormattedMessage id="introduction1" />
-      <Link to="/en/balkan-bread">
+      <Link to="/balkan-bread">
         <h1 style={{display: 'inline', fontSize: '16px', marginLeft: '4px'}}>
           <FormattedMessage id="introduction2" />
         </h1>
-      </Link>.
+      </Link>
+      <FormattedMessage id="introduction3" />
     </q>
     <hr style={{maxWidth: `60px`, margin: `1rem auto 1.2rem`,}} />
     {articles.map(edge => {
@@ -90,7 +91,7 @@ const IndexPage = ({ location, data }) => {
         </div>
       );
     })}
-    {hasMore ? <button onClick={onClick} className="load-more"><FormattedMessage id="read-more" /></button> : null}
+    {hasMore ? <button onClick={onClick} className="load-more"><FormattedMessage aria-label="load more" id="load_more" /></button> : null}
     <FacebookProvider appId={process.env.GATSBY_FB_APP_ID}>
       <Like
         href="http://www.facebook.com/balkanbread"

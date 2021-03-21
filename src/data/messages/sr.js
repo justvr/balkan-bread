@@ -1,7 +1,7 @@
 module.exports = {
   introduction1: 'Bacanje mrvica ',
-  introduction2: 'Balkanskog hleba ',
-  introduction3: 'od Srbije do Nemačke. Blog o životu u Berlinu.',
+  introduction2: 'Balkanskog hleba',
+  introduction3: ' od Srbije do Nemačke. Blog o životu u Berlinu.',
   cookie: {
     buttons: {
       accept: 'OK',
@@ -36,5 +36,5 @@ module.exports = {
     },
     title: 'gde Balkan peče život u Berlinu',
   },
-  'read-more': 'učitaj više'
+  load_more: 'učitaj više'
 };
