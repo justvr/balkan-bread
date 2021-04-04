@@ -1,6 +1,7 @@
 module.exports = {
-  introduction1: 'In this bakery, the dough is so fine that it passes through the keyboard. The Bread takes many forms. It is kneaded and twisted through different knowledge and experiences. In the end we are where the Balkans meet Berlin, and all of us who leave still eat',
-  introduction2: 'Balkan Bread',
+  introduction1: 'Leaving a trail of ',
+  introduction2: 'Balkan breadcrumbs',
+  introduction3: ' from Serbia to Germany. A blog about life in Berlin.',
   cookie: {
     buttons: {
       accept: 'got it',
@@ -36,5 +37,5 @@ module.exports = {
     },
     title: 'cultural differences between living in germany berlin and serbia',
   },
-  'read-more': 'read more'
+  load_more: 'read more'
 };

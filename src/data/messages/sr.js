@@ -1,6 +1,7 @@
 module.exports = {
-  introduction1: 'U ovoj pekari testo je tako fino da prolazi i kroz tastaturu. Hleb uzima mnoge oblike ispravljene i izvitoperene različitim znanjem i iskustvima. Ali na kraju tu smo gde Balkan sreće Berlin, a svi koji odemo na kraju ipak jedemo',
-  introduction2: 'Balkanski Hleb',
+  introduction1: 'Bacanje mrvica ',
+  introduction2: 'Balkanskog hleba',
+  introduction3: ' od Srbije do Nemačke. Blog o životu u Berlinu.',
   cookie: {
     buttons: {
       accept: 'OK',
@@ -35,5 +36,5 @@ module.exports = {
     },
     title: 'gde Balkan peče život u Berlinu',
   },
-  'read-more': 'učitaj više'
+  load_more: 'učitaj više'
 };
