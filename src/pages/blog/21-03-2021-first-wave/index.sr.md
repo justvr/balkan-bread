@@ -20,7 +20,7 @@ Mnoge kompanije prelaze na pomoć države. Nemačka daje pomoć kompanijama da n
 
 U Srbiji je nastupio karantin 2 nedelje nakon Nemačke. Sve je bilo pripremljeno. Sajam je pretvoren u bolnicu. Nabavljaju se maske sa istoka, jer EU ne može da pomogne.
 
-A onda je u Srbiji karantin postao kućni zatvor. Policijski čas je svakog dana posle 18h i preko celog vikenda. Čak i pekare su zatvorene. Nema izlaska iz kuće zbog psa ili sporta.
+A onda je u Srbiji karantin postao kućni zatvor. Policijski čas je svakog dana posle 17h i preko celog vikenda. Čak i pekare su zatvorene. Nema izlaska iz kuće zbog psa ili sporta.
 
 U Beogradu se uglavnom radi do 17h. Iako je nekim radnicima bilo dozvoljeno da rade od kuće, bilo je mnogih koji nisu imali tih mogućnosti.
 

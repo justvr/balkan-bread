@@ -1,6 +1,6 @@
 ---
 date: '2021-03-21'
-description: 'life in berlin and serbiaduring the first wave of corona virus in 2020'
+description: 'life in berlin and serbia during the first wave of corona virus in 2020'
 image: 'coronavirus-balkan-bread-quarantine.png'
 keywords: 'everyday life, covid serbia, coronavirus berlin, lockdown berlin, first wave covid'
 lang: 'en'
@@ -20,7 +20,7 @@ Many companies are turning to state aid. Germany is helping companies not to los
 
 Quarantine started in Serbia 2 weeks after Germany. Everything was prepared. The main trade hall was turned into a hospital. Masks were procured from the east, because the EU couldn't help.
 
-And then in Serbia, quarantine becomes house arrest. The curfew starts at 6pm on weekdays and is all day during the weekend. Even bakeries are closed (in other countries the equivalent closure would be a supermarket. In Serbia if the bakeries are closed you know something is wrong). You can’t leave the house to walk the dog or to practice sports.
+And then in Serbia, quarantine becomes house arrest. The curfew starts at 5pm on weekdays and is all day during the weekend. Even bakeries are closed (in other countries the equivalent closure would be a supermarket. In Serbia if the bakeries are closed you know something is wrong). You can’t leave the house to walk the dog or to practice sports.
 
 In Belgrade most people work until 5. Although some workers were allowed to work from home, there were many who did not have this opportunity.
 
