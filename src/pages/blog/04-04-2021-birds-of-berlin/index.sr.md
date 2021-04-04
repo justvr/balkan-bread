@@ -1,6 +1,6 @@
 ---
 date: '2021-04-04'
-description: 'zivotinje u berlinu - ptice'
+description: 'ptice u berlinu'
 image: 'rats-of-berlin.png'
 keywords: 'svakodnevnica, pacovi, macke, psi, divlji svet berlina, selidba, ljubimci u berlinu'
 lang: 'sr'
@@ -23,4 +23,5 @@ Mnogo različitih vrsti pataka u mnogobrojnim jezercima. Crne sa plavim nogama, 
 
 Labudovi na jezerima vode svojih nekoliko ogromnih tamnih mladih. Šište na ljude ukoliko im priđu previše blizu gnezda. Odmaraju na plažama i plivaju među njima.
 
-Ovaj grad ima divnu pesmu.
+Ovaj grad ima divnu prirodnu pesmu.
+
