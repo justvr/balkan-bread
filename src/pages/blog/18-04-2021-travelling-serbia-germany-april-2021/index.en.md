@@ -50,7 +50,7 @@ The test is performed at <a href="https://www.zdravlje.org.rs/index.php/kontakt 
 
 It is possible to enter Germany without a test, if it is done in Germany within 48 hours of entry.
 
-And you need to fill out <a href="https://www.einreiseanmeldung.de/#/" target="_blank" rel="noopener noreferrer">the online form to enter Germany</a>, which is checked in Serbia.
+And you need to fill out <a href="https://www.einreiseanmeldung.de/#/" target="_blank" rel="noopener noreferrer">the online form to enter Germany</a>, which is checked before leaving Serbia.
 
 <h3>Info for Berlin</h3>
 
@@ -66,7 +66,7 @@ There will be a lot of people on public transport who do not wear masks. People 
 
 Do not visit the supermarket even in madness. Nobody wears masks there.
 
-The general attitude is: “... if you get sick, then it is what is is. Many have died. "
+The general attitude is: “... if you get sick, then it is what it is. Many have died. "
 
 And it's nice to be in the company of friends and family.
 
