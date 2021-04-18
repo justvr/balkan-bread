@@ -1,17 +1,18 @@
 ---
 date: '2021-04-18'
-description: 'experience with travelling rules germany berlin to serbia belgrade at one place'
+description: 'experiences with covid rules and restrictions when travelling between Germany and Serbia '
 image: 'coronavirus-balkan-bread-quarantine.png'
-keywords: 'coronavirus berlin belgrade, travelling serbia germany'
+keywords: 'coronavirus berlin, covid serbia, covid tests travel berlin, belgrade, travelling serbia germany'
 lang: 'en'
 path: '/en/putovanje-srbija-nemacka-aprila-2021'
 title: 'Germany to Serbia April 2021'
 ------
-I visit Serbia in April 2021. I only pack "summer Berlin things" - Leggings, a blouse with long sleeves, a light spring jacket. I expect Serbia to greet me with warmer weather. I'm not in Berlin, after all. Needless to say, I freeze.
 
-<h2>Flight scheduling</h2>
+I visit Serbia in April 2021. I only pack "summer Berlin things" - leggings, a blouse with long sleeves, a light spring jacket. I expect Serbia to greet me with warmer weather. I'm not in Berlin after all. Needless to say, I freeze.
 
-I heard various reports of flights being cancelled without notice, and I am afraid that the same will happen to me.
+<h2>Flight Scheduling</h2>
+
+I’d heard various reports of flights being cancelled without notice, and I am afraid that the same will happen to me.
 
 But I book a flight anyway. I’m on the Air Serbia website because I have a voucher for my flight that was cancelled last Easter. There are not many choices. Air Serbia no longer flies as often as it used to.
 
@@ -31,11 +32,11 @@ It is not necessary to show a test at the border when you leave Germany.
 
 But it is once you arrive in Serbia. And there I heard that some were allowed to enter Serbia without a PCR test and without quarantine, which is mandatory if no PCR test has been performed.
 
-<h2>The flight</h2>
+<h2>The Flight</h2>
 
 The flight was actually on time and without any delay. We even arrived in Belgrade a little early.
 
-It was interesting to me that after the flight attendants served snacks, chips, and water, everyone took off their masks and dived into the bags. It never occurred to me to take off my mask. The PCR test is not 100% safe. But no one seems to care. Neither the airline nor the passengers. It's chips.
+It was interesting to me that after the flight attendants served snacks, chips, and water, everyone took off their masks and started eating and drinking. It never occurred to me to take off my mask. The PCR test is not 100% safe. But no one seems to care. Neither the airline nor the passengers. It's chips.
 
 <h2>Entering Germany from Serbia</h2>
 
@@ -49,21 +50,24 @@ The test is performed at <a href="https://www.zdravlje.org.rs/index.php/kontakt 
 
 It is possible to enter Germany without a test, if it is done in Germany within 48 hours of entry.
 
-And you need to fill out <a href="https://www.einreiseanmeldung.de/#/" target="_blank" rel="noopener noreferrer">the online form</a>.
+And you need to fill out <a href="https://www.einreiseanmeldung.de/#/" target="_blank" rel="noopener noreferrer">the online form to enter Germany</a>, which is checked in Serbia.
 
-Info for Berlin
+<h3>Info for Berlin</h3>
+
  You can leave quarantine after 5 days if your test is negative. <a href="https://www.berlin.de/corona/en/measures/#headline_1_20" target="_blank" rel="noopener noreferrer">Berlin info</a>.
 
-<h2>Masks and general attitude towards COVID in Serbia</h2>
+<h2>Masks and General Attitude Towards COVID in Serbia</h2>
 
 If you are afraid of COVID and follow the rules from Germany, staying in Serbia will be a stressful experience.
 
 You will have to talk about COVID many times.
 
-There will be a lot of people on public transport who do not wear masks. People will sit next to you even though certain seats are blocked. Even though it is Sunday, there are less people on public transport, and there are plenty of other seats. Do not visit the supermarket even in madness. Nobody wears masks there.
+There will be a lot of people on public transport who do not wear masks. People will sit next to you even though certain seats are blocked. Even though it is Sunday, there are less people on public transport, and there are plenty of other seats.
 
-The general attitude is: “... if you get side effects, then what is there is. Many died. "
+Do not visit the supermarket even in madness. Nobody wears masks there.
+
+The general attitude is: “... if you get sick, then it is what is is. Many have died. "
 
 And it's nice to be in the company of friends and family.
 
-<a href="https://www.berlin.de/corona/en/measures/#headline_1_20" target="_blank" rel="noopener noreferrer">April in Belgrade</a>.
+<a href="https://youtu.be/9BiZQnvcNsM" target="_blank" rel="noopener noreferrer">April in Belgrade</a>.

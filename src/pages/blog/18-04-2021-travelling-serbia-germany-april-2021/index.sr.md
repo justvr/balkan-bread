@@ -2,14 +2,16 @@
 date: '2021-04-18'
 description: 'celokupan dozivljaj sa pravilima o putovanju nemacka berlin srbija beograd na jednom mestu'
 image: 'coronavirus-balkan-bread-quarantine.png'
-keywords: 'korona virus berlin beograd, putovanje srbija nemacka'
+keywords: 'korona virus berlin, covid srbija, covid test putovanje berlin, beograd, putovanje srbija nemacka'
 lang: 'sr'
 path: '/putovanje-srbija-nemacka-aprila-2021'
 title: 'Srbija Nemačka aprila 2021.'
 ------
 
 Poseta Srbiji aprila 2021. Pakujem samo “letnje berlinske stvari". Helanke, bluzu sa dugim rukavim, laganu prolećnu jaknu da bi me Srbija dočekala sa hladnijim vremenom nego u Berlinu. Malo je reći smrzla sam se.
+
 <h2>Zakazivanje leta</h2>
+
 Slušam različite priče o otkazanim letovima bez najave i bez obaveštenja i bojim se da ću i ja tako proći.
 
 Ali, biram let. Na websitu Airserbije, jer imam vaučer za let kojim sam htela da otputujem prošle godine za Uskrs. Biram opcije, i shvatam da i nema baš mnogo izbora. Airserbia više ne leti tako često kao ranije.
@@ -21,9 +23,10 @@ Otvaram bookmarkovan email i otvaram vaučer. Sada prvi put stvarno čitam šta 
 Ali broj je besplatan samo iz Srbije. Dobro je da imam prijatelje da izdvoje vreme da sede na telefonu sa servisom i objašnjavaju situaciju.
 
 <h2>Ulazak u Srbiju iz Nemačke</h2>
-<h3>PCR test</h3>
-Test je potrebno obaviti 48 sati pre leta. Zakazala sam test online u <a href="https://www.centogene.com/index.php?id=2705&L=-1" target="_blank" rel="noopener noreferrer">Centogeni</a> koji rade test na aerodromu, ali sada imaju drugu test stanicu u Mitte. Za ulazak u Srbiju je potreban test bez identifikacije. U ovom trenutku košta 79€. A čula sam da je decembra koštao 69€.
 
+<h3>PCR test</h3>
+
+Test je potrebno obaviti 48 sati pre leta. Zakazala sam test online u <a href="https://www.centogene.com/index.php?id=2705&L=-1" target="_blank" rel="noopener noreferrer">Centogeni</a> koji rade test na aerodromu, ali sada imaju drugu test stanicu u Mitte. Za ulazak u Srbiju je potreban test bez identifikacije. U ovom trenutku košta 79€. A čula sam da je decembra koštao 69€.
 
 Na granici u Berlinu nije potrebno pokazati test.
 
@@ -36,6 +39,7 @@ Let je u stvari bio na vreme i bez ikakvog odlaganja. Čak smo stigli i malo ran
 Zanimljivo mi je bilo da nakon što je podeljena užina, čips i flašica vode, svi su skinuli maske i uronili u kesice. Meni nije palo na pamet da skidam masku. PCR test nije 100% siguran. Ali izgleda da to nikoga ne interesuje. Ni aviokampaniju ni putnike. Čips je u pitanju.
 
 <h2>Povratak za Nemačku iz Srbije</h2>
+
 Test je potrebno obaviti 48 sati pre leta. <a href="https://euprava.gov.rs/usluge/6221" target="_blank" rel="noopener noreferrer">PCR test za Nemačku iz Srbije je besplatan</a> za građane Srbije koji imaju prebivalište u Nemačkoj.
 
 Budite pažljivi pri odabiru vremena.
@@ -46,7 +50,7 @@ U Beogradu test se obavlja u <a href="https://www.zdravlje.org.rs/index.php/kont
 
 U Nemačku je moguće ući i bez testa, pa se obaviti u Nemačkoj u roku od 48 sati, i nije obavezan PCR test.
 
-I jos je potrebno popuniti <a href="https://www.einreiseanmeldung.de/" target="_blank" rel="noopener noreferrer">online formular</a>.
+I još je potrebno popuniti <a href="https://www.einreiseanmeldung.de/" target="_blank" rel="noopener noreferrer">online formular za ulazak u Nemačku</a>, koji se proverava u Srbiji.
 
 <h3>Info za Berlin</h3>
 
@@ -63,6 +67,5 @@ U gradskom prevozu će biti dosta ljudi koji ne nose maske. Ljudi će sesti pore
 Pijacu ne posećuj ni u ludilu. Tamo niko ne nosi masku.
 
 Generalni stav je: “...ukoliko dobiješ nuspojave, pa šta je tu je. Mnogi su umrli."
-
 
 <a href="https://youtu.be/9BiZQnvcNsM" target="_blank" rel="noopener noreferrer">April u Beogradu</a>.
