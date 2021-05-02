@@ -1,6 +1,6 @@
 ---
 date: '2021-05-02'
-description: 'mayday, 1st of may'
+description: 'svakodnevnica u berlin, prvi maj, demonstracije u berlinu, politika berlin, policija berlin, dan radnika, selidba'
 image: 'rats-of-berlin.png'
 keywords: 'everyday life berlin, mayday, first of may, demo berlin'
 lang: 'sr'

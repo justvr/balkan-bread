@@ -2,7 +2,7 @@
 date: '2021-05-02'
 description: 'mayday, 1st of may'
 image: 'rats-of-berlin.png'
-keywords: 'everyday life berlin, mayday, first of may, demo berlin'
+keywords: 'everyday life berlin, may day, may 1st, demonstration berlin, politics berlin, police berlin, workers day, moving to berlin'
 lang: 'en'
 path: '/en/prvi-maj-u-berlinu'
 title: 'May Day'
