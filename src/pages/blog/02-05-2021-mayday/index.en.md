@@ -4,17 +4,17 @@ description: 'mayday, 1st of may'
 image: 'rats-of-berlin.png'
 keywords: 'everyday life berlin, mayday, first of may, demo berlin'
 lang: 'en'
-path: '/en/zurka-ili-demonstracije-za-prvi-maj'
-title: 'Party or Demo on the Mayday'
+path: '/en/prvi-maj-u-berlinu'
+title: 'May Day'
 ------
 
 May 1st in Berlin
 
 I recently moved to Berlin.
 
-And here they celebrate May 1st. I look forward to a day off. I don’t ask for the reasons behind it.
+And here they celebrate May 1st. I look forward to a day off. I don’t ask about the reasons behind it.
 
-I ask acquaintances: "Where are you going for May Day?" Everyone hesitates as they answer.
+I ask acquaintances: "Where are you going for May Day?" Everyone seems hesitant about answering.
 
 I make plans with those who have told me they have no plans. I think it’s a little weird that they don’t have plans for May Day. But ok, a new environment. I have to get used to it.
 

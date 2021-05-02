@@ -4,8 +4,8 @@ description: 'mayday, 1st of may'
 image: 'rats-of-berlin.png'
 keywords: 'everyday life berlin, mayday, first of may, demo berlin'
 lang: 'sr'
-path: '/zurka-ili-demonstracije-za-prvi-maj'
-title: 'Žurka ili demonstracije za Prvi maj'
+path: '/prvi-maj-u-berlinu'
+title: 'Prvi maj'
 ------
 
 Skoro sam se preselila za Berlin.
