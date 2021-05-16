@@ -1,8 +1,8 @@
 ---
 date: '2021-05-16'
-description: 'mayday, 1st of may'
+description: 'streets with double names in berlin'
 image: 'an-ode-to-yogurt.png'
-keywords: 'everyday life berlin, going out, night out, bar, club'
+keywords: 'everyday life berlin, going out, berlin nightlife, bars berlin night out, bar, club'
 lang: 'en'
 path: '/en/ulice-sa-duplim-imenom'
 title: 'Double Streets'
@@ -18,4 +18,4 @@ I call them and they come outside the bar. But they don't see me, and I don’t 
 
 If the bar is famous enough the postcode isn’t shared because...people just know.
 
-But I had just moved to Berlin.
+But I’ve just moved to Berlin.

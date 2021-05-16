@@ -1,6 +1,6 @@
 ---
 date: '2021-05-16'
-description: 'mayday, 1st of may'
+description: 'ulice sa duplim imenom u Berlinu'
 image: 'an-ode-to-yogurt.png'
 keywords: 'svakodnevnica, izlazak u berlinu, barovi, klub'
 lang: 'sr'
