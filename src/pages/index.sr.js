@@ -52,7 +52,6 @@ const IndexPage = ({ location, data }) => {
         'isFamilyFriendly': 'true',
         'keywords': `${messages.seo.meta.keywords}`,
         'name': 'Balkan Bread',
-        'translator': 'Sam Katterfield',
         'typicalAgeRange': '22-',
         'url': `${location.href}`,
       }}
