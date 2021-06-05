@@ -17,7 +17,7 @@ If you want to live alone, start with <a href="https://www.immobilienscout24.de/
 
 If you want to have or to share an apartment with someone try <a href="https://www.wg-gesucht.de/" rel="noopener noreferer" target="_blank"> WG Gesucht</a>.
 
-<h2>Apartment exchange for another apartment</h2>
+<h2>Apartment exchange</h2>
 
 If you already live in Berlin <a href="https://play.google.com/store/apps/details?id=com.ebay.kleinanzeigen&hl=en&gl=US" rel="noopener noreferer" target="_blank">Ebay Kleinanzeigen</a> has the most flats that can be exchanged for other flats.
 
