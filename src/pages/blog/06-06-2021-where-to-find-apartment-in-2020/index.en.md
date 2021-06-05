@@ -1,11 +1,11 @@
 ---
 date: '2021-06-06'
-description: 'rats in berlin'
-image: 'rats-of-berlin.png'
-keywords: 'everyday life berlin, rats, cats, dogs, wildlife berlin, moving to berlin, berlin pets'
+description: 'platforms for searching an apartment in Berlin'
+image: 'finding-an-apartment-in-berlin-2020.png'
+keywords: 'moving out, searching for an apartment, platforms for searching an apartment'
 lang: 'en'
 path: '/en/gde-traziti-stan-u-berlinu-2020'
-title: 'Where to find an apartment in Berlin'
+title: 'Where to search for an apartment'
 ------
 I'll get some information on where to look for an apartment, depending on which apartment you want to find.
 

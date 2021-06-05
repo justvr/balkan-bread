@@ -1,11 +1,11 @@
 ---
 date: '2021-06-06'
-description: 'pacovi u Berlinu'
-image: 'rats-of-berlin.png'
-keywords: 'svakodnevnica, pacovi, macke, psi, divlji svet berlina, selidba, ljubimci u berlinu'
+description: 'web platforme za trazenje stana u Berlinu'
+image: 'finding-an-apartment-in-berlin-2020.png'
+keywords: 'selidba, trazenje stana, platforme za trazenje stana'
 lang: 'sr'
 path: '/gde-traziti-stan-u-berlinu-2020'
-title: 'Gde pronaći stan u Berlinu'
+title: 'Gde tražiti stan'
 ------
 Nabacaću par informacija o tome gde potražiti stan u  zavisnosti od toga koji stan želiš da pronađeš.
 
