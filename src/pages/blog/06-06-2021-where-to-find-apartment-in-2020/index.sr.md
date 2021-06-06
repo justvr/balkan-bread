@@ -7,7 +7,7 @@ lang: 'sr'
 path: '/gde-traziti-stan-u-berlinu-2020'
 title: 'Gde tražiti stan'
 ------
-Nabacaću par informacija o tome gde potražiti stan u  zavisnosti od toga koji stan želiš da pronađeš.
+U ovom postu ću zabeležiti par informacija o tome gde potražiti stan u  zavisnosti od toga koji stan želiš da pronađeš.
 
 <h2>Stan bez cimera</h2>
 
@@ -21,7 +21,9 @@ Ukoliko želiš ili moraš da deliš stan sa nekim probaj <a href="https://www.w
 
 Ukoliko već živiš u Berlinu na <a href="https://play.google.com/store/apps/details?id=com.ebay.kleinanzeigen&hl=en&gl=US" rel="noopener noreferer" target="_blank">Ebay Kleinanzeigen</a> ima najviše stanova koji mogu da se zamene za druge stanove.
 
-Prati Facebook grupe. Ima posebnih grupa za traženje stanova. Čula sam da su neki tako pronašli stan.
+<h2>I još</h2>
+
+Prati Facebook grupe. Ima posebnih grupa za traženje stanova. Ima posebnih grupa koje podržavaju samo žene i onih koje podržavaju samo vegane.
 
 <h2>Agencije</h2>
 
