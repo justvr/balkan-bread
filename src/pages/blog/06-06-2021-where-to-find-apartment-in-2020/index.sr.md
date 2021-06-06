@@ -40,8 +40,4 @@ Agencije sa kojima sam se susrela tokom traženja stana 2020:
   <li>Höme - organizovani i sa odličnom komunikacijom. Zapisali su da sam došla na gledanje stanova. I poslali su mi e-mail odmah sutradan da mi kažu da sam dobila stan.</li>
 </ul>
 
-<h2>Kaucija</h2>
-
-Kaucija od 3 kirije se mora predati kada se ugovor potpisuje. A kirija kreće od 300-400 evra. Izračunaj sama.
-
 I srećno.
