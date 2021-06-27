@@ -27,4 +27,6 @@ Poznavanje drugih jezika pomaže, jer nemački deli mnogo reči sa engleskim, fr
 
 Ja se uvek našalim kada čujem neku srpsku reč da je nemački ukrao reči iz srpskog.
 
-Jer ih stvarno mnogo prepoznajem iz srpskog rečnika. Ukoliko ne znam neku reč na nemačkom probam na engleskom, pa na srpskom i ponekad stvarno i pogodim.
+Jer ih stvarno mnogo prepoznajem iz srpskog rečnika. Ukoliko ne znam neku reč na nemačkom probam na engleskom, pa na srpskom.
+
+Ponekad stvarno i pogodim.
