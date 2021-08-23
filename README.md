@@ -15,6 +15,8 @@ This blog is made with Gatsby.js supporting internationalization i18n.
     yarn && yarn develop
     ```
 
+    * Use `.env.development` for developing
+
 2.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
