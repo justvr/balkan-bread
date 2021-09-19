@@ -5,7 +5,7 @@ image: 'city-without-bottles.png'
 keywords: 'everyday life, boxes zu verschenken'
 lang: 'en'
 path: '/en/na-poklon'
-title: 'Zu verschenken boxes'
+title: 'Zu verschenken Boxes'
 ------
 I recently moved to Berlin.
 
