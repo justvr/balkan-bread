@@ -2,12 +2,12 @@
 date: '2021-09-20'
 description: 'zu verschenken u berlinu'
 image: 'city-without-bottles.png'
-keywords: 'kutije zu verschenken, stvari, odeca'
+keywords: 'kutije zu verschenken, polovne stvari, polovna odeca'
 lang: 'sr'
 path: '/na-poklon'
-title: 'Zu verschenken kutije'
+title: 'Zu verschenken način razmišljanja'
 ------
-Skoro sam se doselila u Berlin.
+Skoro sam se preselila u Berlin.
 
 Prolazim ulicom i primećujem kutije sa natpisom Zu verschenken (ger. Na poklon).
 

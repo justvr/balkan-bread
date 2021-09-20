@@ -2,10 +2,10 @@
 date: '2021-09-20'
 description: 'zu verschenken in berlin'
 image: 'city-without-bottles.png'
-keywords: 'everyday life, boxes zu verschenken'
+keywords: 'second hand, second hand clothes, zu verschenken way of living'
 lang: 'en'
 path: '/en/na-poklon'
-title: 'Zu verschenken Boxes'
+title: 'Zu verschenken Mindset'
 ------
 I recently moved to Berlin.
 
@@ -13,7 +13,7 @@ Walking down the street one can easily notice boxes with a note - Zu verschenken
 
 Passers-by often stand next to the box to see what is hidden in there.
 
-You can usually find children's things - toys, car seats, clothes, baby equipment. Then books, adult clothes and furniture. From furniture, mostly shelves, refrigerators, mattresses, chairs, things that are easily portable.
+You can usually find children's things - toys, car seats, clothes, baby equipment. Then books and furniture. From furniture, mostly shelves, refrigerators, mattresses, chairs, things that are easily portable.
 
 I asked a friend what it was about. They say these are things that people don’t need anymore so they leave it on the street. It's very common.
 
