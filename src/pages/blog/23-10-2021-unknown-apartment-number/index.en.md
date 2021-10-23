@@ -9,9 +9,9 @@ title: 'Apartment Numbers in Germany'
 ------
 I recently moved to Berlin.
 
-My friends invited me to stop by. They gave me the address. I arrive in front of the apartment and I don't understand. Where is the apartment number.
+My friends invited me to stop by. They gave me the address. I arrive in front of the building and I don't understand. Where is the apartment number.
 
-Only last name at address. There seems to be no chance of the unpaid bills being transferred to the new tenant.
+Only last name at the address. There seems to be no chance of the unpaid bills being transferred to the new tenant.
 
 <a href="https://www.balkanbread.com/en/ulice-sa-duplim-imenom" rel="noreferer noopener">Besides double streets</a>, there are no apartment numbers? Well it seems so.
 
