@@ -1,5 +1,5 @@
 ---
-date: '2021-11-14'
+date: '2021-11-24'
 description: 'the reason why germans lock the trash'
 image: 'an-ode-to-yogurt.png'
 keywords: 'recycling in germany, locking down the containers in berlin'
