@@ -1,5 +1,5 @@
 ---
-date: '2021-11-14'
+date: '2021-11-24'
 description: 'razlog zasto nemci zakljucavaju djubre'
 image: 'an-ode-to-yogurt.png'
 keywords: 'reciklaza u nemackoj, zakljucavanje kontejnera u berlinu'
