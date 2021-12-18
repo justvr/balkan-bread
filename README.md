@@ -12,7 +12,7 @@ This blog is made with Gatsby.js supporting internationalization i18n.
 1.  **Start developing.**
 
     ```shell
-    yarn && yarn develop
+    yarn && yarn dev
     ```
 
     * Use `.env.development` for developing
