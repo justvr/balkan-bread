@@ -1,5 +1,5 @@
 ---
-date: '2021-12-19'
+date: '2022-01-22'
 description: 'u nemackoj se pozdravlja zagrljajem'
 image: 'city-without-bottles.png'
 keywords: 'greetings in germany'
