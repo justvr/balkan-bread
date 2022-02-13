@@ -36,7 +36,7 @@ const Footer = () => (
       <div>
         <Link to="/terms-and-conditions" style={{color: 'rgb(188, 52, 37)'}}><small>Terms & Conditions</small></Link>
       </div>
-      <small>copyright &#xa9; Balkan Bread 2021</small>
+      <small>copyright &#xa9; Balkan Bread 2022</small>
     </div>
   </>
 )
