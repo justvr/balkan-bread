@@ -16,6 +16,7 @@ Kolege su počele da kucaju zajedno.
 I novi kolega Nemac, koji je počeo da radi istog dana kada i ja, se potpuno uklopio i on je počeo da lupa.
 
 Zvuk u sali za sastanke ostavlja impresivni ozbiljni utisak da je nešto značajno završeno.
+
 Kao zvučni signal da se priremimo. Zadaci su podeljeni, vreme je da se radi.
 
 Ali prvo kafa.

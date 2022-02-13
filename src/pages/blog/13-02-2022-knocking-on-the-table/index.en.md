@@ -19,4 +19,4 @@ The sound in the meeting room leaves an impressive serious impression that somet
 
 As a sound signal to prepare. Tasks are delegated, it's time to work.
 
-But let’s take the coffee first.
+But let’s grab a coffee first.
