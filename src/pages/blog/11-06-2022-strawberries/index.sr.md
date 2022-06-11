@@ -12,7 +12,7 @@ Skoro sam se preselila u Berlin.
 
 Bilo je to neke zime.
 
-Mozda prošle, nisam sigurna.
+Možda prošle, nisam sigurna.
 
 Ali znam tačno kada je leto nastupilo.
 

@@ -16,9 +16,9 @@ Maybe last one, I am not sure anymore.
 
 But I know exactly when the summer came.
 
-Then I started noticing small red kiosks, which sell only strawberries.
+When I started noticing small red kiosks, which sell only strawberries.
 
-At the subway stations, on the corner next to the market, on the steps of the pool.
+At the subway stations, on the corner next to the market, on the steps of the swimming pool.
 Everyone is sitting in the park eating strawberries. Beer and strawberries, wine and strawberries. They go with everything.
 
 Spilled strawberries in the public transportation, red dirty hands of the lady sitting next to me.
