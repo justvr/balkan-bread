@@ -1,7 +1,7 @@
 ---
 date: "2022-06-11"
 description: "ljubav prema jagodama u nemackoj"
-image: "balkan-bread-winter-in-berlin.png"
+image: "one-way-ticket.png"
 keywords: "jagode, berlin, nemacka"
 lang: "sr"
 path: "/jagode"

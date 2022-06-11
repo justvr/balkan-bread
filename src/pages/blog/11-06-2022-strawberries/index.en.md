@@ -1,7 +1,7 @@
 ---
 date: "2022-06-11"
 description: "love towards strawberries in Germany"
-image: "balkan-bread-winter-in-berlin.png"
+image: "one-way-ticket.png"
 keywords: "strawberries, berlin"
 lang: "en"
 path: "/en/jagode"
